@@ -1,0 +1,17 @@
+.FullWidthContent-container
+{
+    
+}
+
+.FullWidthContent-container .heading-grey-container
+{
+    background-color: #3B3F41;
+
+}
+
+.FullWidthContent-container .heading-grey-container .body-heading
+{
+    font-style: italic;
+    color: white!important;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+
+.idvBlogMain .popular-card-container .popular-card-container
+{
+}
+.idvBlogMain .popular-card-container .popular-card
+{
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+    transition: .3s;
+}
+.idvBlogMain .popular-card-container .popular-card:hover
+{
+    background-color: #202e4c;
+}
+
+.idvBlogMain .popular-card-container .popular-card .card-title
+{
+    color: #38B3E4;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.idvBlogMain .popular-card-container .popular-card .card-date
+{
+    color:#D8D8D8;
+}
+
+.idvBlogMain .popular-card-container .blog-card .blog_list_logo_date .card-date
+{
+    font-size: .9rem;
+    color:#D8D8D8;
+}
+
+
+.idvBlogMain .popular-card-container .popular-card .popular-blog-img
+{
+    width: 50%;
+}
+
+.idvBlogMain .popular-card-container .page-btn-container button
+{
+    padding:7px 14px;
+    border: 1px solid #B9B9B9;
+    background-color: transparent;
+    border-radius: 7px;
+    color: #ffffff;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1);
+}
+
+.idvBlogMain .popular-card-container .page-btn-container button .next-icon
+{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+.idvBlogMain .popular-card-container .page-btn-container .active
+{
+    background-color: #39B4E5;
+}

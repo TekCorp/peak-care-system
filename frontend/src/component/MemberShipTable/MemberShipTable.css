@@ -1,0 +1,21 @@
+.MemberShipTable-container
+{
+    background-image: url("../../../public/images/creatives/membership-table-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.MemberShipTable-container .tableImg
+{
+    width: 75%;
+}
+
+@media(max-width:993px)
+{
+    
+    .MemberShipTable-container .tableImg
+    {
+        width: 95%;
+    }
+}

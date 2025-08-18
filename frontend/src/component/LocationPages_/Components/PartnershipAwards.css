@@ -1,0 +1,17 @@
+.partnership_awards {
+    background-color: rgb(27, 27, 27);
+    padding: 20px 50px;
+}
+
+.partnership_awards .flex-container {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.partnership_awards .flex-item {
+    flex: 1;  
+    max-width: 20%;  
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+}

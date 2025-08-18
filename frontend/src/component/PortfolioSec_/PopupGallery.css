@@ -1,0 +1,15 @@
+
+.popup-img .swiper-backface-hidden .swiper-slide {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.training_hub_students .gallery-img {
+  transition: 0.2s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+.training_hub_students .gallery-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

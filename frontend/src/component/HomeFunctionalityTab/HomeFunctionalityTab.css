@@ -1,0 +1,39 @@
+.HomeFunctionalityTab-container
+{
+
+}
+
+.HomeFunctionalityTab-container .tab-bg
+{
+    background-image: url("../../../public/images/icons/home-tab-bg-grey.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    transition: .3s;
+}
+.HomeFunctionalityTab-container .tab-bg:hover
+{
+    background-image: url("../../../public/images/icons/home-tab-bg-red.png");
+    cursor: pointer;
+}
+.HomeFunctionalityTab-container .tab-bg-red
+{
+    background-image: url("../../../public/images/icons/home-tab-bg-red.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.HomeFunctionalityTab-container .tab-title
+{
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 700;
+
+}

@@ -1,0 +1,52 @@
+.FooterNew-container
+{
+    background-color: #161614;
+}
+
+.FooterNew-container .anchor
+{
+    color: white;
+    text-decoration: none;
+    list-style: circle;
+}
+
+.FooterNew-container .footer-logo
+{
+    /* width: 50%; */
+}
+
+.FooterNew-container .social-icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.FooterNew-container .form-container .news-letter-inp
+{
+    background-color: #424242;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 10px;
+    width: 100%;
+}
+.FooterNew-container .form-container .news-letter-inp::placeholder
+{
+    color: rgb(163, 163, 163);
+}
+
+.FooterNew-container .form-container .genral-btn
+{
+   width: 100%;
+}
+
+.FooterNew-container .info-section
+{
+    background-color: #D63346;
+    border-radius: 10px;
+}
+
+.FooterNew-container .info-section img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

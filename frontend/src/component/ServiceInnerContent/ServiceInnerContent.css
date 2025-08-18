@@ -1,0 +1,95 @@
+.ServiceInnerContent-container
+{
+
+}
+
+.ServiceInnerContent-container .title
+{
+    font-weight: bold;
+    color:black;
+
+}
+
+.ServiceInnerContent-container .grey-box
+{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+}
+
+.ServiceInnerContent-container .service-box-icon
+{
+    max-width: 100px;
+}
+
+.ServiceInnerContent-container .main-content
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 5px rgba(136, 136, 136, 0.215);
+
+}
+
+.ServiceInnerContent-container .links-container
+{
+    border-radius: 10px;
+    background-color: #F7FAFF;
+}
+
+
+.ServiceInnerContent-container .links-container .thumbnail
+{
+    width: 40%;
+    max-width: 300px;
+}
+
+.ServiceInnerContent-container .form-container
+{
+    background: #F7FAFF;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 12px 5px rgba(136, 136, 136, 0.215); */
+}
+
+.ServiceInnerContent-container .form-container .form-field input:not(.form-control),
+.ServiceInnerContent-container .form-container .form-field textarea:not(.form-control )
+{
+    background-color: #FDF9F7;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+}
+
+
+.ServiceInnerContent-container .form-container .form-field textarea
+{
+    resize: none;
+}
+.ServiceInnerContent-container .form-container .form-field input,
+.ServiceInnerContent-container .form-container .form-field textarea
+{
+   background-color: #dfdfe0!important;
+}
+.ServiceInnerContent-container .form-container .form-field input:focus,
+.ServiceInnerContent-container .form-container .form-field textarea:focus
+{
+   outline: none;
+}
+
+.ServiceInnerContent-container .genral-btn
+{
+    width: 100%;
+    background-color: #D73344!important;
+}
+
+.ServiceInnerContent-container .link-title
+{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+.ServiceInnerContent-container .link-title:hover
+{
+   color: #D73344;
+}

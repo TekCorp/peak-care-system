@@ -1,0 +1,20 @@
+.MemberLevelContentList-container{
+    background-color: #F0F0F0;
+}
+
+.MemberLevelContentList-container .list-card .list-box
+{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.MemberLevelContentList-container .list-card .list-box .body-heading
+{
+    font-style: italic;
+}
+
+.MemberLevelContentList-container .list-card .player-img
+{
+    max-height: 500px;
+}

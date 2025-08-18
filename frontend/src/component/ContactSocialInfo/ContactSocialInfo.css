@@ -1,0 +1,16 @@
+.ContactSocialInfo-container
+{
+    background-color: #F5F5F5;
+}
+
+.ContactSocialInfo-container .body-heading
+{
+    font-weight: bolder;
+    font-size: 3.3rem;
+    font-style: italic;
+}
+
+.ContactSocialInfo-container .body-paragraph
+{
+    font-size: 1.3rem;
+}

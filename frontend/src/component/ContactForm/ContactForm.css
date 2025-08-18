@@ -1,0 +1,99 @@
+.ContactForm-container
+{
+}
+
+.ContactForm-container .inner-box
+{
+    padding: 20px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.75);
+}
+
+.ContactForm-container .bg-blue
+{
+    background-color: rgb(90, 183, 185);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.ContactForm-container .title
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ContactForm-container .form-container
+{
+   
+    padding: 60px 20px;
+}
+.ContactForm-container .form-container .form-field input,
+.ContactForm-container .form-container .form-field textarea
+{
+    background: transparent;
+    padding: 8px 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: none;
+}
+.ContactForm-container .form-container .form-field input:focus,
+.ContactForm-container .form-container .form-field textarea:focus
+{
+   outline: none;
+}
+.ContactForm-container .form-container .form-field label
+{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.ContactForm-container .form-container .genral-btn
+{
+    width: fit-content;
+    border-radius: 20px;
+    background: rgb(90,183,185);
+    background: linear-gradient(135deg, rgba(90,183,185,1) 0%, rgba(64,122,173,1) 100%);
+    border-radius: 0px;
+    padding: 10px 20px;
+    text-transform: none;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 0px;
+}
+
+.ContactForm-container .form-container .genral-btn:hover
+{
+    background: linear-gradient(135deg, rgb(78, 164, 165) 0%, rgb(39, 109, 170) 100%);
+}
+
+.ContactForm-container .social-details
+{
+    display: flex;
+    align-items: start;
+    gap: 10px;   
+}
+
+.ContactForm-container .social-details img{
+    width:50px;
+    height: 50px;
+}
+.ContactForm-container .social-details .body-paragraph
+{
+    color: #CE9E58;
+    text-decoration: underline;
+}
+
+@media(max-width:993px)
+{
+    .ContactForm-container .bg-blue
+    {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+}

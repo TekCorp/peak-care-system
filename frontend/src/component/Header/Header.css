@@ -1,0 +1,247 @@
+.header {
+    background: transparent;
+    z-index: 1;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-wrapper {
+    
+    width: 100%;
+    margin: auto;
+}
+
+.header .header-wrapper .navbar .navbar-container {
+    width: 100%;
+}
+.header .header-wrapper .navbar .navbar-container .nav-logo{
+  max-width: 230px;
+  /* max-height: 85px; */
+  margin-bottom: 10px;
+}
+
+.header .main-nav {
+    list-style-type: none;
+    margin: 0;
+}
+
+.header .nav-links,
+.logo {
+    text-decoration: none;
+    color:  #101010;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header .nav-links:active,
+.logo:active {
+  color:  #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header .nav-links:focus,
+.logo:focus {
+    color: #000000;
+    font-weight: 400;
+}
+
+.header .main-nav li {
+    text-align: center;
+    color: #000000;
+}
+.header .nav-list .nav-links.active
+{
+  color:  #D73344;
+  padding:5px 8px;
+  border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  cursor: pointer;
+    transition: .3s;
+  text-decoration: underline;
+}
+.header .nav-list .nav-links.active:hover
+{
+}
+.header .nav-list .nav-links
+{
+  color:  #000000;
+    font-size: 14px;
+    font-weight: 400;
+  cursor: pointer;
+    transition: .3s;
+}
+.header .nav-list .nav-links:hover
+{
+  color: #2a2a2a;
+}
+
+.header .extras-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.header .responsive-popup-menu
+{
+    z-index: 101;
+    position: absolute;
+    top: 90px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.header .responsive-menu-btn img
+{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+.header .extras-btns .blue-btn img {
+    width: 17px;
+    margin-right: 3px;
+}
+
+.header .resp-nav-list .nav-links 
+{
+    color: black;
+}
+
+.header .resp-nav-list li{
+    list-style: none;
+}
+.header .resp-nav-list
+{
+    width: 100%;
+}
+
+
+/* Dropdown css */
+
+.navigation-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-trigger {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 150%;
+    left: -30%;
+    background-color: white;
+    min-width: max-content;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+    padding: 10px 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .dropdown-content .nav-links{
+    color: black!important;
+    list-style: none;
+    text-decoration: none;
+  }
+  .dropdown-content .nav-links:hover{
+    color: #D73344!important;
+  }
+  
+  
+  /* Custom CSS Animation */
+  .dropdown-content-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .dropdown-content-enter-active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .dropdown-content-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dropdown-content-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .header .arrow-icon
+  {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  
+  .header .rotate-icon {
+    animation: rotate180 .3s forwards;
+  }
+
+  
+  @keyframes rotate180 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  /* Return to original position */
+  .header .rotate-back {
+    animation: rotateBack .1s forwards;
+  }
+  
+  @keyframes rotateBack {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  
+  .header .nav-list .none-delay{
+    display: none;
+  }
+  .header .nav-list .open{
+    display: flex;
+  }
+
+
+  
+@media(max-width : 1200px)
+{
+  /* .header .header-wrapper .navbar .navbar-container .nav-logo{
+    max-width: 130px;
+    height: auto;
+    margin-bottom: 0;
+  } */
+}
+@media(max-width : 992px)
+{
+  .header .header-wrapper .navbar .navbar-container .nav-logo{
+    max-width: 200px;
+    height: 57px;
+    margin-bottom: 0;
+  }
+}

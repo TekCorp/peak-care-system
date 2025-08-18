@@ -1,0 +1,21 @@
+.business_growth {
+    background-color: rgb(27, 27, 27);
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.business_growth .heading_capital {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.business_growth .button_main {
+    /* text-align: center;
+    padding: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500; */
+}

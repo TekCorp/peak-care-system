@@ -1,0 +1,85 @@
+.ServicesCard-container
+{
+
+}
+
+/* .ServicesCard-container .service-card-container .card-top
+{
+    height: 144px;
+    width: 100%;
+    background-image: url("../../../public/images/creatives/service-page-card-1.png");
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.ServicesCard-container .service-card-container .card-bottom
+{
+    height: 154px;
+    width: 100%;
+    background-image: url("../../../public/images/creatives/service-page-card-1.png");
+    background-size: 100% auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+} */
+
+.ServicesCard-container .service-card
+{
+    text-align: center;
+    background: transparent;
+
+}
+
+
+.ServicesCard-container .title
+{
+    font-weight: 800;
+}
+
+.ServicesCard-container .body-paragraph
+{
+    font-size: 15px;
+}
+
+.ServicesCard-container .anchor
+{
+    color:black;
+    cursor: pointer;
+}
+
+
+.service-card-new {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service-card-new img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.1s ease;
+}
+
+.service-card-new .main-img {
+    position: relative;
+    z-index: 1;
+}
+
+.service-card-new .hover-img {
+    opacity: 0;
+    z-index: 2;
+}
+
+.service-card-new:hover .hover-img {
+    opacity: 1;
+}
+
+.service-card-new:hover .main-img {
+    opacity: 0;
+}
