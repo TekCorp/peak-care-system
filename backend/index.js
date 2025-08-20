@@ -4,43 +4,17 @@ import dotenv from "dotenv";
 import connectDataBase from "./config/database.js";
 import cors from "cors";
 import nodemailer from "nodemailer";
-import blogRoutes from "./routes/apiRouter.js";
-import userRoutes from "./routes/userRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
-import categoryRouter from "./routes/categoryRouter.js";
-import uploadRoutes from "./routes/uploadRoutes.js";
-import locationRouter from "./routes/locationRouter.js";
 import compression from "compression";
-import awsRoutes from "./routes/awsRoutes.js"
 
 dotenv.config();
 connectDataBase();
-
 const app = express();
  
 app.use(cors());
 app.use(compression())
 app.use(express.json({ limit: "1500kb" }));
- 
-app.use("/api/users", userRoutes);
-app.use("/api/upload", uploadRoutes);
-app.use('/api/categories', categoryRouter);
-app.use("/", blogRoutes);
-app.use('/api/locationpages', locationRouter);
-app.use("/api/backup-files", awsRoutes);
 
-// let transport = {
-//   host: "d304917a.ess.barracudanetworks.com", 
-//   port: 587, 
-//   secure: false,
-//     auth: {
-//       user: process.env.USER,
-//       pass: process.env.PASS,
-//     },
-//     tls: {
-//       rejectUnauthorized: false, 
-//     },
-// };
 let transport = {
   service: "gmail",
     auth: {
@@ -48,7 +22,6 @@ let transport = {
       pass: process.env.PASS,
     },
 };
-
 
 let transporter = nodemailer.createTransport(transport);
 
@@ -60,7 +33,7 @@ transporter.verify((error, success) => {
   }
 });
 
-app.post("/send-appointment", (req, res, next) => {
+app.post("/send-contact-form", (req, res, next) => {
   let name 
   let email
   let service
@@ -103,168 +76,8 @@ app.post("/send-appointment", (req, res, next) => {
 });
 
 
-app.post("/send-contact-form-main", (req, res, next) => {
-  let name 
-  let email
-  let subject
-   let message
-
-   let formType
-
-  try{
-    name = req.body.name;
-    email = req.body.email;
-    subject = req.body.subject;
-    message = req.body.message;
-    formType = req.body.formType
-  }
-  catch(e){
-    res.json({
-      msg: "fail",
-    });
-  }
-  let content = `Form-type: ${formType} \n Name: ${name} \n Email: ${email} \n Subject: ${subject} \n message: ${message}`;
-
-  let mail = {
-    from: name,
-    to: process.env.RECIEVER,
-    subject: "New Message From PeakCare",
-    text: content,
-    replyTo:email
-  };
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        msg: "fail",
-      });
-    } else {
-      res.json({
-        msg: "success",
-      });
-    }
-  });
-});
-
-app.post("/send-quote", (req, res, next) => {
-  let name = req.body.name;
-  let email = req.body.email;
-  let phone = req.body.phone;
-  let message = req.body.message;
-  let formType = req.body.formType;
-  let content = `Form-type: ${formType} \n name: ${name} \n email: ${email} \n phone number: ${phone} \n message : ${message}`;
-
-  let mail = {
-    from: name,
-    to: process.env.RECIEVER,
-    subject: "New Message From PeakCare",
-    text: content,
-    replyTo:email
-  };
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        msg: "fail",
-      });
-    } else {
-      res.json({
-        msg: "success",
-      });
-    }
-  });
-});
-
-app.post("/send-newsletter", (req, res, next) => {
-  let email = req.body.email;
-  let formType = req.body.formType;
-  let content = `Form-type: ${formType} \n client-email: ${email}`;
-
-  let mail = {
-    to: process.env.RECIEVER,
-    subject: "New Message From PeakCare",
-    text: content,
-    replyTo:email
-  };
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        msg: "fail",
-      });
-    } else {
-      res.json({
-        msg: "success",
-      });
-    }
-  });
-});
-
-app.post("/send-assesment", (req, res) => {
-  let email = req.body.email;
-  let formType = req.body.formType;
-  let {assementData} = req.body;
-  const content = `
-Form-type: ${formType}
-Client-email: ${email}
-
-Contact Details:
-  FirstName: ${assementData.firstName}
-  LastName: ${assementData.lastName}
-  Email: ${assementData.email}
-  Phone: ${assementData.phone}
-
-Address Details:
-  Street Address: ${assementData.streetAddress}
-  AddressLine2: ${assementData.addressLine2}
-  City: ${assementData.city}
-  State: ${assementData.addState}
-  PostalCode: ${assementData.postalCode}
-
-Personal Details:
-  Occupation: ${assementData.occupation}
-
-
-Property Details
-  PropertySize: ${assementData.propertySize}
-  PropertyType: ${assementData.propertyType}
-  Property Status: ${assementData.propertyStatus}
-  List Price: ${assementData.listPrice}
-  Additional Text Message: ${assementData.additionalText}
-  Date: ${assementData.date.split('T')[0]}
-
-`;
-
-  const filesAttachment = assementData.propertyPhotos.map(photoPath => ({
-    path: photoPath,
-  }));
-
-
-
-  let mail = {
-    to: process.env.RECIEVER,
-    subject: "New Message From PeakCare",
-    text: content,
-    replyTo:email,
-    attachments:filesAttachment
-  };
-  
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      console.log(err);
-      res.json({
-        msg: "fail",
-      });
-    } else {
-      res.json({
-        msg: "success",
-      });
-    }
-  });
-});
-
-
-  
 const __dirname=path.resolve()
 
-// HTTPS Redirection Middleware
 if(process.env.NODE_ENV === 'production') {
   app.use((req, res, next) => {
     if (req.header('x-forwarded-proto') !== 'https')
@@ -288,8 +101,6 @@ if (process.env.NODE_ENV === "production") {
     res.send("API is running!");
   });
 }
-
-
 
 app.use(notFound);
 app.use(errorHandler);

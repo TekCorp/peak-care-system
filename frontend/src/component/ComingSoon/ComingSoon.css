@@ -1,0 +1,8 @@
+.commingSoonContainer{
+    height:100vh;
+    background-image:url("../../../public/images/creatives/main-home-bg.jpg");
+    background-size:cover;
+    background-repeat:no-repeat ;
+    max-height:100vh;
+    background-position:center;
+}

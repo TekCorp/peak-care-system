@@ -1,7 +1,7 @@
 import './App.css';
 import "./bootstrap.min.css"
 import Home from './screens/Home';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NotFound from "./screens/NotFound"
 import ThankYou from './screens/ThankYou';
 
