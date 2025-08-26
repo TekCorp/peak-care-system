@@ -1,4 +1,3 @@
-import './App.css';  
 import Home from './screens/HomeScreen/Home'
 import { Routes, Route } from 'react-router-dom';
 import ThankYou from './screens/ThankYouScreen/ThankYou';
