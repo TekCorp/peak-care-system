@@ -1,3 +1,13 @@
-.commingSoonContainer{
-    height:100vh;
+.commingSoonContainer {
+    height: 100vh;
+    background-image: url("../../../public/images/creatives/coming-soon-page-bg.jpg");
+    background-size: auto 40vh;
+    background-color: #F3F1EC;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+
+.commingSoonContainer .main-text {
+    font-weight: bolder;
+    color: #040404;
 }
