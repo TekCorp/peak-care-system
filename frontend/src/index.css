@@ -1,24 +1,20 @@
-.body-heading
-{
+.body-heading {
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     color: #0a2efd;
 }
 
-.bg-green
-{
-    background-color: #5DA844!important;
+.bg-green {
+    background-color: #5DA844 !important;
 }
 
-.body-paragraph
-{
+.body-paragraph {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
     color: #040404;
 }
 
-.genral-btn
-{
+.genral-btn {
     border-radius: 5px;
     padding: 5px 8px;
     border: none;
@@ -26,9 +22,15 @@
     color: white;
 }
 
-.anchor-text
-{
+.anchor-text {
     color: #063464;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+@media(max-width:993px) {
+    .body-heading {
+        font-size: 2.4rem;
+    }
+
 }
