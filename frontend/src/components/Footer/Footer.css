@@ -1,0 +1,21 @@
+.Footer-container {
+    background-color: #032B56;
+}
+
+.Footer-container .anchor {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Footer-container .menu-list {
+    list-style: none;
+}
+
+.Footer-container .footer-logo {
+    width: 60%;
+}
+
+.Footer-container .social-icons img {
+    max-width: 60px;
+}
