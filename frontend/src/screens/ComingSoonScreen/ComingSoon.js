@@ -7,12 +7,17 @@ function ComingSoon() {
       <h2 className="body-heading main-text">Coming Soon!</h2>
       <h3 className="body-heading">Peak Care EDPK</h3>
       <p className="body-paragraph text-center w-75">
-        At PeakCare, we tackle the root causes of mould and moisture issues to
-        ensure lasting solutions. Our expert team uses targeted, low-dust
-        techniques that restore your home to a healthier, safer state. We
-        provide tailored solutions for every home, whether you need a simple
-        inspection, a DIY kit, or a comprehensive, full-service remediation
-        plan.
+       We deliver healthy, efficient, and quiet homes. Our four focus areas:
+        <br/>
+        1. Mould – assessment & remediation
+        <br/>
+        2. Moisture – diagnostics & control
+        <br/>
+        3. Thermal – insulation & thermal-bridge repair
+        <br/>
+        4. Acoustics – soundproofing & acoustic comfort
+        <br/>
+        From expert inspection through DIY kits to full-service projects — EU-compliant, low-dust methods, measurable results.
       </p>
     </div>
   );
