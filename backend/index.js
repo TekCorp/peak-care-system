@@ -15,13 +15,13 @@ app.use(cors());
 app.use(compression());
 app.use(express.json({ limit: "1500kb" }));
 
-let transport = {
-  service: "gmail",
-  auth: {
-    user: process.env.USER,
-    pass: process.env.PASS,
-  },
-};
+// let transport = {
+//   service: "gmail",
+//   auth: {
+//     user: process.env.USER,
+//     pass: process.env.PASS,
+//   },
+// };
 
 // let transporter = nodemailer.createTransport(transport);
 
@@ -54,24 +54,24 @@ app.post("/send-contact-form", (req, res, next) => {
   let formType = req.body.formType ?? "Get in Touch";
   let content = `Form-type: ${formType} \n Name: ${name} \n Email: ${email} \n Phone Number: ${phone} \n Body Part To Be Treated: ${service} \n City/Town: ${city}`;
 
-  let mail = {
-    from: name,
-    to: process.env.RECIEVER,
-    subject: "New Message From PeakCare",
-    text: content,
-    replyTo: email,
-  };
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        msg: "fail",
-      });
-    } else {
-      res.json({
-        msg: "success",
-      });
-    }
-  });
+  // let mail = {
+  //   from: name,
+  //   to: process.env.RECIEVER,
+  //   subject: "New Message From PeakCare",
+  //   text: content,
+  //   replyTo: email,
+  // };
+  // transporter.sendMail(mail, (err, data) => {
+  //   if (err) {
+  //     res.json({
+  //       msg: "fail",
+  //     });
+  //   } else {
+  //     res.json({
+  //       msg: "success",
+  //     });
+  //   }
+  // });
 });
 
 const __dirname = path.resolve();
