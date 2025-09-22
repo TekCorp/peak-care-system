@@ -1,5 +1,6 @@
 import React from 'react'
 import ComingSoon from '../ComingSoonScreen/ComingSoon';
+
 import AdditionalBenefitsHome from '../../components/AdditionalBenefitsHome/AdditionalBenefitsHome';
 import Sponsors from '../../components/Sponsors/Sponsors';
 import EnvironmentalSolutionsHome from '../../components/EnvironmentalSolutionsHome/EnvironmentalSolutionsHome';
@@ -9,7 +10,7 @@ import Header from '../../components/Header/Header';
 
 function Home() {
   return (
-    <ComingSoon/>
+    <iconTitleCards/>
   )
 };
 

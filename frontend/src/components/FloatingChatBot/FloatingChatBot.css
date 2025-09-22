@@ -1,0 +1,16 @@
+.FloatingChatBot-container{
+    width: 100px;
+    height: 100px;
+    background-color: #096ea3;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    z-index: 10000;
+}   
+
+.FloatingChatBot-container .btn-icon
+{
+    width: 60px;
+    height: 60px;
+}

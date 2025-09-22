@@ -1,0 +1,18 @@
+.CommonHeroBanner-container
+{
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.breadcrumb-section
+{
+    background-color: rgb(210, 236, 250);
+}
+
+.breadcrumb-section p,
+.breadcrumb-section a{
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+}
