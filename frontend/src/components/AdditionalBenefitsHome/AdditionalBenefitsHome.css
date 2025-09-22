@@ -1,0 +1,64 @@
+.AdditionalBenefitsHome-container {
+
+}
+
+.AdditionalBenefitsHome-container .main-heading-container {
+  position: relative;
+  width: 100%;
+  text-align: center; 
+}
+
+.AdditionalBenefitsHome-container .bg-font-heading {
+  font-family: "Anton", sans-serif;
+  font-size: 10rem; 
+  color: #efefef;
+  width: 100%;       
+  display: block;    
+}
+
+.AdditionalBenefitsHome-container .ovelaying-heading {
+  position: absolute;
+  top: 50%;          
+  left: 50%;         
+  transform: translate(-50%, -50%); 
+}
+
+.AdditionalBenefitsHome-container .card-box
+{
+    background-color: #419bfb46;
+    border-radius: 5px;
+}
+
+.AdditionalBenefitsHome-container .card-box .card-img
+{
+    max-height: 200px;
+    width: auto;
+    transform: translateY(-20px);
+}
+
+.AdditionalBenefitsHome-container .card-box .card-heading
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+@media(max-width:993px)
+{
+    .AdditionalBenefitsHome-container .ovelaying-heading {
+  position: relative;
+  top:0;          
+  left: 0;         
+  transform: none; 
+}
+
+.AdditionalBenefitsHome-container .card-box .card-img
+{
+    max-height: 150px;
+    max-width: 200px;
+    width:auto;
+    height:auto;
+    transform: translateY(0);
+}
+}

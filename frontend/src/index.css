@@ -4,8 +4,31 @@
     color: #0a2efd;
 }
 
+.secondary-body-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #040404;
+    font-weight: bold;
+}
+
+.sub-heading
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    color: #0a2efd;
+    font-weight: bold;
+}
+
 .bg-green {
     background-color: #5DA844 !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.color-light-blue {
+    color: #43D4FB !important;
 }
 
 .body-paragraph {
@@ -16,7 +39,7 @@
 
 .genral-btn {
     border-radius: 5px;
-    padding: 5px 8px;
+    padding: 10px 14px;
     border: none;
     background-color: #063464;
     color: white;
@@ -31,6 +54,10 @@
 @media(max-width:993px) {
     .body-heading {
         font-size: 2.4rem;
+    }
+
+    .secondary-body-heading {
+        font-size: 2rem;
     }
 
 }
