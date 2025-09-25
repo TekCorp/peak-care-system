@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div className="Footer-container py-5">
-        <div className="container">
+        <div className="container my-5">
           <div className="row gy-lg-0 gy-4">
             <div className="col-lg-4  text-lg-start text-center">
               <img
@@ -82,7 +82,7 @@ function Footer() {
                 </li>
                 <li className="color-white">
                   <NavLink
-                    to={"/"}
+                    to={"/contact"}
                     className="anchor"
                     exact
                     activeClassName="active"
@@ -141,22 +141,22 @@ function Footer() {
 
             <div className="col-lg-1 col-0"></div>
 
-            <div className="col-lg-3 text-lg-end text-center ">
-              <button className="genral-btn mb-4 bg-green">
-                Request An Estimate
-              </button>
-              <div className="d-flex align-items-center justify-content-lg-end justify-content-center gap-2 social-icons">
+            <div className="col-lg-3 text-lg-end text-center">
+              <div className="d-flex align-items-center justify-content-lg-end justify-content-center gap-2 social-icons mb-3">
                 <img src="/images/icons/footer-fb-icon.png" alt="facebook" />
                 <img src="/images/icons/footer-insta-icon.png" alt="facebook" />
                 <img src="/images/icons/footer-x-icon.png" alt="facebook" />
               </div>
+              <button className="genral-btn mb-4 bg-green">
+                Request An Estimate
+              </button>
             </div>
           </div>
         </div>
       </div>
       <div className="container ">
         <div className="col-12">
-          <div className="d-flex align-items-center justify-content-between py-3">
+          <div className="d-flex flex-lg-row flex-column-reverse gap-2 align-items-center justify-content-between py-3">
             <p className="mb-0 body-paragraph">© 2025 . all rights reserved.</p>
             <img
               src="/images/icons/footer-payment-icons.png"

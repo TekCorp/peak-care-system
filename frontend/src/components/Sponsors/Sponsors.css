@@ -1,4 +1,15 @@
 .Sponsors-container
 {
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+@media(max-width:996px)
+{
+    .Sponsors-container
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }

@@ -1,0 +1,43 @@
+.WhyUsList-container {}
+
+.WhyUsList-container .main-heading-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.WhyUsList-container .bg-font-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 10rem;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+.WhyUsList-container .ovelaying-heading {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.WhyUsList-container .card-title {
+    font-size: 1.3rem;
+}
+
+.WhyUsList-container .grid-list-icon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+@media(max-width:996px) {
+    .WhyUsList-container .ovelaying-heading {
+
+        position: static;
+        top: 0%;
+        left: 0%;
+        transform: none;
+    }
+}

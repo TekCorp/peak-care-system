@@ -14,7 +14,7 @@ function CommonHeroBanner({ heading = "", backgroundImage = "" }) {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="container">
-          <h3>{heading}</h3>
+          <h3 className="fade-hero-heading">{heading}</h3>
         </div>
       </div>
       <div className="breadcrumb-section py-2">

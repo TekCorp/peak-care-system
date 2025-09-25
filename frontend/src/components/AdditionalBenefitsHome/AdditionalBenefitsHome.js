@@ -26,7 +26,7 @@ const cardData = [
 
 function AdditionalBenefitsHome() {
   return (
-    <div className='AdditionalBenefitsHome-container container'>
+    <div className='AdditionalBenefitsHome-container container standard-padding-space '>
         <div className='main-heading-container mb-lg-2 mb-4'>
             <h4 className='bg-font-heading d-lg-block d-none'>BENEFITS</h4>
             <h3 className='secondary-body-heading ovelaying-heading'>Additional Benefits</h3>

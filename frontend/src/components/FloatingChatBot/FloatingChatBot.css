@@ -1,4 +1,12 @@
-.FloatingChatBot-container{
+.main-floating-chat-bot-icon-container
+{
+    position: sticky;
+    bottom: 0;
+    
+    z-index: 10000;
+}
+
+.main-floating-chat-bot-icon-container .FloatingChatBot-container{
     width: 100px;
     height: 100px;
     background-color: #096ea3;
@@ -9,7 +17,7 @@
     z-index: 10000;
 }   
 
-.FloatingChatBot-container .btn-icon
+.main-floating-chat-bot-icon-container .FloatingChatBot-container .btn-icon
 {
     width: 60px;
     height: 60px;

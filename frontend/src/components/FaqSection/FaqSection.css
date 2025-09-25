@@ -94,6 +94,7 @@
 .FaqSection-container .slide-out-cus {
     animation: slide-out-cus 0.3s forwards;
     -webkit-animation: slide-out-cus 0.3s forwards;
+    padding: 0 18px;
 }
 
 @media(max-width:993px) {

@@ -23,7 +23,7 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <div className="FaqSection-container">
+    <div className="FaqSection-container standard-padding-space">
         <div className="container">
                 <div className='main-heading-container mb-lg-2 mb-4'>
                     <h4 className='bg-font-heading d-lg-block d-none'>FAQ</h4>

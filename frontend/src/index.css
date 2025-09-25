@@ -1,21 +1,32 @@
 .body-heading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 3rem;
-    color: #0a2efd;
+    color: #3F8DC1;
+}
+
+.fade-hero-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 10rem;
+    color: #ffffff65;
+    line-height: .8;
+}
+
+.standard-padding-space {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .secondary-body-heading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 3rem;
     color: #040404;
     font-weight: bold;
 }
 
-.sub-heading
-{
-    font-family: "Montserrat", sans-serif;
+.sub-heading {
+    font-family: "DM Sans", sans-serif;
     font-size: 1.1rem;
-    color: #0a2efd;
+    color: #3F8DC1;
     font-weight: bold;
 }
 
@@ -23,18 +34,23 @@
     background-color: #5DA844 !important;
 }
 
+.color-green {
+    color: #5DA844;
+}
+
 .color-white {
     color: white !important;
 }
 
 .color-light-blue {
-    color: #43D4FB !important;
+    color: #44D6FE !important;
 }
 
 .body-paragraph {
-    font-family: "Lato", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 1rem;
     color: #040404;
+    line-height: 2;
 }
 
 .genral-btn {
@@ -58,6 +74,11 @@
 
     .secondary-body-heading {
         font-size: 2rem;
+    }
+
+    .fade-hero-heading {
+        font-size: 4rem;
+        line-height: 1;
     }
 
 }

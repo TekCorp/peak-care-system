@@ -16,7 +16,7 @@ const sponsorData = [
 
 function Sponsors() {
   return (
-    <div className="Sponsors-container py-3">
+    <div className="Sponsors-container">
       <div className="container">
         <Swiper
           spaceBetween={50}

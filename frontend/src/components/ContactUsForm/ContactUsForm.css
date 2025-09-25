@@ -1,0 +1,54 @@
+.ContactUsForm-container {
+    background-image: url("../../../public/images/creatives/contact-us-bg.png");
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+}
+
+.ContactUsForm-container .card-title {
+    font-size: 1rem;
+}
+
+.ContactUsForm-container .contact-list-icon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.ContactUsForm-container .contact-form .secondary-body-heading {
+    font-size: 2rem;
+}
+
+.ContactUsForm-container .contact-form {
+    background-color: white;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    transform: translateY(-100px);
+}
+
+.ContactUsForm-container .form-container .inp-field {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.ContactUsForm-container .form-container textarea {
+    resize: none;
+}
+
+.ContactUsForm-container .form-container .inp-field:focus {
+    outline: none;
+}
+
+@media(max-width:996px) {
+    .ContactUsForm-container {
+        background-size: cover;
+    }
+
+    .ContactUsForm-container .contact-form {
+        transform: none;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.RealProjectSlider-container
+{
+    
+}
+
+.RealProjectSlider-container .project-card-img
+{
+    width: 100%;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.RealProjectSlider-container .project-card-img:hover
+{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.RealProjectSlider-container .swiper,
+.RealProjectSlider-container .swiper-wrapper,
+.RealProjectSlider-container .swiper-slide {
+  overflow: visible !important;
+}
+
+.RealProjectSlider-container .project-card-img {
+  transition: transform 0.3s ease;
+  border-radius: 6px;
+}
+
+.RealProjectSlider-container .project-card-img:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+}
+
+@media (max-width: 996px) {
+  .RealProjectSlider-container .swiper,
+  .RealProjectSlider-container .swiper-slide {
+    overflow: hidden !important;
+  }
+
+  .RealProjectSlider-container .project-card-img:hover {
+    transform: scale(1.05); 
+    z-index: auto;          
+    position: static;       
+  }
+}
