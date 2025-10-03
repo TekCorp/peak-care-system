@@ -14,31 +14,46 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import ContactUsForm from "../../components/ContactUsForm/ContactUsForm";
 import RealProjectSlider from "../../components/RealProjectSlider/RealProjectSlider";
 import OurProcess from "../../components/OurProcess/OurProcess";
+import { useLanguageContent } from "../../components/Utils/MultilingialContent";
 
 function Home() {
+  const GetLanguageContent = useLanguageContent()
   return (
     <>
       <Header />
+      
       <HomeHeroSlider />
 
       <ImageByTextContent
-        mainHeading="Problem vs. solution"
-        content="Every home faces hidden challenges—whether it’s moisture creeping through walls, unwanted noise disrupting your peace, or insulation that just doesn’t hold up. At Peakcare, we don’t just patch problems; we provide smart, long-lasting solutions that restore comfort, protect your health, and save energy"
+        mainHeading={GetLanguageContent?.home?.issues_approach?.title}
+        content={GetLanguageContent?.home?.issues_approach?.content}
         sideImage="/images/creatives/home-text-1.png"
+        crossListTitle={GetLanguageContent?.home?.issues_approach?.crossListTitle}
+        crossListContent={GetLanguageContent?.home?.issues_approach?.issues}
+        checkListTitle={GetLanguageContent?.home?.issues_approach?.checkListTitle}
+        checkListContent={GetLanguageContent?.home?.issues_approach?.approach}
+        comparisonBoxList={true}
       />
 
       <WhyUsList />
 
       <EnvironmentalSolutionsHome />
 
+      <div className="py-md-5 py-0"></div>
+
       <OurProcess />
 
       <RealProjectSlider />
 
       <AdditionalBenefitsHome />
+
       <Sponsors />
+
       <Testimonials />
-      <FaqSection />
+
+      <FaqSection 
+        faqContent={GetLanguageContent?.home?.faq}
+      />
 
       <ContactUsForm />
 

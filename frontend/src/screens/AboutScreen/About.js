@@ -1,12 +1,13 @@
 import React from 'react'
 import CommonHeroBanner from '../../components/CommonHeroBanner/CommonHeroBanner'
-import { getLanguageContent } from '../../components/Utils/MultilingialContent'
+import { useLanguageContent } from '../../components/Utils/MultilingialContent'
 
 function About() {
+  const GetLanguageContent = useLanguageContent()
   return (
      <CommonHeroBanner
       backgroundImage="/images/"
-      heading={getLanguageContent()?.aboutHeroContent?.heading}
+      heading={GetLanguageContent?.home?.aboutHeroContent?.heading}
     />
   )
 }

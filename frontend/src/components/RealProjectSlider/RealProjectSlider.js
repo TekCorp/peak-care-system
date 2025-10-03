@@ -3,6 +3,7 @@ import "./RealProjectSlider.css"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import { useLanguageContent } from '../Utils/MultilingialContent';
 
 const projectsCards = [
     {
@@ -25,12 +26,13 @@ const projectsCards = [
 ]
 
 function RealProjectSlider() {
+  const GetLanguageContent = useLanguageContent()
   return (
     <div className='RealProjectSlider-container standard-padding-space'>
         <div className='container'>
 
             <div className='text-container text-center pb-4'>
-                <h3 className='secondary-body-heading'>Real Projects, Real Results</h3>
+                <h3 className='secondary-body-heading real-project-heading'>{GetLanguageContent?.home?.realProject?.title}</h3>
             </div>
 
             <Swiper

@@ -1,4 +1,7 @@
-const content_ENG = {
+import { useSelector } from "react-redux";
+import {selectLanguageContent} from "../../languageReducer"
+
+const old_content_ENG = {
   homeHeroContent: {
     fadeHeading: "MOULD OUT.",
     mainHeading: "HEALTHY HOME.",
@@ -19,16 +22,8 @@ const content_ENG = {
   },
 };
 
-const languages = {
-  ENG: content_ENG,
+export const useLanguageContent = () => {
+  const content = useSelector(selectLanguageContent);
+  return content;
 };
 
-let currentLanguage = "ENG";
-
-export const setLanguage = (lang) => {
-  if (languages[lang]) {
-    currentLanguage = lang;
-  }
-};
-
-export const getLanguageContent = () => languages[currentLanguage];

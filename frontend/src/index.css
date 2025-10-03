@@ -1,3 +1,7 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+
 .body-heading {
     font-family: "DM Sans", sans-serif;
     font-size: 3rem;
@@ -7,13 +11,24 @@
 .fade-hero-heading {
     font-family: "Anton", sans-serif;
     font-size: 10rem;
-    color: #ffffff65;
-    line-height: .8;
+    color: #979798;
+    line-height: 1;
+
+}
+
+.font-DM-sans
+{
+    font-family: "DM Sans", sans-serif!important;
+}
+
+.font-oswald
+{
+    font-family: "Oswald", sans-serif !important;
 }
 
 .standard-padding-space {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .secondary-body-heading {
@@ -28,6 +43,13 @@
     font-size: 1.1rem;
     color: #3F8DC1;
     font-weight: bold;
+}
+
+.body-paragraph {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    color: #040404;
+    line-height: 1.8;
 }
 
 .bg-green {
@@ -46,19 +68,21 @@
     color: #44D6FE !important;
 }
 
-.body-paragraph {
-    font-family: "DM Sans", sans-serif;
-    font-size: 1rem;
-    color: #040404;
-    line-height: 2;
+.color-blue-anchor{
+    color: #2544EF!important;
+}
+
+.color-font-grey{
+    color:#9AAABB!important;
 }
 
 .genral-btn {
     border-radius: 5px;
-    padding: 10px 14px;
+    padding: 15px 24px;
     border: none;
     background-color: #063464;
     color: white;
+    font-weight: bold;
 }
 
 .anchor-text {
@@ -81,4 +105,11 @@
         line-height: 1;
     }
 
+    .standard-padding-space {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .body-paragraph {
+    line-height: 1.4;
+    }
 }

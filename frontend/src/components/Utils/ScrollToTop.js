@@ -10,3 +10,7 @@ export default function ScrollToTop() {
 
   return null;
 };
+
+export function scrollToTopOnClickFN() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}

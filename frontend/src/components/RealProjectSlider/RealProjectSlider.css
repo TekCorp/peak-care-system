@@ -3,6 +3,11 @@
     
 }
 
+.RealProjectSlider-container .real-project-heading
+{
+  font-style: italic;
+}
+
 .RealProjectSlider-container .project-card-img
 {
     width: 100%;

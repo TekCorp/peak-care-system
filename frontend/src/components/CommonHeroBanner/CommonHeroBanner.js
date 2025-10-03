@@ -1,11 +1,16 @@
 import React from "react";
 import "./CommonHeroBanner.css";
 import { Link, useLocation } from "react-router-dom";
-import { getLanguageContent } from "../Utils/MultilingialContent";
 
 function CommonHeroBanner({ heading = "", backgroundImage = "" }) {
-  const location = useLocation();
+  const location = useLocation()
   const pathnames = location.pathname.split("/").filter((x) => x);
+
+  const breadCrumbSlug ={
+    home: "home",
+    about: "about",
+    contact :"contact"
+  }
 
   return (
     <>
@@ -20,7 +25,7 @@ function CommonHeroBanner({ heading = "", backgroundImage = "" }) {
       <div className="breadcrumb-section py-2">
         <div className="text-center d-flex justify-content-center align-items-center gap-2">
           <Link to="/" className="mb-0">
-            {getLanguageContent()?.breadCrumbSlug["home"] || "home"}
+            home
           </Link>
           {pathnames.map((value, index) => {
             const to = "/" + pathnames.slice(0, index + 1).join("/");
@@ -30,11 +35,11 @@ function CommonHeroBanner({ heading = "", backgroundImage = "" }) {
                 <span>/</span>
                 {isLast ? (
                   <p className="mb-0">
-                    {getLanguageContent()?.breadCrumbSlug[value] || value}
+                    {breadCrumbSlug[value] || value}
                   </p>
                 ) : (
                   <Link to={to}>
-                    {getLanguageContent()?.breadCrumbSlug[value] || value}
+                    {breadCrumbSlug[value] || value}
                   </Link>
                 )}
               </p>

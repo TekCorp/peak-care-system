@@ -1,15 +1,25 @@
-.Sponsors-container
-{
+.Sponsors-container {
     background-color: black;
     padding-top: 50px;
     padding-bottom: 70px;
 }
 
-@media(max-width:996px)
+.Sponsors-container.normalPadding {
+    padding-bottom: 50px;
+}
+
+.Sponsors-container .sponsor-icon
 {
-    .Sponsors-container
-    {
+    max-width: auto;
+}
+
+@media(max-width:996px) {
+    .Sponsors-container {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .Sponsors-container .sponsor-icon
+    {
+        max-width: 60%;   
     }
 }

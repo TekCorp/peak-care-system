@@ -3,9 +3,13 @@
 }
 
 .Footer-container .anchor {
-    color: white;
+    color: #9AAABB;
     text-decoration: none;
     list-style: none;
+    transition: .3s;
+}
+.Footer-container .anchor:hover{
+    color: #ffffff;
 }
 
 .Footer-container .menu-list {
@@ -17,5 +21,10 @@
 }
 
 .Footer-container .social-icons img {
-    max-width: 60px;
+    min-width: 50px;
+}
+
+.Footer-bottom .arrow-up-btn
+{
+    cursor: pointer;
 }

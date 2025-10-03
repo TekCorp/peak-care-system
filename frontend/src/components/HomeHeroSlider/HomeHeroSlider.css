@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 90vh;
+  min-height: max-content;
 
 }
 
@@ -45,9 +45,51 @@
   color: #002343;
 }
 
+.HomeHeroSlider-container .genral-btn
+{
+  font-weight: normal;
+}
+
+.HomeHeroSlider-container .swiper-pagination-bullet
+{
+  background: white!important;
+  border-radius: 20px;
+  width: 40px;
+  height: 5px;
+}
+
+.HomeHeroSlider-container .image-slide
+{
+  
+}
+
+.HomeHeroSlider-container .text-slide
+{
+
+}
+
 @media(max-width:996px) {
   .HomeHeroSlider-container .bg-font-heading {
     font-size: 3.5rem;
+  }
+  .HomeHeroSlider-container .body-paragraph {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .HomeHeroSlider-container .image-slide
+  {
+    position: absolute; 
+    bottom: 0;
+    z-index: 0;
+  }
+  .HomeHeroSlider-container .image-slide img
+  {
+    max-height: 10%;
+  }
+  .HomeHeroSlider-container .text-slide
+  {
+    position: relative;
+    z-index: 10;
   }
 
 }

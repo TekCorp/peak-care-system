@@ -1,11 +1,11 @@
 .ContactUsForm-container {
     background-image: url("../../../public/images/creatives/contact-us-bg.png");
     background-repeat: no-repeat;
-    background-size: 80% 100%;
+    background-size: 70% 100%;
 }
 
 .ContactUsForm-container .card-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .ContactUsForm-container .contact-list-icon {
@@ -42,9 +42,30 @@
     outline: none;
 }
 
+.ContactUsForm-container .agree-checkbox-text
+{
+    font-size: 12px;
+}
+.ContactUsForm-container .note-text
+{
+    font-size: 15px;
+}
+
+.ContactUsForm-container .agree-policy-checkbox
+{
+    accent-color: #35BF2E;
+    background-color: white;
+    color: wheat;
+}
+
+.ContactUsForm-container .agree-checkbox-text:checked{
+    background-color: white;
+}
+
 @media(max-width:996px) {
     .ContactUsForm-container {
-        background-size: cover;
+        background-image: url("../../../public/images/creatives/contact-us-bg-mob.png");
+        background-size: 100% 80%;
     }
 
     .ContactUsForm-container .contact-form {

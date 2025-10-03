@@ -3,8 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import TestimonialCard from "./TestimonialCard";
+import { useLanguageContent } from "../Utils/MultilingialContent";
 
 function Testimonials() {
+  const GetLanguageContent = useLanguageContent()
   const blogData = [
     {
       count: 1,
@@ -44,9 +46,9 @@ function Testimonials() {
   };
 
   return (
-    <div className="Testimonials-container standard-padding-space">
+    <div className="Testimonials-container standard-padding-space mt-lg-0 mt-5">
       <div className="container">
-        <div className="row gy-4 d-flex align-items-center bg-container standard-padding-space">
+        <div className="row gy-4 d-flex flex-lg-row flex-column-reverse align-items-center bg-container standard-padding-space">
           <div className="col-lg-6 col-md-12">
             <Swiper
               spaceBetween={50}
@@ -83,7 +85,7 @@ function Testimonials() {
               })}
             </Swiper>
 
-            <div className="testimonial-card-control gap-md-3 gap-3 d-flex align-items-center justify-content-center">
+            <div className="testimonial-card-control gap-md-4 gap-3 d-flex align-items-center justify-content-center mt-3">
               <div
                 className="swiper-button-prev control-btn"
                 onClick={handlePrevButtonClick}
@@ -107,9 +109,9 @@ function Testimonials() {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 mb-3 text-center text-lg-start">
-            <div className="text-content mx-auto mx-lg-0 card-bg d-flex flex-column py-3 px-4">
+            <div className="text-content mx-auto mx-lg-0 card-bg d-flex flex-column py-5 px-5">
               <h3 className="secondary-body-heading side-card-title text-center color-white">
-                Read What Our Customers Have to Say!
+                {GetLanguageContent?.home?.testimonials?.title}
               </h3>
               <img
                 src="/images/icons/testimonial-side-arrow-down-image.png"
