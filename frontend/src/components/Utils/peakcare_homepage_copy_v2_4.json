@@ -1,0 +1,1095 @@
+{
+  "meta": {
+    "version": "2.4",
+    "generated_at": "2025-09-23 18:09",
+    "notes": [
+      "No guarantees, no fixed prices/timelines, no unsubstantiated claims.",
+      "Video consulting incl. offer is free. On-site inspection is a paid consulting package; fee credited upon commissioning.",
+      "Chatbot & VoiceAgent provide problem analysis and recommendations first; booking a call only if needed.",
+      "Language order for go-live: BG → EN → DE. Delivery order here: DE → BG → EN as requested."
+    ],
+    "sections_order": [
+      "seo",
+      "hero",
+      "pillars",
+      "services",
+      "digital_first",
+      "symptom_matrix",
+      "issues_approach",
+      "why_peakcare",
+      "process",
+      "outcomes",
+      "faq",
+      "contact",
+      "nav_footer"
+    ]
+  },
+  "DE": {
+    "home":{
+    "seo": {
+      "meta_title": "Schimmel · Feuchtigkeit (aufsteigend) · Schallschutz · Wärmebrücken | PeakCare",
+      "meta_description": "Ursachenorientierte Sanierung: Schimmel, Feuchtigkeit inkl. aufsteigender Feuchte, Schallschutz, Wärmebrücken. Messgestützt, dokumentiert, fachgerecht. Video-Beratung inkl. Angebot."
+    },
+    "hero": {
+      "h1": "Ursachenorientierte Sanierung für Problemwände",
+      "subline": "Schimmel und Feuchtigkeit (inkl. aufsteigender Feuchte), störender Schall und Wärmebrücken: Wir diagnostizieren systematisch und sanieren fachgerecht – für sichere, saubere Innenräume.",
+      "fadeHeading": "SCHIMMEL WEG.",
+      "ctas": {
+        "primary_button": "Termin anfragen",
+        "secondary_link": "Beratung & Ablauf ansehen",
+        "tertiary_small": "Chat starten – Fragen sofort klären"
+      }
+    },
+    "pillars": {
+      "title": "Wie möchten Sie vorgehen? (Unsere drei Säulen)",
+      "cards": [
+        {
+          "title": "DIY (Shop)",
+          "text": "Für Selbermacher: geeignete Produkte und Hinweise für typische Problemstellungen. Videoanleitungen werden fortlaufend ergänzt; der Chat zeigt passende Inhalte zu Ihrem Anliegen.",
+          "cta": "Zum Shop"
+        },
+        {
+          "title": "Beratung",
+          "text": "Zwei Wege – je nach Bedarf: Video-Beratung (kostenfrei) inkl. Angebot. Vor-Ort-Sichtung (Beratungspaket, kostenpflichtig): Messung · Befundbericht · Empfehlung. Bei Auftragserteilung wird die Gebühr angerechnet.",
+          "cta": "Beratung wählen"
+        },
+        {
+          "title": "Ausführung (Full Service)",
+          "text": "Fachgerechte Umsetzung durch unser Team – abgestimmter Maßnahmenplan, saubere Koordination, dokumentierter Abschluss.",
+          "cta": "Umsetzung anfragen"
+        }
+      ]
+    },
+   "services": {
+  "title": "Unser Leistungsspektrum",
+  "fadeHeading": "VORTEILE",
+  "items": [
+    {
+      "title": "Schimmel (Mould)",
+      "text": "Erkennen, bewerten, fachgerecht sanieren – auf Mess- und Dokumentationsbasis.",
+      "cta": "Mehr zu Schimmel"
+    },
+    {
+      "title": "Feuchtigkeit (Moisture)",
+      "text": "Aufsteigende Feuchte, seitlicher Wassereintritt, Kondensat – Ursachenanalyse und innenliegende Abdichtung nach Befund.",
+      "cta": "Mehr zu Feuchte"
+    },
+    {
+      "title": "Schallschutz (Sound)",
+      "text": "Luft- und Körperschall mindern – raum- und bauteilbezogene Lösungen nach Ziel.",
+      "cta": "Mehr zu Schallschutz"
+    },
+    {
+      "title": "Wärmebrücken (Thermal Bridges)",
+      "text": "Detailanalyse und bauteilgerechte Maßnahmen zur Verbesserung des Temperaturbilds.",
+      "cta": "Mehr zu Wärmebrücken"
+    }
+  ]
+},
+    "digital_first": {
+      "title": "Digitale Erstberatung – Chat & Voice",
+      "intro": "Chatbot und VoiceAgent beantworten Fragen, führen eine erste Problemanalyse durch und geben Empfehlungen. Ein persönlicher Termin wird nur dann gebucht, wenn das Anliegen nicht digital geklärt werden kann.",
+      "chat": {
+        "title": "Chatbot (DE/EN/BG)",
+        "bullets": [
+          "Fragen klären",
+          "Gezielte Rückfragen (Problemanalyse)",
+          "Weiterleitung zu DIY, Video-Beratung oder Ausführung"
+        ],
+        "cta": "Chat starten"
+      },
+      "voice": {
+        "title": "VoiceAgent (DE/EN/BG)",
+        "bullets": [
+          "Sprach-Q&A",
+          "Problemanalyse & Handlungsempfehlungen",
+          "Nur bei Bedarf: Kalender öffnen & Termin buchen"
+        ],
+        "cta": "VoiceAgent öffnen"
+      },
+      "privacy_note": "Chat-/Sprachangaben werden zur Bearbeitung Ihres Anliegens verarbeitet. Details in der Datenschutzerklärung."
+    },
+    "symptom_matrix": {
+      "title": "Symptom → Nächster Schritt",
+      "rows": [
+        {
+          "symptom": "Feuchte Zone bis Sockelleiste",
+          "assessment": "Verdacht aufsteigende Feuchte",
+          "next": "Digitale Erstberatung · Video-Beratung · Vor-Ort-Sichtung (anrechenbares Beratungspaket)"
+        },
+        {
+          "symptom": "Feuchte Flecken nach Regen",
+          "assessment": "Seitlicher Wassereintritt",
+          "next": "Digitale Erstberatung · Video-Beratung · Vor-Ort-Sichtung"
+        },
+        {
+          "symptom": "Kalte Ecke/Kondensat",
+          "assessment": "Wärmebrücke / Innenklima",
+          "next": "Digitale Erstberatung · Video-Beratung"
+        },
+        {
+          "symptom": "Hellhörige Wand",
+          "assessment": "Luft-/Körperschall",
+          "next": "Digitale Erstberatung · Video-Beratung · ggf. Vor-Ort-Sichtung"
+        }
+      ]
+    },
+    "issues_approach": {
+      "title": "Problemfelder & fachlicher Ansatz",
+      "content": "Jedes Zuhause hat versteckte Herausforderungen – sei es Feuchtigkeit, die durch Wände zieht, störender Lärm, der Ihre Ruhe beeinträchtigt, oder eine Dämmung, die nicht standhält. Bei Peakcare flicken wir Probleme nicht einfach, sondern bieten intelligente, nachhaltige Lösungen, die Komfort wiederherstellen, die Gesundheit schützen und Energie sparen.",
+  "crossListTitle": "Probleme:",
+  "checkListTitle": "Der Peakcare-Ansatz:",
+      "issues": [
+        "Schimmel/Feuchte",
+        "aufsteigende Feuchte (kapillar)",
+        "seitlicher Wassereintritt",
+        "Kondensat/Innenklima",
+        "Luft-/Körperschall",
+        "Wärmebrücken/Detailausbildung",
+        "Risse/Abplatzungen"
+      ],
+      "approach": [
+        "Mess- und Befundaufnahme (z. B. Oberflächenfeuchte, Thermografie)",
+        "Ursachenanalyse (Bauteil, Details, Nutzungsklima)",
+        "Sanierungskonzept mit dokumentiertem Leistungsumfang"
+      ]
+    },
+    "environmentalsolutions": {
+  "title": "Peakcare Umweltlösungen",
+  "subline": "Dauerhafte Lösungen für Problemwände.",
+  "cta": "Kostenlose Begutachtung"
+},
+    "why_peakcare": {
+  "title": "Warum PeakCare?",
+  "fadeHeading": "WARUM WIR",
+  "subHeading": "ALLES AUS EINER HAND",
+  "content": "Wir erzielen nachhaltige Ergebnisse, indem wir die Ursachen beheben und Vorbeugung hinzufügen. Jeder Auftrag umfasst Feuchtigkeitsmessungen sowie einen klaren Pflege-/Lüftungsplan. Sollte innerhalb von 6 Monaten in dem behandelten Bereich erneut relevante Feuchtigkeit oder neuer Schimmel auftreten, bieten wir eine kostenlose Nachkontrolle mit konkreten Maßnahmen an.",
+  "bullets": [
+    {
+      "title": "Dauerhafte Lösungen – garantiert",
+      "content": "Fachgerechte Ausführung nach anerkannten Standards; sorgfältige Detailausbildung."
+    },
+    {
+      "title": "Schnelle Abwicklung",
+      "content": "Mess- und Dokumentationsfokus: Befunde, Maßnahmenplan, Abschlussdossier."
+    },
+    {
+      "title": "Mehrsprachige Betreuung",
+      "content": "Klare Kommunikation (DE/EN/BG) und strukturierter Ablauf."
+    },
+    {
+      "title": "Umweltfreundliche Verfahren",
+      "content": "Materialwahl gemäß SDS und Herstellerangaben – zweckgerecht."
+    },
+    {
+      "title": "Transparente Preisgestaltung",
+      "content": "Projektbasierte, transparente Organisation von Umfang und Konditionen."
+    },
+    {
+      "title": "Kompetenz, der Sie vertrauen können",
+      "content": "Inspiriert von bewährten europäischen Verfahren (wie VARIOSEAL und SchimmelPapst) stellt unser zertifiziertes Team in jedem Schritt Qualität nach Branchenstandard sicher."
+    }
+  ]
+},
+    "process": {
+      "title": "Unser Ablauf",
+      "fadeHeading": "PROZESS",
+"heading": "SO FUNKTIONIERT ES",
+      "steps": [
+        {
+          "id": "0",
+          "title": "Digitale Erstberatung (Chat/Voice)",
+          "text": "Fragen beantworten, Problemanalyse durchführen, Empfehlungen geben (DIY, Video-Beratung oder Ausführung). Nur bei konkretem Klärungsbedarf wird ein persönlicher Gesprächstermin gebucht."
+        },
+        {
+          "id": "1",
+          "title": "Befund & Maßnahmenplan",
+          "text": "Erhebung relevanter Daten, Beurteilung, Sanierungsvorschlag mit klarer Leistungsbeschreibung."
+        },
+        {
+          "id": "2",
+          "title": "Umsetzung",
+          "text": "Fachgerechte Ausführung; Eingriffe nur dort, wo erforderlich. Staub- und schmutzarm organisiert; Oberflächen werden wiederhergestellt."
+        },
+        {
+          "id": "3",
+          "title": "Abnahme & Dokumentation",
+          "text": "Ergebniskontrolle und Protokoll; Hinweise zu Pflege, Lüften und Nutzungsklima."
+        }
+      ],
+      "note": "Zeitbedarf und Kosten sind projektabhängig – Fläche, Befund, Trocknung. Diese Punkte werden im Angebot erläutert."
+    },
+    "outcomes": {
+      "title": "Ergebnisse & Nutzen",
+      "bullets": [
+        "Substanzschonende Maßnahmen adressieren Feuchteeintrag und Detailpunkte im Bauteil.",
+        "Innenraumqualität im Blick: belastbare, saubere Räume.",
+        "Akustische Entlastung: Maßnahmen können Schallübertragung mindern (bauteilabhängig).",
+        "Komfort & Temperaturbild: Wärmebrücken werden in der Detailausbildung berücksichtigt."
+      ],
+      "disclaimer": "Wirkungen sind fallabhängig; Planung und Dokumentation erfolgen maßnahmenbezogen."
+    },
+    "realProject": {
+  "title": "Echte Projekte, echte Ergebnisse"
+},
+"testimonials": {
+  "title": "Lesen Sie, was unsere Kunden zu sagen haben!"
+},
+    "faq": {
+      "title": "FAQ (Auszug)",
+      "fadeHeading": "FAQ",
+"subHeading": "ALLES RUND UM",
+      "items": [
+        {
+          "q": "Wofür sind Chatbot und VoiceAgent gedacht?",
+          "a": "Für Fragen, Problemanalyse und Empfehlungen (DIY, Video-Beratung oder Ausführung). Nur wenn digital keine Klärung möglich ist, wird ein persönlicher Termin gebucht."
+        },
+        {
+          "q": "Kostet die Beratung etwas?",
+          "a": "Video-Beratung inkl. Angebot: kostenfrei. Vor-Ort-Sichtung: Bestandteil eines kostenpflichtigen Beratungspakets (Messung/Befund/Empfehlung); die Gebühr wird bei Auftragserteilung angerechnet."
+        },
+        {
+          "q": "Müssen Bauteile geöffnet werden?",
+          "a": "Nur, wenn es die Ursache/Detailausbildung erfordert. Eingriffe erfolgen zielgerichtet; Oberflächen werden wiederhergestellt."
+        },
+        {
+          "q": "Welche Produkte werden eingesetzt?",
+          "a": "Materialien nach Eignung für den Anwendungsfall; Angaben gemäß SDS/Herstellerinformation im Maßnahmenplan."
+        }
+      ]
+    },
+   "contact": {
+  "title": "Kontakt",
+  "subline": "Schreiben Sie uns oder rufen Sie uns an für ein kostenloses Angebot vor Ort.",
+  "channels": [
+    "Telefonnummer",
+    "Unser Standort",
+    "E-Mail-Adresse"
+  ],
+  "form": {
+    "subHeading": "NEHMEN SIE KONTAKT AUF",
+    "headline": "Termin anfragen",
+    "copy": "Bitte wählen Sie die Art der Beratung und beschreiben Sie Ihr Anliegen kurz. Wir melden uns mit Terminvorschlägen zurück.",
+    "fields": [
+      "Name",
+      "E-Mail",
+      "Telefon",
+      "Stadt/Region",
+      "Nachricht"
+    ],
+    "select_label": "Art der Beratung",
+    "select_options": [
+      "Video-Beratung (kostenfrei)",
+      "Vor-Ort-Sichtung (kostenpflichtiges Paket)",
+      "Nur Angebot/Frage"
+    ],
+    "noteTitle": "Hinweis",
+    "submitbtn": "NACHRICHT SENDEN",
+    "consent_label": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.",
+    "note": "Vor-Ort-Sichtungen sind Teil eines kostenpflichtigen Beratungspakets; die Gebühr wird bei Auftragserteilung angerechnet."
+  }
+},
+   "nav_footer": {
+  "firstLinkTitle": "Unternehmen",
+  "secondLinkTitle": "Lösungen",
+  "thirdLinkTitle": "Sonstiges",
+  "btnText": "Angebot anfordern",
+  "directionText": "Route berechnen",
+  "quickContact": "Schnellkontakt",
+  "nav": [
+    {
+      "ref": "/",
+      "text": "Home"
+    },
+    {
+      "ref": "/",
+      "text": "Lösungen"
+    },
+    {
+      "ref": "/",
+      "text": "DIY-Shop"
+    },
+    {
+      "ref": "/",
+      "text": "Referenzen"
+    },
+    {
+      "ref": "/",
+      "text": "Preise/Anfrage"
+    },
+    {
+      "ref": "/",
+      "text": "Über uns"
+    },
+    {
+      "ref": "/contact",
+      "text": "Kontakt"
+    }
+  ],
+  "footer": [
+    {
+      "ref": "/",
+      "text": "Impressum"
+    },
+    {
+      "ref": "/",
+      "text": "Datenschutz"
+    },
+    {
+      "ref": "/",
+      "text": "AGB"
+    },
+    {
+      "ref": "/",
+      "text": "Widerruf"
+    },
+    {
+      "ref": "/",
+      "text": "SDS (auf Anfrage)"
+    },
+    {
+      "ref": "/",
+      "text": "Cookie-Einstellungen"
+    }
+  ],
+  "service": [
+    {
+      "ref": "/",
+      "text": "Schimmel"
+    },
+    {
+      "ref": "/",
+      "text": "Feuchtigkeit"
+    },
+    {
+      "ref": "/",
+      "text": "Schallschutz"
+    },
+    {
+      "ref": "/",
+      "text": "Wärmebrücken"
+    }
+  ]
+}
+    },
+    "contact": {
+  "hero": {
+    "title": "KONTAKTIEREN SIE UNS"
+  }
+}
+
+  },
+  "BG": {
+    "home":{
+    "seo": {
+      "meta_title": "Мухъл · Влага (възходяща) · Шумоизолация · Топлинни мостове | PeakCare",
+      "meta_description": "Причинно-ориентирана санация: мухъл, влага (вкл. възходяща), шумоизолация, топлинни мостове. Измервания и документация. Видео консултация с оферта."
+    },
+    "hero": {
+      "h1": "Диагностика и професионална санация на проблемни стени",
+      "subline": "Мухъл и влага (вкл. възходяща/капилярна), шум и топлинни мостове – работим причинно-ориентирано, с измервания и документация, за безопасни и чисти вътрешни пространства.",
+      "fadeHeading": "БЕЗ МУХЪЛ.",
+      "ctas": {
+        "primary_button": "Запитване за консултация",
+        "secondary_link": "Консултация и процес",
+        "tertiary_small": "Започнете чат – бързи въпроси"
+      }
+    },
+    "pillars": {
+      "title": "Как да продължим? (Трите стълба)",
+      "cards": [
+        {
+          "title": "Магазин (DIY)",
+          "text": "Продукти и насоки за самостоятелна работа. Видео инструкции се добавят поетапно; чатът предлага подходящи материали.",
+          "cta": "Към магазина"
+        },
+        {
+          "title": "Консултация",
+          "text": "Два варианта според нуждите: Онлайн видео консултация (безплатна) с оферта. Оглед на място (платен консултантски пакет): измервания · кратък доклад · препоръка. Сумата се приспада при възлагане на поръчка.",
+          "cta": "Избор на консултация"
+        },
+        {
+          "title": "Изпълнение (Full Service)",
+          "text": "Професионално изпълнение по договорения план – координация и документация до завършване.",
+          "cta": "Заявете изпълнение"
+        }
+      ]
+    },
+    "services": {
+  "title": "Услуги (Обхват)",
+  "fadeHeading": "ПРЕДИМСТВА",
+  "items": [
+    {
+      "title": "Мухъл",
+      "text": "Оценка и санация въз основа на измервания и документация.",
+      "cta": "Още за мухъла"
+    },
+    {
+      "title": "Влага",
+      "text": "Възходяща (капилярна) влага, странично проникване на вода, конденз – анализ на причините и вътрешна хидроизолация според случая.",
+      "cta": "Още за влагата"
+    },
+    {
+      "title": "Шумоизолация",
+      "text": "Намаляване на въздушен и структурен шум; решения според помещението и детайлите.",
+      "cta": "Още за шума"
+    },
+    {
+      "title": "Топлинни мостове",
+      "text": "Анализ на детайли и мерки за по-равномерна повърхностна температура.",
+      "cta": "Още за топлинните мостове"
+    }
+  ]
+},
+    "digital_first": {
+      "title": "Дигитална първа консултация – Чат и Глас",
+      "intro": "Чатботът и Гласовият асистент отговарят на въпроси, правят първичен анализ и дават препоръки. Личен разговор се запазва само при конкретна нужда.",
+      "chat": {
+        "title": "Чатбот (BG/EN/DE)",
+        "bullets": [
+          "Q&A",
+          "Насочени уточняващи въпроси (анализ)",
+          "Пренасочване към DIY/видео консултация/изпълнение"
+        ],
+        "cta": "Започнете чат"
+      },
+      "voice": {
+        "title": "Гласов асистент (BG/EN/DE)",
+        "bullets": [
+          "Гласови въпроси и анализ",
+          "Препоръки",
+          "При нужда: отваря календара и запазва час"
+        ],
+        "cta": "Стартирайте гласовия асистент"
+      },
+      "privacy_note": "Данните от чат/глас се обработват за целите на запитването (виж Политика за поверителност)."
+    },
+    "symptom_matrix": {
+      "title": "Симптом → Следваща стъпка",
+      "rows": [
+        {
+          "symptom": "Влага до перваза",
+          "assessment": "Възходяща (капилярна) влага",
+          "next": "Дигитална консултация · Видео консултация · Оглед на място (платен; приспада се при възлагане)"
+        },
+        {
+          "symptom": "Петна след дъжд",
+          "assessment": "Странично проникване на вода",
+          "next": "Дигитална консултация · Видео консултация · Оглед"
+        },
+        {
+          "symptom": "Студен ъгъл/конденз",
+          "assessment": "Топлинен мост / вътрешен климат",
+          "next": "Дигитална консултация · Видео консултация"
+        },
+        {
+          "symptom": "Шумна преграда",
+          "assessment": "Въздушен/структурен шум",
+          "next": "Дигитална консултация · Видео консултация · при нужда – Оглед"
+        }
+      ]
+    },
+    "issues_approach": {
+      "title": "Проблеми и подход",
+      "content": "Във всеки дом има скрити предизвикателства – било то влага, която прониква през стените, нежелан шум, който нарушава спокойствието ви, или изолация, която просто не издържа. В Peakcare ние не просто замазваме проблемите; предлагаме интелигентни, дълготрайни решения, които възстановяват комфорта, защитават здравето и пестят енергия.",
+  "crossListTitle": "Проблеми:",
+  "checkListTitle": "Подходът на Peakcare:",
+      "issues": [
+        "Мухъл/влага",
+        "Възходяща влага",
+        "Странично проникване",
+        "Конденз/вътрешен климат",
+        "Въздушен/структурен шум",
+        "Топлинни мостове",
+        "Пукнатини/олющвания"
+      ],
+      "approach": [
+        "Измервания и констатации (напр. повърхностна влага, термография)",
+        "Анализ на причините (конструкция, детайли, режим на ползване)",
+        "План за мерки с описан обхват"
+      ]
+    },
+    "environmentalsolutions": {
+  "title": "Peakcare Екологични решения",
+  "subline": "Трайни решения за проблемни стени.",
+  "cta": "Безплатна оценка"
+    },
+   "why_peakcare": {
+  "title": "Защо PeakCare?",
+  "fadeHeading": "ЗАЩО НИЕ",
+  "subHeading": "ВСИЧКО, ОТ КОЕТО ИМАТЕ НУЖДА",
+  "content": "Постигаме трайни резултати, като отстраняваме основните причини и добавяме превенция. Всяка услуга включва измерване на влагата и ясен план за грижа/вентилация. Ако в рамките на 6 месеца в обработената зона се появи повторна влага или нов мухъл, ние осигуряваме безплатна последваща инспекция с конкретни препоръки.",
+  "bullets": [
+    {
+      "title": "Постоянни решения – гарантирани",
+      "content": "Професионално изпълнение по приети стандарти; внимателно детайлизиране."
+    },
+    {
+      "title": "Бързо изпълнение",
+      "content": "Фокус върху измервания и документация: констатации, план, финално досие."
+    },
+    {
+      "title": "Многоезична поддръжка",
+      "content": "Ясна комуникация (BG/EN/DE) и структуриран процес."
+    },
+    {
+      "title": "Еко-приятелски методи",
+      "content": "Избор на материали според SDS и указанията на производителя – подходящи за целта."
+    },
+    {
+      "title": "Прозрачно ценообразуване",
+      "content": "Проектно базирана, прозрачна организация на обхвата и условията."
+    },
+    {
+      "title": "Експертиза, на която можете да се доверите",
+      "content": "Вдъхновени от доказани европейски методи (като VARIOSEAL и SchimmelPapst), нашият сертифициран екип гарантира качество според индустриалните стандарти на всяка стъпка."
+    }
+  ]
+},
+    "process": {
+      "title": "Процес",
+      "fadeHeading": "ПРОЦЕС",
+      "heading": "ЕТО КАК РАБОТИ",
+      "steps": [
+        {
+          "id": "0",
+          "title": "Дигитална първа консултация (Чат/Глас)",
+          "text": "Първичен анализ и препоръки (DIY, видео консултация или изпълнение). Разговор се запазва само при конкретна нужда."
+        },
+        {
+          "id": "1",
+          "title": "Констативен протокол и план",
+          "text": "Събиране на данни, оценка, предложение с описан обхват."
+        },
+        {
+          "id": "2",
+          "title": "Изпълнение",
+          "text": "Целеви намеси само където са нужни; организирано с ниско запрашаване; възстановяване на повърхностите."
+        },
+        {
+          "id": "3",
+          "title": "Приемане и документация",
+          "text": "Проверка на резултата, протокол и указания за поддръжка/вентилация/режим на ползване."
+        }
+      ],
+      "note": "Сроковете и цените зависят от конкретния проект; описват се в офертата."
+    },
+    "outcomes": {
+      "title": "Резултати и ползи",
+      "bullets": [
+        "Мерки, щадящи конструкцията и насочени към причините.",
+        "Фокус върху качеството на средата и чисти, устойчиви повърхности.",
+        "Акустично облекчение (според детайла на ограждащите елементи).",
+        "По-равномерни температури по повърхностите (вземат се предвид топлинните мостове)."
+      ],
+      "disclaimer": "Ефектите зависят от конкретния случай; планирането и документацията са съобразени с мерките."
+    },
+    "realProject": {
+  "title": "Реални проекти, реални резултати"
+},
+"testimonials": {
+  "title": "Прочетете какво казват нашите клиенти!"
+},
+    "faq": {
+      "title": "Често задавани въпроси",
+      "fadeHeading": "ЧЗВ",
+      "subHeading": "ВСИЧКО, ОТ КОЕТО",
+      "items": [
+        {
+          "q": "За какво служат Чатботът и Гласовият асистент?",
+          "a": "За въпроси, първичен анализ и препоръки (DIY, видео консултация или изпълнение). Личен разговор се запазва само ако дигиталното решение не е достатъчно."
+        },
+        {
+          "q": "Платена ли е консултацията?",
+          "a": "Видео консултация с оферта: безплатна. Оглед на място: платен консултантски пакет (измервания/доклад/препоръка); сумата се приспада при възлагане."
+        },
+        {
+          "q": "Налага ли се отваряне на конструкцията?",
+          "a": "Само при необходимост (спрямо причината/детайла). Намесите са целеви; повърхностите се възстановяват."
+        },
+        {
+          "q": "Какви материали използвате?",
+          "a": "Подходящи за конкретния случай; описани по SDS/производител в плана."
+        }
+      ]
+    },
+    "contact": {
+  "title": "Контакт",
+  "subline": "Изпратете ни съобщение или ни се обадете за безплатна оферта на място.",
+  "channels": [
+    "Телефон",
+    "Нашето местоположение",
+    "Имейл адрес"
+  ],
+  "form": {
+    "subHeading": "СВЪРЖЕТЕ СЕ С НАС",
+    "headline": "Запитване за консултация",
+    "copy": "Моля, изберете вид консултация и опишете накратко случая. Ще се свържем с вас с предложения за часове.",
+    "fields": [
+      "Име",
+      "Имейл",
+      "Телефон",
+      "Град/Район",
+      "Съобщение"
+    ],
+    "select_label": "Тип консултация",
+    "select_options": [
+      "Видео консултация (безплатна)",
+      "Оглед на място (платен пакет)",
+      "Само оферта/въпрос"
+    ],
+    "noteTitle": "Бележка",
+  "submitbtn": "ИЗПРАТИ СЪОБЩЕНИЕ",
+    "consent_label": "Съгласен/на съм с обработката на данните според Политиката за поверителност.",
+    "note": "Огледите на място са част от платен консултантски пакет; таксата се приспада при възлагане."
+  }
+},
+    "nav_footer": {
+  "firstLinkTitle": "Компания",
+  "secondLinkTitle": "Решения",
+  "thirdLinkTitle": "Други",
+  "btnText": "Заявете оферта",
+  "directionText": "Вземете упътвания",
+  "quickContact": "Бърз контакт",
+  "nav": [
+    {
+      "ref": "/",
+      "text": "Начало"
+    },
+    {
+      "ref": "/",
+      "text": "Решения"
+    },
+    {
+      "ref": "/",
+      "text": "Магазин (DIY)"
+    },
+    {
+      "ref": "/",
+      "text": "Казуси"
+    },
+    {
+      "ref": "/",
+      "text": "Цени/Запитване"
+    },
+    {
+      "ref": "/",
+      "text": "За нас"
+    },
+    {
+      "ref": "/contact",
+      "text": "Контакт"
+    }
+  ],
+  "footer": [
+    {
+      "ref": "/",
+      "text": "Правна информация (Импресум)"
+    },
+    {
+      "ref": "/",
+      "text": "Поверителност"
+    },
+    {
+      "ref": "/",
+      "text": "Общи условия"
+    },
+    {
+      "ref": "/",
+      "text": "Право на отказ"
+    },
+    {
+      "ref": "/",
+      "text": "SDS (по заявка)"
+    },
+    {
+      "ref": "/",
+      "text": "Настройки на бисквитките"
+    }
+  ],
+  "service": [
+    {
+      "ref": "/",
+      "text": "Мухъл"
+    },
+    {
+      "ref": "/",
+      "text": "Влага"
+    },
+    {
+      "ref": "/",
+      "text": "Шум"
+    },
+    {
+      "ref": "/",
+      "text": "Топлинни мостове"
+    }
+  ]
+}
+
+  },
+  "contact": {
+  "hero": {
+    "title": "СВЪРЖЕТЕ СЕ С НАС"
+  }
+}
+  },
+  "EN": {
+    "home":{
+    "seo": {
+      "meta_title": "Mould · Moisture (rising) · Soundproofing · Thermal bridges | PeakCare",
+      "meta_description": "Root-cause remediation: mould, moisture incl. rising damp, soundproofing, thermal bridges. Measurement-led, documented, professional. Free video consulting incl. offer."
+    },
+    "hero": {
+      "h1": "Root-cause remediation for problem walls",
+      "subline": "Mould & moisture (incl. rising damp), noise and thermal bridges. We diagnose systematically and remediate professionally—for safe, clean interiors.",
+      "fadeHeading":"MOULD OUT.",
+      "ctas": {
+        "primary_button": "Request a consultation",
+        "secondary_link": "See consulting & process",
+        "tertiary_small": "Start chat – quick answers"
+      }
+    },
+    "pillars": {
+      "title": "How would you like to proceed? (Three pillars)",
+      "cards": [
+        {
+          "title": "DIY (Shop)",
+          "text": "Products and guidance for typical issues. Video how-tos are added continuously; chat suggests relevant content.",
+          "cta": "Go to shop"
+        },
+        {
+          "title": "Consulting",
+          "text": "Two options based on your needs: Video consulting (free) incl. offer. On-site inspection (paid consulting package): measurements · brief report · recommendations. Fee credited if you commission the work.",
+          "cta": "Choose consulting"
+        },
+        {
+          "title": "Execution (Full Service)",
+          "text": "Professional implementation as agreed—coordinated and documented through completion.",
+          "cta": "Request execution"
+        }
+      ]
+    },
+     "AdditionalBenifits":"",
+    "services": {
+      "title": "Our Services",
+      "fadeHeading":"BENEFITS",
+      "items": [
+        {
+          "title": "Mould",
+          "text": "Assessment and remediation based on measurements and documentation.",
+          "cta": "Learn about mould"
+        },
+        {
+          "title": "Moisture",
+          "text": "Rising damp, lateral ingress, condensation—root-cause analysis and interior waterproofing per case.",
+          "cta": "Learn about moisture"
+        },
+        {
+          "title": "Soundproofing",
+          "text": "Reduce airborne and structure-borne noise—room- and assembly-specific solutions.",
+          "cta": "Learn about soundproofing"
+        },
+        {
+          "title": "Thermal bridges",
+          "text": "Detail analysis and measures for a more even surface temperature map.",
+          "cta": "Learn about thermal bridges"
+        }
+      ]
+    },
+    "digital_first": {
+      "title": "Digital first-line consulting – Chat & Voice",
+      "intro": "The chatbot and VoiceAgent answer questions, run an initial problem analysis, and provide recommendations. A personal call is booked only if needed.",
+      "chat": {
+        "title": "Chatbot (EN/BG/DE)",
+        "bullets": [
+          "Q&A",
+          "Probing questions (analysis)",
+          "Routes to DIY, video consulting or execution"
+        ],
+        "cta": "Start chat"
+      },
+      "voice": {
+        "title": "VoiceAgent (EN/BG/DE)",
+        "bullets": [
+          "Voice Q&A",
+          "Problem analysis & recommendations",
+          "If needed: open calendar & book a call"
+        ],
+        "cta": "Open VoiceAgent"
+      },
+      "privacy_note": "We process your chat/voice input to handle your request. See Privacy Policy for details."
+    },
+    "symptom_matrix": {
+      "title": "Symptom → Next step",
+      "rows": [
+        {
+          "symptom": "Damp up to skirting",
+          "assessment": "Rising damp",
+          "next": "Digital consulting · Video consulting · On-site (paid; credited if commissioned)"
+        },
+        {
+          "symptom": "Wet patches after rain",
+          "assessment": "Lateral ingress",
+          "next": "Digital consulting · Video consulting · On-site"
+        },
+        {
+          "symptom": "Cold corner/condensation",
+          "assessment": "Thermal bridge / indoor climate",
+          "next": "Digital consulting · Video consulting"
+        },
+        {
+          "symptom": "Noisy partition",
+          "assessment": "Airborne/structure-borne noise",
+          "next": "Digital consulting · Video consulting · On-site if required"
+        }
+      ]
+    },
+    "Problem & Solution":"",
+    "issues_approach": {
+      "title": "Issues & Approach",
+      "content":"Every home faces hidden challenges—whether it’s moisture creeping through walls, unwanted noise disrupting your peace, or insulation that just doesn’t hold up. At Peakcare, we don’t just patch problems; we provide smart, long-lasting solutions that restore comfort, protect your health, and save energy",
+      "crossListTitle":"Issues:",
+      "checkListTitle":"The Peakcare Approach:",
+      "issues": [
+        "Mould/moisture",
+        "Rising damp",
+        "Lateral ingress",
+        "Condensation/indoor climate",
+        "Airborne/structure-borne noise",
+        "Thermal bridges",
+        "Cracks/flaking"
+      ],
+      "approach": [
+        "Measurements & findings (e.g., surface moisture, thermography)",
+        "Root-cause analysis (assembly, details, usage climate)",
+        "Remediation plan with documented scope"
+      ]
+    },
+    "environmentalsolutions":{
+      "title":"Peakcare Environmental Solutions",
+      "subline":"Permanent Solutions for Problem Walls.",
+      "cta":"Free Assessment"
+    },
+    "Why Choose us":"",
+    "why_peakcare": {
+      "title": "Why PeakCare?",
+      "fadeHeading":"WHY US",
+      "subHeading":"ALL OF YOUR",
+      "content":" We achieve lasting outcomes by fixing root causes and adding prevention. Every job includes moisture readings and a clear care/ventilation plan. If within 6 months a relevant moisture relapse or new mould appears in the treated area, we provide a free follow-up inspection with concrete",
+      "bullets": [
+        {
+          "title":"Permanent Solutions – Guaranteed",
+          "content":"Professional execution according to accepted standards; careful detailing."
+        },
+        {
+          "title":"Fast Turnaround",
+          "content":"Measurement & documentation focus: findings, plan, final dossier."
+        },
+        {
+          "title":"Multilingual Support",
+          "content":"Clear communication (EN/BG/DE) and structured process."
+        },
+        {
+          "title":"Eco-Friendly Treatments",
+          "content":"Material selection per SDS/manufacturer guidance—fit for purpose."
+        },
+        {
+          "title":"Transparent Pricing",
+          "content":"Project-based, transparent organisation of scope and conditions."
+        },
+        {
+          "title": "Expertise You Can Trust",
+          "content":"Inspired by proven European methods (like VARIOSEAL and SchimmelPapst), our certified team ensures industry-standard quality every step of the way. "
+        }
+      ]
+    },
+    "process": {
+      "title": "Process",
+      "fadeHeading":"PROCESS",
+      "heading":"HERE'S HOW IT WORKS",
+      "steps": [
+        {
+          "id": "0",
+          "title": "Digital first-line (Chat/Voice)",
+          "text": "Answer questions, run problem analysis, give recommendations (DIY, video consulting or execution). Book a call only if a concrete need exists."
+        },
+        {
+          "id": "1",
+          "title": "Findings & plan",
+          "text": "Data capture, assessment, proposal with documented scope."
+        },
+        {
+          "id": "2",
+          "title": "Execution",
+          "text": "Targeted interventions only where required; low-dust organisation; restore finishes."
+        },
+        {
+          "id": "3",
+          "title": "Handover & documentation",
+          "text": "Result check, report, guidance for care/ventilation/usage climate."
+        }
+      ],
+      "note": "Timelines and costs depend on the project and are detailed in the offer."
+    },
+    "outcomes": {
+      "title": "Outcomes & value",
+      "bullets": [
+        "Fabric-preserving measures addressing moisture ingress and detail-level issues.",
+        "Indoor quality in focus: clean, durable surfaces.",
+        "Acoustic relief (assembly-dependent).",
+        "More even surface temperatures (thermal-bridge-aware detailing)."
+      ],
+      "disclaimer": "Effects depend on the individual case; planning and documentation are measure-specific."
+    },
+    "realProject":{
+      "title":"Real Projects, Real Results"
+    },
+    "testimonials":{
+      "title":"Read What Our Customers Have to Say!"
+    },
+    "Faq":"",
+    "faq": {
+      "title": "FAQ",
+      "fadeHeading":"FAQ",
+      "subHeading":"ALL OF YOUR",
+      "items": [
+        {
+          "q": "What are the chatbot and VoiceAgent for?",
+          "a": "Questions, initial analysis and recommendations (DIY, video consulting or execution). A call is booked only if a digital resolution isn’t feasible."
+        },
+        {
+          "q": "Is consulting paid?",
+          "a": "Video consulting incl. offer: free. On-site inspection: paid consulting package (measurements/report/recommendations); the fee is credited upon commissioning."
+        },
+        {
+          "q": "Will you open walls?",
+          "a": "Only if the cause/detail requires it. Interventions are targeted; finishes are restored."
+        },
+        {
+          "q": "Which materials do you use?",
+          "a": "Fit-for-purpose materials; specified per SDS/manufacturer information in the plan."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "subline":"Send us a message or call us for a free in-home quote.",
+      "channels": [
+        "PHONE NUMBER",
+        "OUR LOCATION",
+        "EMAIL ADDRESS"
+      ],
+      "form": {
+        "subHeading":"GET IN TOUCH",
+        "headline": "Request a consultation",
+        "copy": "Please choose the consulting type and briefly describe your case. We’ll get back with time options.",
+        "fields": [
+          "Name",
+          "Email",
+          "Phone",
+          "City/Area",
+          "Message"
+        ],
+        "select_label": "Consulting type",
+        "select_options": [
+          "Video consulting (free)",
+          "On-site inspection (paid package)",
+          "Offer/Question only"
+        ],
+        "consent_label": "I consent to processing my data as described in the Privacy Policy.",
+        "noteTitle":"Note",
+        "submitbtn":"SEND MESSAGE",
+        "note": "On-site inspections are part of a paid consulting package; the fee is credited upon commissioning."
+      }
+    },
+    "nav_footer": {
+      "firstLinkTitle":"Company",
+      "secondLinkTitle":"Solutions",
+      "thirdLinkTitle":"Others",
+      "btnText":"Request An Estimate",
+      "directionText":"Get Directions",
+      "quickContact":"Quick Contact",
+      "nav": [
+        {
+          "ref":"/",
+          "text":"Home"
+        },
+        {
+          "ref":"/",
+          "text":"Solutions"
+        },
+        {
+          "ref":"/",
+          "text":"DIY Shop"
+        },
+        {
+          "ref":"/",
+          "text":"Case Studies"
+        },
+        {
+          "ref":"/",
+          "text":"Prices/Inquiry"
+        },
+        {
+          "ref":"/",
+          "text":"About"
+        },
+        {
+          "ref":"/contact",
+          "text":"Contact"
+        }
+      ],
+      "footer": [
+        {
+          "ref":"/",
+          "text":"Imprint"
+        },
+        {
+          "ref":"/",
+          "text":"Privacy"
+        },
+        {
+          "ref":"/",
+          "text":"Terms"
+        },
+        {
+          "ref":"/",
+          "text":"Right of Withdrawal"
+        },
+        {
+          "ref":"/",
+          "text":"SDS (on request)"
+        },
+        {
+          "ref":"/",
+          "text":"Cookie Preferences"
+        }
+      ],
+      "service": [
+        {
+          "ref":"/",
+          "text":"Mould"
+        },
+        {
+          "ref":"/",
+          "text":"Moisture"
+        },
+        {
+          "ref":"/",
+          "text":"Sound"
+        },
+        {
+          "ref":"/",
+          "text":"Thermal bridges"
+        }
+      ]
+    }
+  },
+  "contact":{
+    "hero":{
+      "title":"CONTACT US"
+    }
+  }
+  }
+}

@@ -1,0 +1,41 @@
+.OurProcess-container {
+    background-color: #FDFDFD;
+}
+
+.OurProcess-container .main-heading-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.OurProcess-container .main-heading {
+    text-wrap: nowrap;
+}
+
+.OurProcess-container .bg-font-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 10rem;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+.OurProcess-container .ovelaying-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media(max-width:993px) {
+    .OurProcess-container .main-heading {
+        text-wrap: wrap;
+    }
+
+    .OurProcess-container .ovelaying-heading {
+        position: static;
+        text-align: center;
+        transform: none;
+    }
+}

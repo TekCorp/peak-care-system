@@ -1,0 +1,95 @@
+.HomeHeroSlider-container {}
+
+.HomeHeroSlider-container .first-slide {
+  background-image: url("../../../public/images/creatives/home-hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: max-content;
+
+}
+
+
+.HomeHeroSlider-container .main-heading-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.HomeHeroSlider-container .bg-font-heading {
+  font-family: "Anton", sans-serif;
+  font-size: 6rem;
+  color: #063364a3;
+  line-height: .8;
+}
+
+.HomeHeroSlider-container .ovelaying-heading {
+  font-size: clamp(28px, 5vw, 50px);
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+
+.HomeHeroSlider-container .post-heading {
+  color: #D3D3D3;
+  font-size: 2rem;
+}
+
+.HomeHeroSlider-container .body-paragraph {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.HomeHeroSlider-container .genral-btn {
+  background-color: white;
+  color: #002343;
+}
+
+.HomeHeroSlider-container .genral-btn
+{
+  font-weight: normal;
+}
+
+.HomeHeroSlider-container .swiper-pagination-bullet
+{
+  background: white!important;
+  border-radius: 20px;
+  width: 40px;
+  height: 5px;
+}
+
+.HomeHeroSlider-container .image-slide
+{
+  
+}
+
+.HomeHeroSlider-container .text-slide
+{
+
+}
+
+@media(max-width:996px) {
+  .HomeHeroSlider-container .bg-font-heading {
+    font-size: 3.5rem;
+  }
+  .HomeHeroSlider-container .body-paragraph {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .HomeHeroSlider-container .image-slide
+  {
+    position: absolute; 
+    bottom: 0;
+    z-index: 0;
+  }
+  .HomeHeroSlider-container .image-slide img
+  {
+    max-height: 10%;
+  }
+  .HomeHeroSlider-container .text-slide
+  {
+    position: relative;
+    z-index: 10;
+  }
+
+}

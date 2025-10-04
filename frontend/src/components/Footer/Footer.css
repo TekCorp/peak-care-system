@@ -1,0 +1,30 @@
+.Footer-container {
+    background-color: #032B56;
+}
+
+.Footer-container .anchor {
+    color: #9AAABB;
+    text-decoration: none;
+    list-style: none;
+    transition: .3s;
+}
+.Footer-container .anchor:hover{
+    color: #ffffff;
+}
+
+.Footer-container .menu-list {
+    list-style: none;
+}
+
+.Footer-container .footer-logo {
+    width: 60%;
+}
+
+.Footer-container .social-icons img {
+    min-width: 50px;
+}
+
+.Footer-bottom .arrow-up-btn
+{
+    cursor: pointer;
+}
