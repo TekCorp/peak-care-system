@@ -21,23 +21,25 @@ const faqData = [
     }
 ]
 
-function FaqSection() {
+function FaqSection({
+    faqContent={}
+}) {
   return (
-    <div className="FaqSection-container">
+    <div className="FaqSection-container standard-padding-space">
         <div className="container">
                 <div className='main-heading-container mb-lg-2 mb-4'>
-                    <h4 className='bg-font-heading d-lg-block d-none'>FAQ</h4>
+                    <h4 className='bg-font-heading d-lg-block d-none'>{faqContent?.fadeHeading}</h4>
                     <div className="ovelaying-heading">
-                        <h6 className="sub-heading mb-lg-0 mb-3">ALL OF YOUR</h6>
-                        <h3 className='secondary-body-heading main-heading'>QUESTIONS, ANSWERED</h3>
+                        <h6 className="sub-heading mb-lg-0 mb-3">{faqContent?.subHeading}</h6>
+                        <h3 className='secondary-body-heading main-heading'>{faqContent?.title}</h3>
                     </div>
                 </div>
                 <div className="faq-container">
                     {
-                        faqData.map((ele)=>{
+                        faqContent?.items.map((ele)=>{
                             return(
                         <div className=''>
-                        <DropDownBox title={ele.title} content={ele.content} />
+                        <DropDownBox title={ele.q} content={ele.a} />
                         <div className='line-seprator'></div>
                         </div>
                             )

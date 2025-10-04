@@ -1,16 +1,54 @@
-.FloatingChatBot-container{
-    width: 100px;
-    height: 100px;
+.main-floating-chat-bot-icon-container
+{
+    position: sticky;
+    bottom: 0;
+    z-index: 10000;
+}
+
+.main-floating-chat-bot-icon-container .FloatingChatBot-container{
+    width: 80px;
+    height: 80px;
     background-color: #096ea3;
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    right: 25px;
     border-radius: 50%;
     z-index: 10000;
 }   
 
-.FloatingChatBot-container .btn-icon
+.main-floating-chat-bot-icon-container .FloatingChatBot-container .btn-icon
 {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-floating-chat-bot-icon-container .tool-tip-main-container
+{
+    position: absolute;
+    bottom: 110px;
+    right: 5px;
+}
+
+.main-floating-chat-bot-icon-container .tooltip-box {
+  position: relative;
+  display: inline-block;
+  background: #032B56;   
+  color: #fff;           
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.main-floating-chat-bot-icon-container  .tooltip-box::after {
+  content: "";
+  position: absolute;
+  top: 100%;        
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #032B56; 
 }

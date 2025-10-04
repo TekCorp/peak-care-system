@@ -9,12 +9,11 @@
 
 .headerContainer .main-navigation-elements {
     transform: skew(-25deg);
-
 }
 
 .headerContainer .main-navigation-elements .navigation-element {
-    background-color: #063464;
-    padding: 10px 14px;
+    background-color: #002343;
+    padding: 10px 3%;
     list-style: none;
     font-weight: bold;
     color: white;
@@ -25,11 +24,10 @@
 }
 
 .headerContainer .main-navigation-elements .navigation-element:hover {
-    background-color: #5DA844;
+    background-color: #063464;
 }
 
 .headerContainer .main-navigation-elements .navigation-element .navigation-link {
-
     transform: skew(25deg);
 }
 
@@ -48,24 +46,23 @@
     max-height: 15px;
 }
 
-.headerContainer .dropdown-menu {
+.dropdown-menu {
     position: relative;
     width: 100%;
     display: flex;
     border: none;
 }
 
-.headerContainer .dropdown-menu .dropdown-navigation-elements {
+.dropdown-menu .dropdown-navigation-elements {
     width: 80%;
-    border-radius: 20px;
+    border-radius: 0px;
     box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.41);
     -webkit-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.41);
     list-style: none;
      background-color: #063464;
-   
 }
-.headerContainer .dropdown-menu .navigation-element-dropdown {
+.dropdown-menu .navigation-element-dropdown {
     padding: 10px 14px;
     list-style: none;
     font-weight: bold;
@@ -82,22 +79,49 @@
 }
 
 
-.headerContainer .slide {
-    position: relative;
+.dropdown-menu .slide {
+    position: absolute;
     width: 100%;
     overflow-y: hidden;
 }
 
-.headerContainer .slide-in-cus {
+.dropdown-menu .slide-in-cus {
     animation: slide-in-cus 1s forwards;
     -webkit-animation: slide-in-cus 1s forwards;
     padding: 14px 18px;
-    background-color: #EBEBEB;
 }
 
-.headerContainer .slide-out-cus {
+.dropdown-menu .slide-out-cus {
     animation: slide-out-cus 0.3s forwards;
     -webkit-animation: slide-out-cus 0.3s forwards;
+}
+
+.headerContainer .lang-flag
+{
+    max-width: 30px;
+}
+
+.dropdown-menu .lang-flag
+{
+    max-width: 30px;
+}
+
+.headerContainer .language-switcher
+{
+    outline: none;
+    border: none;
+}
+
+.dropdown-menu .mobile-view-language-switcher
+{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+.dropdown-menu .mobile-view-language-switcher option
+{
+    color: black;
 }
 
 @keyframes slide-in-cus {

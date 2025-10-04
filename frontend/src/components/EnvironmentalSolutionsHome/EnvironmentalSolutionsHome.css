@@ -1,5 +1,9 @@
+.main-container
+{
+    height: 450px;
+}
+
 .EnvironmentalSolutionsHome-container {
-    background-color: rgb(80, 80, 255);
     background-image: url("../../../public/images/creatives/enviormentalSolutionbg.png");
     background-size: "cover";
     background-repeat: no-repeat;
@@ -32,6 +36,11 @@
         position: static;
         top: 0;
         right: 0px;
+    }
+    .EnvironmentalSolutionsHome-container {
+        background-color: transparent;
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
     }
 
 }

@@ -1,4 +1,15 @@
-const content_ENG = {
+import { useSelector } from "react-redux";
+import {selectLanguageContent} from "../../languageReducer"
+
+const old_content_ENG = {
+  homeHeroContent: {
+    fadeHeading: "MOULD OUT.",
+    mainHeading: "HEALTHY HOME.",
+    subHeading: "PEAKCARE GETS IT DONE.",
+    paragraph:
+      "Assessment, DIY kit with guidance, or full-service remediation — root-cause",
+    buttonText: "Free Assessment",
+  },
   breadCrumbSlug: {
     home: "home",
     about: "about",
@@ -6,18 +17,13 @@ const content_ENG = {
   aboutHeroContent: {
     heading: "About Peak Care EDPK",
   },
+  contactHeroContent: {
+    heading: "CONTACT US",
+  },
 };
 
-const languages = {
-  ENG: content_ENG,
+export const useLanguageContent = () => {
+  const content = useSelector(selectLanguageContent);
+  return content;
 };
 
-let currentLanguage = "ENG";
-
-export const setLanguage = (lang) => {
-  if (languages[lang]) {
-    currentLanguage = lang;
-  }
-};
-
-export const getLanguageContent = () => languages[currentLanguage];

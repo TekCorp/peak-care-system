@@ -33,7 +33,7 @@
     cursor: pointer;
     width: 100%;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid rgb(219, 219, 219);
     border-radius: 20px;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.18);
     -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.18);
@@ -66,12 +66,21 @@
 
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
+    color: black;
+    padding-left: 6%;
+    padding-right: 4%;
 }
 
 .FaqSection-container .dropdown-box .box-head .title {
     font-weight: bold;
     color: #515151;
     font-size: 19px;
+}
+
+.FaqSection-container .dropdown-box .box-head .secondary-body-heading
+{
+    padding-left: 5%;
+    padding-right: 4%;
 }
 
 .FaqSection-container .faq-main-content {
@@ -94,6 +103,7 @@
 .FaqSection-container .slide-out-cus {
     animation: slide-out-cus 0.3s forwards;
     -webkit-animation: slide-out-cus 0.3s forwards;
+    padding: 0 18px;
 }
 
 @media(max-width:993px) {
@@ -123,11 +133,21 @@
         cursor: pointer;
         width: 100%;
         background-color: transparent;
-        padding: 30px 20px;
+        padding: 0px 20px;
     }
 
     .FaqSection-container .icon-image {
         width: 80px;
+    }
+
+    .FaqSection-container .dropdown-box .box-head .secondary-body-heading
+    {
+        padding-left: 0%;
+        padding-right: 4%;
+    }
+
+    .FaqSection-container .dropdown-box .box-head-active {
+        padding: 14px 6%;
     }
 }
 

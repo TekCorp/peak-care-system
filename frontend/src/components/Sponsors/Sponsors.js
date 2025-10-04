@@ -14,9 +14,11 @@ const sponsorData = [
   "/images/icons/sponsor-logo-7.png",
 ];
 
-function Sponsors() {
+function Sponsors({
+  normalPadding=false
+}) {
   return (
-    <div className="Sponsors-container py-3">
+    <div className={`Sponsors-container ${normalPadding && "normalPadding"} `}>
       <div className="container">
         <Swiper
           spaceBetween={50}
@@ -28,7 +30,7 @@ function Sponsors() {
           modules={[Autoplay]}
           breakpoints={{
             200: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             550: {
               slidesPerView: 4,
@@ -41,8 +43,8 @@ function Sponsors() {
         >
           {sponsorData.map((ele) => {
             return (
-              <SwiperSlide className="d-flex">
-                <img src={ele} alt="partner icon" className="mx-auto" />
+              <SwiperSlide className="d-flex ">
+                <img src={ele} alt="partner icon" className="mx-auto sponsor-icon" />
               </SwiperSlide>
             );
           })}

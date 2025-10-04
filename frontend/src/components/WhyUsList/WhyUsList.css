@@ -1,0 +1,52 @@
+.WhyUsList-container {}
+
+.WhyUsList-container .main-heading-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.WhyUsList-container .main-heading {
+    text-wrap: nowrap;
+}
+
+.WhyUsList-container .bg-font-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 10rem;
+    color: #efefef;
+    width: 100%;
+    display: block;
+}
+
+.WhyUsList-container .ovelaying-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.WhyUsList-container .card-title {
+    font-size: 1.3rem;
+}
+
+.WhyUsList-container .grid-list-icon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.WhyUsList-container .main-para
+{
+    max-width: 70%;
+}
+
+@media(max-width:996px) {
+     .WhyUsList-container .main-heading {
+        text-wrap: wrap;
+    }
+
+    .WhyUsList-container .ovelaying-heading {
+        position: static;
+        text-align: center;
+        transform: none;
+    }
+}

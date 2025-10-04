@@ -12,13 +12,13 @@ function DropDownBox(props) {
       }}
       
     >
-      <div className={`box-head ${dropOpen && "box-head-active"} d-flex align-items-center justify-content-between gap-3  `}>
+      <div className={`box-head ${dropOpen && "box-head-active"} d-flex align-items-center justify-content-between gap-3  py-3`}>
         <h5 className={`secondary-body-heading mb-0 ${dropOpen && "color-white"} `} >{props.title}</h5>
         <div style={{minWidth:"40px"}}>
           <img src={!dropOpen?'/images/icons/dropdown-less-icon.png':"/images/icons/dropdown-minus-icon.png"} className={`eye-icon ${dropOpen && "invertedEye"}`} alt='dropdown-icon'/>
         </div>
       </div>
-      <div className={`box-content  slide ${dropOpen?"slide-in-cus py-3":"slide-out-cus"}`}>
+      <div className={`box-content  slide ${dropOpen?"slide-in-cus pt-4 pb-5":"slide-out-cus"}`}>
         <div className='mb-0' dangerouslySetInnerHTML={{__html:props.content}}></div>
       </div>
       
