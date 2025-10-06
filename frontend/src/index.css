@@ -56,12 +56,20 @@
     background-color: #5DA844 !important;
 }
 
+.bg-blue{
+    background-color: #086E9F!important;
+}
+
 .color-green {
     color: #5DA844;
 }
 
 .color-white {
     color: white !important;
+}
+
+.color-blue {
+    color: #257FAC !important;
 }
 
 .color-light-blue {

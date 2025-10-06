@@ -15,12 +15,15 @@ import ContactUsForm from "../../components/ContactUsForm/ContactUsForm";
 import RealProjectSlider from "../../components/RealProjectSlider/RealProjectSlider";
 import OurProcess from "../../components/OurProcess/OurProcess";
 import { useLanguageContent } from "../../components/Utils/MultilingialContent";
+import LeadPopupForm from "../../components/LeadPopupForm/LeadPopupForm";
 
 function Home() {
   const GetLanguageContent = useLanguageContent()
   return (
     <>
       <Header />
+
+      <LeadPopupForm/>
       
       <HomeHeroSlider />
 

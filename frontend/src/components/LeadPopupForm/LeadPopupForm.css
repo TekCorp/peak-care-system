@@ -1,0 +1,76 @@
+.lead-popup-form-container
+{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lead-popup-form-container .body-heading
+{
+    font-size: 6rem;
+    font-weight: 900;   
+    line-height: 0.8;
+}
+
+.lead-popup-form-container .off-container
+{
+    background-color: #292929;
+    width: fit-content;
+    height: fit-content;
+}
+
+.lead-popup-form-container .off-container h5{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.lead-popup-form-container .body-paragraph
+{
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+.lead-popup-form-container .agree-policy-checkbox
+{
+    accent-color: #35BF2E;
+    background-color: white;
+    transform: scale(1.5);
+}
+
+.lead-popup-form-container .agree-checkbox-text:checked{
+    background-color: white;
+}
+
+.lead-popup-form-container .agree-checkbox-text
+{
+    font-size: 14px;
+}
+
+.lead-popup-form-container .input-field
+{
+    border: 2px solid #5DA844;
+    width: 100%;
+    padding: 20px 10px 20px 20px;
+    outline: none;
+}
+
+.lead-popup-form-container .anchor-text
+{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.lead-popup-form-container .cross-btn
+{
+    cursor: pointer;
+}
+
+@media(max-width:996px)
+{
+    .lead-popup-form-container .body-paragraph
+    {
+        font-size: 1rem;
+        
+    }
+}

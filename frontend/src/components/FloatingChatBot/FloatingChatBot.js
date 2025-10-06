@@ -6,7 +6,7 @@ function FloatingChatBot() {
     <div className='main-floating-chat-bot-icon-container'>
       <div className='tool-tip-main-container'>
           <div class="tooltip-box">
-            Comming Soon
+            Coming Soon
           </div>
       </div>
       <div className='FloatingChatBot-container d-flex align-items-center justify-content-center'>

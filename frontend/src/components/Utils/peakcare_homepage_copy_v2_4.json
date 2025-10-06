@@ -375,7 +375,159 @@
     "contact": {
   "hero": {
     "title": "KONTAKTIEREN SIE UNS"
-  }
+  },
+   "form": {
+      "headline": "Termin anfragen",
+      "copy": "Bitte wählen Sie die Art der Beratung und beschreiben Sie kurz Ihr Anliegen. Wir melden uns mit Terminvorschlägen.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "Vorname*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Nachname*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "E-Mail*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Telefon",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "Ort/Stadt",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Nachricht (optional)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "Ich willige in die Verarbeitung meiner Angaben gemäß Datenschutzerklärung ein.",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Art der Beratung (Dropdown)",
+          "required": true,
+          "options": [
+            {
+              "value": "video_consulting",
+              "label": "Video-Beratung (kostenfrei, inkl. Angebot)"
+            },
+            {
+              "value": "onsite_inspection",
+              "label": "Vor-Ort-Sichtung (Beratungspaket)"
+            },
+            {
+              "value": "offer_or_question",
+              "label": "Nur Angebot/Frage"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": "Bevorzugter Kanal",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Video"
+            },
+            {
+              "value": "email",
+              "label": "E-Mail"
+            },
+            {
+              "value": "voiceagent",
+              "label": "VoiceAgent (Rückruftermin)"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Sprache",
+          "required": true,
+          "options": [
+            {
+              "value": "de",
+              "label": "DE"
+            },
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "bg",
+              "label": "BG"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Optionaler Upload: JPG, PNG, PDF bis 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Telefon wird nur benötigt, wenn ein Rückruftermin über den VoiceAgent gebucht wird.",
+        "Vor-Ort-Sichtungen gehören zu einem kostenpflichtigen Beratungspaket; die Gebühr wird bei Auftragserteilung angerechnet."
+      ],
+      "success_copy": "Danke! Wir melden uns zeitnah mit Terminvorschlägen.",
+      "error_copy": "Bitte füllen Sie die markierten Felder aus."
+    }
+},
+"leadForm": {
+  "Title": "Kostenloser Leitfaden zur Feuchtigkeits- & Schimmelprävention (PDF) +",
+  "blueBgText": "IHR ERSTES DIY-KIT",
+  "Subtitle": "Erhalten Sie sofort den PDF-Leitfaden + Rabattcode per E-Mail.",
+  "RequiredFields": ["Vorname", "Nachname", "E-Mail"],
+  "ConsultationTypeHeading": "Art der Beratung",
+  "ConsultationType": ["Video-Beratung", "Vor-Ort-Sichtung", "Nur Angebot/Frage"],
+  "PreferredChannelHeading": "Bevorzugter Kanal",
+  "PreferredChannel": ["Video", "E-Mail", "VoiceAgent [Anrufaufzeichnung]"],
+  "LanguageHeading": "Sprache",
+  "Language": ["DE", "EN", "BG"],
+  "PhoneHeading": "Telefoon",
+  "Phone": "Nur erforderlich bei VoiceAgent",
+  "Consent": "Ich willige in die Verarbeitung meiner personenbezogenen Daten gemäß der Datenschutzerklärung ein.",
+  "CTA": "Leitfaden erhalten",
+  "rejectionBtnText": "Nein, danke",
+  "Success": "Danke! Wir melden uns bald mit Terminvorschlägen.",
+  "offText": "AUS"
 }
 
   },
@@ -731,8 +883,161 @@
   "contact": {
   "hero": {
     "title": "СВЪРЖЕТЕ СЕ С НАС"
-  }
+  },
+   "form": {
+      "headline": "Заявете консултация",
+      "copy": "Моля, изберете вид консултация и опишете накратко случая. Ще се свържем с предложения за час.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "Име*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Фамилия*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "Имейл*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Телефон",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "Населено място",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Съобщение (по избор)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "Съгласен/на съм с обработката на данните според Политиката за поверителност.",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Тип консултация (падащо меню)",
+          "required": true,
+          "options": [
+            {
+              "value": "video_consulting",
+              "label": "Видео консултация (безплатна, с оферта)"
+            },
+            {
+              "value": "onsite_inspection",
+              "label": "Оглед на място (платен пакет)"
+            },
+            {
+              "value": "offer_or_question",
+              "label": "Само оферта/въпрос"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": "Предпочитан канал",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Видео"
+            },
+            {
+              "value": "email",
+              "label": "Имейл"
+            },
+            {
+              "value": "voiceagent",
+              "label": "Гласов асистент (запис на разговор)"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Език",
+          "required": true,
+          "options": [
+            {
+              "value": "bg",
+              "label": "BG"
+            },
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "de",
+              "label": "DE"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Приложение по избор: JPG, PNG, PDF до 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Телефон е необходим само ако се записва разговор чрез гласовия асистент.",
+        "Огледът на място е платен консултантски пакет; сумата се приспада при възлагане."
+      ],
+      "success_copy": "Благодарим! Ще се свържем с предложения за час.",
+      "error_copy": "Моля, попълнете маркираните полета."
+    }
+},
+"leadForm": {
+  "Title": "Безплатно ръководство за превенция на влага и мухъл (PDF) +",
+  "blueBgText": "ВАШИЯТ ПЪРВИ DIY КОМПЛЕКТ",
+  "Subtitle": "Получете незабавно PDF ръководство + код за отстъпка на вашия имейл.",
+  "RequiredFields": ["Име", "Фамилия", "Имейл"],
+  "ConsultationTypeHeading": "Тип консултация",
+  "ConsultationType": ["Видео", "Оглед на място", "Само оферта/въпрос"],
+  "PreferredChannelHeading": "Предпочитан канал",
+  "PreferredChannel": ["Видео", "Имейл", "Гласов асистент [запис на разговор]"],
+  "LanguageHeading": "Език",
+  "Language": ["BG", "EN", "DE"],
+  "PhoneHeading": "Телефон",
+  "Phone": "Необходимо само при Гласов асистент",
+  "Consent": "Съгласен/на съм с обработката на личните ми данни според Политиката за поверителност.",
+  "CTA": "Вземете ръководството",
+  "rejectionBtnText": "Не, благодаря",
+  "Success": "Благодарим! Ще се свържем с предложения за час.",
+  "offText": "ИЗКЛ."
 }
+
   },
   "EN": {
     "home":{
@@ -1089,7 +1394,159 @@
   "contact":{
     "hero":{
       "title":"CONTACT US"
+    },
+    "form": {
+      "headline": "Request a consultation",
+      "copy": "Please choose the consulting type and briefly describe your case. We’ll get back to you with time options.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "First name*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Last name*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "Email*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "City/Area",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Message (optional)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "I consent to processing my data as described in the Privacy Policy.",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Consulting type (dropdown)",
+          "required": true,
+          "options": [
+            {
+              "value": "video_consulting",
+              "label": "Video consulting (free, incl. offer)"
+            },
+            {
+              "value": "onsite_inspection",
+              "label": "On-site inspection (paid package)"
+            },
+            {
+              "value": "offer_or_question",
+              "label": "Offer/Question only"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": "Preferred channel",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Video"
+            },
+            {
+              "value": "email",
+              "label": "Email"
+            },
+            {
+              "value": "voiceagent",
+              "label": "VoiceAgent (book a call)"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Language",
+          "required": true,
+          "options": [
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "bg",
+              "label": "BG"
+            },
+            {
+              "value": "de",
+              "label": "DE"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Optional upload: JPG, PNG, PDF up to 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Phone is required only if a call is booked via VoiceAgent.",
+        "On-site inspections are part of a paid consulting package; the fee is credited upon commissioning."
+      ],
+      "success_copy": "Thanks! We’ll get back to you with time options.",
+      "error_copy": "Please complete the required fields."
     }
+  },
+  "leadForm":{
+    "Title": "Free Moisture & Mould Prevention Guide (PDF) +",
+    "blueBgText":"YOUR FIRST DIY KIT",
+    "Subtitle": "Get instant PDF guide + discount code delivered to your email.",
+    "RequiredFields": ["First Name","Last Name", "Email"],
+    "ConsultationTypeHeading":"ConsultationType",
+    "ConsultationType":["Video", "On-site inspection", "Quote/Question only"],
+    "PreferredChannelHeading":"PreferredChannel",
+    "PreferredChannel":["Video", "Email", "Voice Assistant [call recording]"],
+    "LanguageHeading":"Language",
+    "Language":["BG", "EN", "DE"],
+    "PhoneHeading":"Phone",
+    "Phone": "Required only for Voice Assistant",
+    "Consent": "I agree to the processing of my personal data in line with the Privacy Policy.",
+    "CTA": "Get the Guide",
+    "rejectionBtnText":"No Thanks",
+    "Success": "Thank you! We’ll get in touch with suggested time slots.",
+    "offText":"OFF"
   }
   }
 }
