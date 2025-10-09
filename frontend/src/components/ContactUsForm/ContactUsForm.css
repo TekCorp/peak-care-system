@@ -61,6 +61,16 @@
     background-color: white;
 }
 
+.ContactUsForm-container .email-anchor
+{
+    text-decoration: none!important;
+}
+
+.ContactUsForm-container .send-form-btn
+{
+    text-transform: uppercase!important;
+}
+
 @media(max-width:996px) {
     .ContactUsForm-container {
         background-image: url("../../../public/images/creatives/contact-us-bg-mob.png");

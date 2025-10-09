@@ -58,7 +58,9 @@ function Home() {
         faqContent={GetLanguageContent?.home?.faq}
       />
 
-      <ContactUsForm />
+      <ContactUsForm 
+        contactUsFormFields={true}
+      />
 
       <Footer />
     </>

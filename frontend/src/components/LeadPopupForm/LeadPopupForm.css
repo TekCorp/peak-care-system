@@ -47,9 +47,10 @@
 
 .lead-popup-form-container .input-field
 {
-    border: 2px solid #5DA844;
+    border: none;
+    border-bottom: 2px solid #5DA844;
     width: 100%;
-    padding: 20px 10px 20px 20px;
+    padding: 5px;
     outline: none;
 }
 
@@ -66,11 +67,25 @@
     cursor: pointer;
 }
 
+.lead-popup-form-container .bg-blue .secondary-body-heading
+{
+    font-size: 2.3rem;
+}
+
+.lead-popup-form-container .sale-text
+{
+    letter-spacing: 3px;
+}
+
 @media(max-width:996px)
 {
     .lead-popup-form-container .body-paragraph
     {
         font-size: 1rem;
         
+    }
+    .lead-popup-form-container .bg-blue .secondary-body-heading
+    {
+        font-size: 1.6rem;
     }
 }

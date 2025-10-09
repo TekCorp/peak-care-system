@@ -7,31 +7,8 @@ import { useLanguageContent } from "../Utils/MultilingialContent";
 
 function Testimonials() {
   const GetLanguageContent = useLanguageContent()
-  const blogData = [
-    {
-      count: 1,
-      clientName: "Martin I., Varna",
-      clientImg: "/images/icons/user-img.png",
-      clientReview:
-        "Split view of a bedroom: left with visible mold, 72% humidity and cough syrup on the nightstand; right after remediation with a clean wall, peaceful sleep, and an air-quality monitor reading ‘GO’.",
-    },
-    {
-      count: 2,
-      clientName: "Martin I., Varna",
-      clientImg: "/images/icons/user-img.png",
-      clientReview:
-        "Split view of a bedroom: left with visible mold, 72% humidity and cough syrup on the nightstand; right after remediation with a clean wall, peaceful sleep, and an air-quality monitor reading ‘GO’.",
-    },
-    {
-      count: 3,
-      clientName: "Martin I., Varna",
-      clientImg: "/images/icons/user-img.png",
-      clientReview:
-        "Split view of a bedroom: left with visible mold, 72% humidity and cough syrup on the nightstand; right after remediation with a clean wall, peaceful sleep, and an air-quality monitor reading ‘GO’.",
-    },
-  ];
-
-  const handlePrevButtonClick = () => {
+  
+   const handlePrevButtonClick = () => {
     const swiperInstance = document.querySelector(
       "#articles-cards-slider-tes"
     ).swiper;
@@ -70,14 +47,14 @@ function Testimonials() {
               className="testimonials-list"
               id="articles-cards-slider-tes"
             >
-              {blogData.map((clientData, ind) => {
+              {GetLanguageContent?.home?.testimonials?.cardData.map((clientData, ind) => {
                 return (
                   <>
                     <SwiperSlide key={ind}>
                       <TestimonialCard
-                        clientImg={clientData.clientImg}
-                        clientName={clientData.clientName}
-                        clientReview={clientData.clientReview}
+                        clientImg={"/images/icons/user-img.png"}
+                        clientName={clientData?.clientName}
+                        clientReview={clientData?.clientReview}
                       />
                     </SwiperSlide>
                   </>

@@ -1,12 +1,14 @@
 import React from 'react'
 import "./FloatingChatBot.css"
+import { useLanguageContent } from '../Utils/MultilingialContent'
 
 function FloatingChatBot() {
+  const GetLanguageContent = useLanguageContent()
   return (
     <div className='main-floating-chat-bot-icon-container'>
       <div className='tool-tip-main-container'>
           <div class="tooltip-box">
-            Coming Soon
+            {GetLanguageContent?.comming_soon?.title}
           </div>
       </div>
       <div className='FloatingChatBot-container d-flex align-items-center justify-content-center'>

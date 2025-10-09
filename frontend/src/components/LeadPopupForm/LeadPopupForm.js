@@ -2,105 +2,174 @@ import React, { useEffect, useState } from "react";
 import "./LeadPopupForm.css";
 import Modal from "../Modal/Modal";
 import { useLanguageContent } from "../Utils/MultilingialContent";
+import { validateForm } from "../Utils/ValidateForm";
 
 function LeadPopupForm() {
   const [showLeadFormPopup, setShowLeadFormPopup] = useState(false);
   const [preferredChannel, setPreferredChannel] = useState("");
+  const [formData, setFormData] = useState({});
 
   useEffect(() => {
-    const popupShown = localStorage.getItem("leadPopupShown");
+  const formSubmitted = localStorage.getItem("leadFormSubmitted");
+  const popupClosed = sessionStorage.getItem("leadPopupClosed");
 
-    if (!popupShown) {
-      const timer = setTimeout(() => {
-        setShowLeadFormPopup(true);
-      }, 3000);
+  if (!formSubmitted && !popupClosed) {
+    const timer = setTimeout(() => {
+      setShowLeadFormPopup(true);
+    }, 3000);
 
-      return () => clearTimeout(timer);
-    }
-  }, []);
+    return () => clearTimeout(timer);
+  }
+}, []);
 
-  const handleClose = () => {
-    setShowLeadFormPopup(false);
-    localStorage.setItem("leadPopupShown", "true");
-  };
+const handleClose = () => {
+  setShowLeadFormPopup(false);
+  sessionStorage.setItem("leadPopupClosed", "true");
+};
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleClose();
+    const formArray = [
+      {
+        name:"firstName",
+        required:true,
+        label:"First Name"
+      },
+      {
+        name:"lastName",
+        required:true,
+        label:"Last Name"
+      },
+      ...(preferredChannel === "Voice Assistant [call recording]" ||
+        preferredChannel === "Гласов асистент [запис на разговор]" ||
+        preferredChannel === "VoiceAgent [Anrufaufzeichnung]"
+        ? [
+            {
+              name: "phone",
+              required: true, 
+              label: "Phone",
+            },
+          ]
+        : []),
+      {
+        name:"email",
+        required:true,
+        label:"Email"
+      },
+      {
+        name:"consultingType",
+        required:true,
+        label:"Consulting Type"
+      },
+      {
+        name:"prefferredChannel",
+        required:true,
+        label:"Prefferred Channel"
+      },
+      {
+        name:"language",
+        required:true,
+        label:"Language"
+      },
+      {
+        name:"agreePrivacyPolicy",
+        required:true,
+        label:"Agree Privacy Policy",
+        consentField:true
+      },
+    ]
+    const formValidated = validateForm(formArray,formData)
+    if(formValidated)
+    {
+      setShowLeadFormPopup(false);
+      localStorage.setItem("leadFormSubmitted", "true");
+      sessionStorage.removeItem("leadPopupClosed");
+    }
+    
   };
 
   const GetLanguageContent = useLanguageContent();
   return (
     <Modal status={showLeadFormPopup} closeModal={handleClose}>
-      <div className="lead-popup-form-container p-4 pb-0">
+      <div className="lead-popup-form-container p-4 ps-0 pb-0">
         <div className="row">
-          <div className="col-lg-6 py-2">
+          <div className="col-lg-6 py-2 ps-0">
             <div className="">
-              <h3 className="secondary-body-heading ps-4">
+              <h3 className="secondary-body-heading ps-5">
                 {GetLanguageContent?.leadForm?.Title}
               </h3>
-              <div className="d-flex flex-row align-items-end ps-4 pb-3 pt-2">
+              <div className="d-flex flex-row align-items-end ps-5 pb-3 pt-2">
                 <h2 className="body-heading mb-0">10%</h2>
-                <div className="off-container px-3 py-1">
-                  <h5 className="mb-0 font-DM-sans">
+                <div className="off-container px-3 py-1 ms-2">
+                  <h5 className="mb-0 font-DM-sans sale-text">
                     {GetLanguageContent?.leadForm?.offText}
                   </h5>
                 </div>
               </div>
               <div className="bg-blue py-2">
-                <h3 className="secondary-body-heading ps-4 color-white mb-0">
+                <h3 className="secondary-body-heading ps-5 color-white mb-0">
                   {GetLanguageContent?.leadForm?.blueBgText}
                 </h3>
               </div>
-              <p className="body-paragraph py-4 ps-4">
+              <p className="body-paragraph py-4 ps-5">
                 {GetLanguageContent?.leadForm?.Subtitle}
               </p>
 
               <form onSubmit={handleSubmit}>
-                <div className="pb-3 pt-2 ps-4">
+                <div className="pb-3 pt-2 ps-5">
                   <input
                     type="text"
                     className="input-field"
-                    required
+                    name="firstName"
                     placeholder={
                       GetLanguageContent?.leadForm?.RequiredFields[0]
                     }
+                    value={formData?.firstName || ""}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,firstName:e.target.value}})}}
                   />
                 </div>
-                <div className="pb-3 pt-2 ps-4">
+                <div className="pb-3 pt-2 ps-5">
                   <input
                     type="text"
                     className="input-field"
-                    required
+                    name="lastName"
                     placeholder={
                       GetLanguageContent?.leadForm?.RequiredFields[1]
                     }
+                    value={formData?.lastName || ""}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,lastName:e.target.value}})}}
                   />
                 </div>
                 {(preferredChannel == "Voice Assistant [call recording]" ||
                   preferredChannel == "Гласов асистент [запис на разговор]" ||
                   preferredChannel == "VoiceAgent [Anrufaufzeichnung]") && (
-                  <div className="pb-3 pt-2 ps-4">
+                  <div className="pb-3 pt-2 ps-5">
                     <input
                       type="text"
                       className="input-field"
-                      required
+                      name="phone"
                       placeholder={GetLanguageContent?.leadForm?.PhoneHeading}
+                      value={formData?.phone || ""}
+                      onChange={(e)=>{setFormData((prev)=>{return {...prev,phone:e.target.value}})}}
                     />
                   </div>
                 )}
-                <div className="pb-3 pt-2 ps-4">
+                <div className="pb-3 pt-2 ps-5">
                   <input
                     type="email"
                     className="input-field"
-                    required
                     placeholder={
                       GetLanguageContent?.leadForm?.RequiredFields[2]
                     }
+                    value={formData?.email || ""}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,email:e.target.value}})}}
                   />
                 </div>
-                <div className="pb-3 pt-2 ps-4">
-                  <select className="input-field" required defaultValue="">
+                <div className="pb-3 pt-2 ps-5">
+                  <select className="input-field" defaultValue="" name="consultingType"
+                    value={formData?.consultingType || ""}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,consultingType:e.target.value}})}}
+                  >
                     <option value="" disabled style={{ display: "none" }}>
                       {GetLanguageContent?.leadForm?.ConsultationTypeHeading}
                     </option>
@@ -111,13 +180,13 @@ function LeadPopupForm() {
                     )}
                   </select>
                 </div>
-                <div className="pb-3 pt-2 ps-4">
+                <div className="pb-3 pt-2 ps-5">
                   <select
                     className="input-field"
-                    required
                     defaultValue=""
-                    value={preferredChannel}
-                    onChange={(e) => setPreferredChannel(e.target.value)}
+                    name="prefferredChannel"
+                    value={formData?.prefferredChannel || ""}
+                    onChange={(e)=>{setFormData((prev)=>{setPreferredChannel(e.target.value); return {...prev,prefferredChannel:e.target.value}})}}
                   >
                     <option value="" disabled style={{ display: "none" }}>
                       {GetLanguageContent?.leadForm?.PreferredChannelHeading}
@@ -129,8 +198,11 @@ function LeadPopupForm() {
                     )}
                   </select>
                 </div>
-                <div className="pb-3 pt-2 ps-4">
-                  <select className="input-field" required defaultValue="">
+                <div className="pb-3 pt-2 ps-5">
+                  <select className="input-field" defaultValue="" name="language"
+                    value={formData?.language || ""}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,language:e.target.value}})}}
+                  >
                     <option value="" disabled style={{ display: "none" }}>
                       {GetLanguageContent?.leadForm?.LanguageHeading}
                     </option>
@@ -139,18 +211,20 @@ function LeadPopupForm() {
                     })}
                   </select>
                 </div>
-                <div className="d-flex gap-2 align-items-center py-2 pt-0 ps-4">
+                <div className="d-flex gap-2 align-items-center py-2 pt-0 ps-5">
                   <input
                     type="checkbox"
                     className="agree-policy-checkbox"
-                    required
+                    name="agreePrivacyPolicy"
+                    value={formData?.agreePrivacyPolicy || false}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,agreePrivacyPolicy: e.target.checked}})}}
                   />
                   <p className="body-paragraph agree-checkbox-text mb-0">
                     {GetLanguageContent?.leadForm?.Consent}
                   </p>
                 </div>
 
-                <div className="d-flex flex-row align-items-center gap-3 py-3 ps-4">
+                <div className="d-flex flex-row align-items-center gap-3 py-3 ps-5">
                   <button className="genral-btn bg-green" type="submit">
                     {GetLanguageContent?.leadForm?.CTA}
                   </button>
