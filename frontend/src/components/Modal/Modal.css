@@ -1,0 +1,115 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+}
+
+.modal-container.show {
+    opacity: 1;
+    visibility: visible;
+    backdrop-filter: blur(8px);
+}
+
+.modal-container .modal-main {
+    position: absolute;
+    background: transparent;
+    color: black;
+    width: 80%;
+    height: max-content;
+    max-height: 100vh;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 1000;
+}
+
+.modal-container .modal-main::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-container .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.472);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.modal-container .modal-main .close-modal {
+    padding: 5px 11px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    right: 60px;
+    color: white;
+}
+
+.modal-container .close-modal {
+    position: absolute;
+    top: 90px;
+    right: 210px;
+    cursor: pointer;
+    color: #aaa;
+    opacity: 0.8;
+}
+
+.modal-container .close-modal:hover {
+    color: #666;
+}
+
+body.active-modal {
+    overflow-y: auto;
+}
+
+
+@media(max-width: 556px) {
+    .modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 100;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s;
+    }
+
+    .modal-container .modal-main {
+        width: 100%;
+        max-width: 96%;
+        height: 88vh;
+        overflow: auto;
+        top: 50;
+        left: 50;
+        margin: 0;
+        scrollbar-width: thin;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+    .modal-container .close-modal {
+        top: 120px;
+        right: 90px;
+    }
+
+    .modal-container .close-modal:hover {
+        color: #666;
+    }
+}

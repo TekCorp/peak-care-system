@@ -124,6 +124,29 @@
     color: black;
 }
 
+.headerContainer .language-dropdown
+{
+    position: absolute;
+    z-index: 100000;
+}
+
+.headerContainer .main-language-dropdown-container button
+{
+    background: white;
+    border: none!important;
+    
+}
+
+.headerContainer .cursor-pointer
+{
+    cursor: pointer;
+}
+
+.headerContainer .active-language-text
+{
+    color: black!important;
+}
+
 @keyframes slide-in-cus {
     0% {
         max-height: 0px;

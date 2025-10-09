@@ -55,11 +55,20 @@
 {
     accent-color: #35BF2E;
     background-color: white;
-    color: wheat;
 }
 
 .ContactUsForm-container .agree-checkbox-text:checked{
     background-color: white;
+}
+
+.ContactUsForm-container .email-anchor
+{
+    text-decoration: none!important;
+}
+
+.ContactUsForm-container .send-form-btn
+{
+    text-transform: uppercase!important;
 }
 
 @media(max-width:996px) {

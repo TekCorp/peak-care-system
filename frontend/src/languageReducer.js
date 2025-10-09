@@ -7,9 +7,11 @@ const languages = {
   DE: content?.DE,
 };
 
+const savedLang = localStorage.getItem("language") || "EN";
+
 const initialState = {
-  currentLanguage: "EN",
-  content: languages["EN"],
+  currentLanguage: savedLang,
+  content: languages[savedLang] || languages["EN"],
 };
 
 const languageSlice = createSlice({
@@ -21,6 +23,7 @@ const languageSlice = createSlice({
       if (languages[lang]) {
         state.currentLanguage = lang;
         state.content = languages[lang];
+        localStorage.setItem("language", lang);
       }
     },
   },

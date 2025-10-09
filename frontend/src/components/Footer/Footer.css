@@ -24,6 +24,12 @@
     min-width: 50px;
 }
 
+.Footer-container .mail-text-anchor
+{
+    text-decoration: none!important;
+
+}
+
 .Footer-bottom .arrow-up-btn
 {
     cursor: pointer;
