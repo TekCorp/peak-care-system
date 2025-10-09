@@ -46,7 +46,7 @@
 }
 
 .body-paragraph {
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans", sans-seri!important;
     font-size: 1rem;
     color: #040404;
     line-height: 1.8;
@@ -56,12 +56,20 @@
     background-color: #5DA844 !important;
 }
 
+.bg-blue{
+    background-color: #086E9F!important;
+}
+
 .color-green {
     color: #5DA844;
 }
 
 .color-white {
     color: white !important;
+}
+
+.color-blue {
+    color: #257FAC !important;
 }
 
 .color-light-blue {
@@ -89,6 +97,7 @@
     color: #063464;
     font-weight: bold;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 @media(max-width:993px) {

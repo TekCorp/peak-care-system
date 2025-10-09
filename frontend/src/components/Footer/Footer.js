@@ -18,14 +18,10 @@ function Footer() {
                 className="img-fluid footer-logo mb-2"
               />
               <h4 className="mb-3 color-white sub-heading">{GetLanguageContent?.home?.nav_footer?.quickContact}</h4>
-              <h4 className="mb-3 color-light-blue sub-heading">
-                <img
-                  src="/images/icons/footer-phone-icon.png"
-                  alt="phone icon"
-                  className="img-fluid"
-                />{" "}
-                +359 898 436 561
-              </h4>
+              
+              <a className="body-paragraph mt-4 color-white mail-text-anchor" href="mailto:contact@peak-care.com">
+                contact@peak-care.com
+              </a>
               <p className="body-paragraph mt-4 color-font-grey">
                 Stragite Str. 8, Bl. D, Ap. 39, 2770 <br></br>Bansko, Bulgaria
               </p>

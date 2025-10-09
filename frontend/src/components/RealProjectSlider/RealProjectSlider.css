@@ -8,17 +8,33 @@
   font-style: italic;
 }
 
-.RealProjectSlider-container .project-card-img
+.RealProjectSlider-container .project-card
 {
     width: 100%;
+    min-height: 350px;
     transition: .3s;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.RealProjectSlider-container .project-card-img:hover
+.RealProjectSlider-container .project-card:hover
 {
     transform: scale(1.1);
     border-radius: 10px;
+}
+
+.RealProjectSlider-container .project-card .content-box
+{
+  border: 1px solid white;
+  border-radius:50px;
+  width: 90%;
+}
+
+.RealProjectSlider-container .title-font
+{
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 body {
@@ -31,12 +47,12 @@ body {
   overflow: visible !important;
 }
 
-.RealProjectSlider-container .project-card-img {
+.RealProjectSlider-container .project-card {
   transition: transform 0.3s ease;
   border-radius: 6px;
 }
 
-.RealProjectSlider-container .project-card-img:hover {
+.RealProjectSlider-container .project-card:hover {
   transform: scale(1.1);
   border-radius: 10px;
   z-index: 10;
@@ -49,7 +65,7 @@ body {
     overflow: hidden !important;
   }
 
-  .RealProjectSlider-container .project-card-img:hover {
+  .RealProjectSlider-container .project-card:hover {
     transform: scale(1.05); 
     z-index: auto;          
     position: static;       

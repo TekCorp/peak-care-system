@@ -19,7 +19,7 @@ function ContactUs() {
 
       <div style={{ height: "50px" }}></div>
 
-      <ContactUsForm />
+      <ContactUsForm contactUsFormFields={true}/>
 
       <FaqSection faqContent={GetLanguageContent?.home?.faq}/>
 

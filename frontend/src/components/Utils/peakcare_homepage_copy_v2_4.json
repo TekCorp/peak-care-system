@@ -35,9 +35,9 @@
       "subline": "Schimmel und Feuchtigkeit (inkl. aufsteigender Feuchte), störender Schall und Wärmebrücken: Wir diagnostizieren systematisch und sanieren fachgerecht – für sichere, saubere Innenräume.",
       "fadeHeading": "SCHIMMEL WEG.",
       "ctas": {
-        "primary_button": "Termin anfragen",
-        "secondary_link": "Beratung & Ablauf ansehen",
-        "tertiary_small": "Chat starten – Fragen sofort klären"
+        "primary_button": "Beratung anfragen",
+        "secondary_link": "Beratung & Prozess",
+        "tertiary_small": "Chat starten – VoiceAgent öffnen"
       }
     },
     "pillars": {
@@ -65,23 +65,23 @@
   "fadeHeading": "VORTEILE",
   "items": [
     {
-      "title": "Schimmel (Mould)",
+      "title": "Schimmel",
       "text": "Erkennen, bewerten, fachgerecht sanieren – auf Mess- und Dokumentationsbasis.",
       "cta": "Mehr zu Schimmel"
     },
     {
-      "title": "Feuchtigkeit (Moisture)",
+      "title": "Feuchtigkeit",
       "text": "Aufsteigende Feuchte, seitlicher Wassereintritt, Kondensat – Ursachenanalyse und innenliegende Abdichtung nach Befund.",
       "cta": "Mehr zu Feuchte"
     },
     {
-      "title": "Schallschutz (Sound)",
+      "title": "Schallschutz",
       "text": "Luft- und Körperschall mindern – raum- und bauteilbezogene Lösungen nach Ziel.",
       "cta": "Mehr zu Schallschutz"
     },
     {
-      "title": "Wärmebrücken (Thermal Bridges)",
-      "text": "Detailanalyse und bauteilgerechte Maßnahmen zur Verbesserung des Temperaturbilds.",
+      "title": "Wärmebrücken",
+      "text": "Detailanalyse und Maßnahmen zur Verbesserung des Oberflächentemperaturbildes.",
       "cta": "Mehr zu Wärmebrücken"
     }
   ]
@@ -136,9 +136,9 @@
     },
     "issues_approach": {
       "title": "Problemfelder & fachlicher Ansatz",
-      "content": "Jedes Zuhause hat versteckte Herausforderungen – sei es Feuchtigkeit, die durch Wände zieht, störender Lärm, der Ihre Ruhe beeinträchtigt, oder eine Dämmung, die nicht standhält. Bei Peakcare flicken wir Probleme nicht einfach, sondern bieten intelligente, nachhaltige Lösungen, die Komfort wiederherstellen, die Gesundheit schützen und Energie sparen.",
+      "content": "Jedes Zuhause hat versteckte Herausforderungen – sei es Feuchtigkeit, die durch Wände zieht, störender Lärm, der Ihre Ruhe beeinträchtigt, oder eine Dämmung, die nicht standhält. Bei PeakCare flicken wir Probleme nicht einfach, sondern bieten intelligente, nachhaltige Lösungen, die Komfort wiederherstellen, die Gesundheit schützen und Energie sparen.",
   "crossListTitle": "Probleme:",
-  "checkListTitle": "Der Peakcare-Ansatz:",
+  "checkListTitle": "Der PeakCare-Ansatz:",
       "issues": [
         "Schimmel/Feuchte",
         "aufsteigende Feuchte (kapillar)",
@@ -155,15 +155,15 @@
       ]
     },
     "environmentalsolutions": {
-  "title": "Peakcare Umweltlösungen",
+  "title": "PeakCare Umweltlösungen",
   "subline": "Dauerhafte Lösungen für Problemwände.",
-  "cta": "Kostenlose Begutachtung"
+  "cta": "Beratung anfragen"
 },
     "why_peakcare": {
   "title": "Warum PeakCare?",
   "fadeHeading": "WARUM WIR",
   "subHeading": "ALLES AUS EINER HAND",
-  "content": "Wir erzielen nachhaltige Ergebnisse, indem wir die Ursachen beheben und Vorbeugung hinzufügen. Jeder Auftrag umfasst Feuchtigkeitsmessungen sowie einen klaren Pflege-/Lüftungsplan. Sollte innerhalb von 6 Monaten in dem behandelten Bereich erneut relevante Feuchtigkeit oder neuer Schimmel auftreten, bieten wir eine kostenlose Nachkontrolle mit konkreten Maßnahmen an.",
+  "content": "Wir erreichen dauerhafte Ergebnisse, indem wir die Ursachen beheben und Prävention ergänzen. Jeder Auftrag umfasst Feuchtemessungen sowie einen klaren Pflege- /Lüftungsplan.",
   "bullets": [
     {
       "title": "Dauerhafte Lösungen – garantiert",
@@ -217,6 +217,7 @@
           "text": "Ergebniskontrolle und Protokoll; Hinweise zu Pflege, Lüften und Nutzungsklima."
         }
       ],
+      "img":"de",
       "note": "Zeitbedarf und Kosten sind projektabhängig – Fläche, Befund, Trocknung. Diese Punkte werden im Angebot erläutert."
     },
     "outcomes": {
@@ -230,10 +231,58 @@
       "disclaimer": "Wirkungen sind fallabhängig; Planung und Dokumentation erfolgen maßnahmenbezogen."
     },
     "realProject": {
-  "title": "Echte Projekte, echte Ergebnisse"
+  "title": "Echte Projekte, echte Ergebnisse",
+  "cardData": [
+  {
+    "title": "Schimmelsanierung",
+    "subTitle": "Leistungen"
+  },
+  {
+    "title": "Wasserschaden",
+    "subTitle": "Leistungen"
+  },
+  {
+    "title": "Schimmeltest",
+    "subTitle": "Leistungen"
+  },
+  {
+    "title": "Feuchtigkeitsschutz",
+    "subTitle": "Leistungen"
+  }
+  ]
 },
 "testimonials": {
-  "title": "Lesen Sie, was unsere Kunden zu sagen haben!"
+  "title": "Lesen Sie, was unsere Kunden zu sagen haben!",
+  "cardData":[
+        {
+          "clientName":"Jörg M., Blagoevgrad",
+          "clientReview":"Der Auftrag wurde exakt nach Terminplan umgesetzt. PeakCare kombinierte präzise Planung nach deutschem Standard mit zuverlässiger Ausführung und klarer Kommunikation. Ergebnis: pünktliche Übergabe ohne Nacharbeiten – Qualität, der man vertraut. Klare Empfehlung."
+        },
+        {
+          "clientName":"Josep C., Razlog",
+          "clientReview":"Saubere Baustelle, freundliche Teams. PeakCare arbeitete strukturiert und terminsicher – spürbar deutsche Zuverlässigkeit im Ablauf. Absprachen wurden eingehalten, Qualität stimmte. So wird Sanieren stressfrei. Absolut empfehlenswert."
+        },
+        {
+          "clientName":"James C., Bansko",
+          "clientReview":"Bei PeakCare passten Qualität und Preis. Fachgerecht, zügig, ohne Überraschungen; die Beratung war ehrlich und lösungsorientiert. Deutsches Ingenieurhandwerk mit fairer Kalkulation – genau die Mischung, die wir gesucht haben. Wir würden wieder beauftragen."
+        },
+        {
+          "clientName":"Bernd D., Dobrinishte",
+          "clientReview":"Seit dem Wohnungskauf Schimmel in Bad und Schlafzimmer. PeakCare analysierte systematisch nach deutschem Standard, fand die Ursache und sanierte nachhaltig. Jetzt sind die Räume trocken, das Klima gesund – und die Sorge ist weg. Endlich wieder wohlfühlen."
+        },
+        {
+          "clientName":"Marlies K., Bansko",
+          "clientReview":"Wir hörten jeden Schritt der Nachbarn. PeakCare hat die Schalldämmung ingenieursmäßig berechnet und sauber eingebaut – präzise und zuverlässig. Ergebnis: deutlich weniger Geräusche, erholsamer Schlaf, spürbar mehr Wohnqualität. Die Investition hat sich gelohnt."
+        },
+        {
+          "clientName":"Brian O., Bansko",
+          "clientReview":"Unser Keller roch muffig, Putz bröckelte – Feuchtigkeit. PeakCare ging das Thema mit deutscher Gründlichkeit an: Ursachenanalyse, Abdichtung, Trocknung. Heute sind die Wände trocken, der Geruch weg, der Raum nutzbar – unser Sohn trainiert dort. Überzeugendes Ergebnis."
+        },
+        {
+          "clientName":"Blago N., Razlog",
+          "clientReview":"Störender Trittschall von oben. PeakCare hat die Ursache präzise ermittelt und nach Plan gedämmt – ruhig, sauber, zuverlässig. Jetzt sind Schritte und Stimmen kaum noch zu hören; unser Alltag ist spürbar entspannter. Genau so hatten wir uns das vorgestellt."
+        }
+      ]
 },
     "faq": {
       "title": "FAQ (Auszug)",
@@ -242,19 +291,19 @@
       "items": [
         {
           "q": "Wofür sind Chatbot und VoiceAgent gedacht?",
-          "a": "Für Fragen, Problemanalyse und Empfehlungen (DIY, Video-Beratung oder Ausführung). Nur wenn digital keine Klärung möglich ist, wird ein persönlicher Termin gebucht."
+          "a": "Für Erstdiagnose, Antworten auf häufige Fragen und Empfehlungen. Wenn weitere Klärung nötig ist, vergibt der VoiceAgent einen Termin."
         },
         {
           "q": "Kostet die Beratung etwas?",
-          "a": "Video-Beratung inkl. Angebot: kostenfrei. Vor-Ort-Sichtung: Bestandteil eines kostenpflichtigen Beratungspakets (Messung/Befund/Empfehlung); die Gebühr wird bei Auftragserteilung angerechnet."
+          "a": "Die Videoberatung ist kostenlos (inkl. Angebot). Vor-OrtPrüfungen sind kostenpflichtig; die Gebühr wird bei Auftragserteilung angerechnet."
         },
         {
           "q": "Müssen Bauteile geöffnet werden?",
-          "a": "Nur, wenn es die Ursache/Detailausbildung erfordert. Eingriffe erfolgen zielgerichtet; Oberflächen werden wiederhergestellt."
+          "a": "Nur wenn es fachlich notwendig ist. Entscheidungen basieren auf Messwerten und Dokumentation."
         },
         {
           "q": "Welche Produkte werden eingesetzt?",
-          "a": "Materialien nach Eignung für den Anwendungsfall; Angaben gemäß SDS/Herstellerinformation im Maßnahmenplan."
+          "a": "Materialauswahl gemäß SDS und Herstellerangaben – passend zum Befund und Einsatzzweck."
         }
       ]
     },
@@ -269,7 +318,7 @@
   "form": {
     "subHeading": "NEHMEN SIE KONTAKT AUF",
     "headline": "Termin anfragen",
-    "copy": "Bitte wählen Sie die Art der Beratung und beschreiben Sie Ihr Anliegen kurz. Wir melden uns mit Terminvorschlägen zurück.",
+    "copy": "Bitte wählen Sie die Beratungsart und beschreiben Sie den Fall kurz. Wir melden uns mit Terminvorschlägen.",
     "fields": [
       "Name",
       "E-Mail",
@@ -279,12 +328,12 @@
     ],
     "select_label": "Art der Beratung",
     "select_options": [
-      "Video-Beratung (kostenfrei)",
-      "Vor-Ort-Sichtung (kostenpflichtiges Paket)",
+      "Videoberatung",
+      "Vor-Ort-Prüfung (kostenpflichtiges Paket)",
       "Nur Angebot/Frage"
     ],
     "noteTitle": "Hinweis",
-    "submitbtn": "NACHRICHT SENDEN",
+    "submitbtn": "Beratung anfragen",
     "consent_label": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu.",
     "note": "Vor-Ort-Sichtungen sind Teil eines kostenpflichtigen Beratungspakets; die Gebühr wird bei Auftragserteilung angerechnet."
   }
@@ -293,7 +342,7 @@
   "firstLinkTitle": "Unternehmen",
   "secondLinkTitle": "Lösungen",
   "thirdLinkTitle": "Sonstiges",
-  "btnText": "Angebot anfordern",
+  "btnText": "Beratung anfragen",
   "directionText": "Route berechnen",
   "quickContact": "Schnellkontakt",
   "nav": [
@@ -374,10 +423,184 @@
     },
     "contact": {
   "hero": {
-    "title": "KONTAKTIEREN SIE UNS"
+    "title": "Kontakt"
+  },
+   "form": {
+      "headline": "Termin anfragen",
+      "copy": "Bitte wählen Sie die Art der Beratung und beschreiben Sie kurz Ihr Anliegen. Wir melden uns mit Terminvorschlägen.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "Vorname*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Nachname*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "E-Mail*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Telefon",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "Stadt/Region",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Nachricht (optional)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "Ich stimme der Verarbeitung meiner Daten gemäß der <a class='anchor-text'>Datenschutzerklärung</a> zu.",
+          "type": "checkbox",
+          "required": true
+        },
+        {
+          "key": "tips",
+          "label": "Ich möchte gelegentlich DIY-Tipps und Angebote erhalten. (Abmeldung jederzeit möglich.)",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Art der Beratung",
+          "required": true,
+          "options": [
+            {
+              "value": "video_consulting",
+              "label": "Videoberatung"
+            },
+            {
+              "value": "onsite_inspection",
+              "label": "Vor-Ort-Prüfung (kostenpflichtiges Paket)"
+            },
+            {
+              "value": "offer_or_question",
+              "label": "Nur Angebot/Frage"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": "Bevorzugter Kanal",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Video"
+            },
+            {
+              "value": "email",
+              "label": "E-Mail"
+            },
+            {
+              "value": "voiceagent",
+              "label": "VoiceAgent"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Sprache",
+          "required": true,
+          "options": [
+            {
+              "value": "de",
+              "label": "DE"
+            },
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "bg",
+              "label": "BG"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Optionaler Upload: JPG, PNG, PDF bis 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Vor-Ort-Sichtungen sind Teil eines kostenpflichtigen Beratungspakets; die Gebühr wird bei Auftragserteilung angerechnet."
+      ],
+      "success_copy": "Danke! Wir melden uns zeitnah mit Terminvorschlägen.",
+      "error_copy": "Bitte füllen Sie die markierten Felder aus."
+    }
+},
+"leadForm": {
+  "Title": "Kostenloser Leitfaden zur Feuchtigkeits- & Schimmelprävention (PDF) +",
+  "blueBgText": "IHR ERSTES DIY-KIT",
+  "Subtitle": "Erhalten Sie sofort den PDF-Leitfaden + Rabattcode per E-Mail.",
+  "RequiredFields": ["Vorname", "Nachname", "E-Mail"],
+  "ConsultationTypeHeading": "Art der Beratung",
+  "ConsultationType": ["Video-Beratung", "Vor-Ort-Sichtung", "Nur Angebot/Frage"],
+  "PreferredChannelHeading": "Bevorzugter Kanal",
+  "PreferredChannel": ["Video", "E-Mail", "VoiceAgent [Anrufaufzeichnung]"],
+  "LanguageHeading": "Sprache",
+  "Language": ["DE", "EN", "BG"],
+  "PhoneHeading": "Telefoon",
+  "Phone": "Nur erforderlich bei VoiceAgent",
+  "Consent": "Ich willige in die Verarbeitung meiner personenbezogenen Daten gemäß der Datenschutzerklärung ein.",
+  "CTA": "Leitfaden erhalten",
+  "rejectionBtnText": "Nein, danke",
+  "Success": "Danke! Wir melden uns bald mit Terminvorschlägen.",
+  "offText": "AUS"
+},
+"comming_soon":{
+  "title":"Demnächst verfügbar"
+  },
+  "breadCrumbSlug": [
+  "startseite",
+  "über uns",
+  "kontakt"
+],
+"navigationTitle":{
+    "home":"Home",
+    "about":"Über uns",
+    "solution":"Lösungen",
+    "diy":"DIY Produkte",
+    "insight":"Artikel",
+    "contact":"Kontakt",
+    "login":"Login",
+    "signup":"anmelden"
   }
-}
-
   },
   "BG": {
     "home":{
@@ -390,9 +613,9 @@
       "subline": "Мухъл и влага (вкл. възходяща/капилярна), шум и топлинни мостове – работим причинно-ориентирано, с измервания и документация, за безопасни и чисти вътрешни пространства.",
       "fadeHeading": "БЕЗ МУХЪЛ.",
       "ctas": {
-        "primary_button": "Запитване за консултация",
+        "primary_button": "Заявете консултация",
         "secondary_link": "Консултация и процес",
-        "tertiary_small": "Започнете чат – бързи въпроси"
+        "tertiary_small": "Започнете чат – Стартирайте гласовия асистент"
       }
     },
     "pillars": {
@@ -416,7 +639,7 @@
       ]
     },
     "services": {
-  "title": "Услуги (Обхват)",
+  "title": "Услуги",
   "fadeHeading": "ПРЕДИМСТВА",
   "items": [
     {
@@ -491,9 +714,9 @@
     },
     "issues_approach": {
       "title": "Проблеми и подход",
-      "content": "Във всеки дом има скрити предизвикателства – било то влага, която прониква през стените, нежелан шум, който нарушава спокойствието ви, или изолация, която просто не издържа. В Peakcare ние не просто замазваме проблемите; предлагаме интелигентни, дълготрайни решения, които възстановяват комфорта, защитават здравето и пестят енергия.",
+      "content": "Във всеки дом има скрити предизвикателства – било то влага, която прониква през стените, нежелан шум, който нарушава спокойствието ви, или изолация, която просто не издържа. В PeakCare ние не просто замазваме проблемите; предлагаме интелигентни, дълготрайни решения, които възстановяват комфорта, защитават здравето и пестят енергия.",
   "crossListTitle": "Проблеми:",
-  "checkListTitle": "Подходът на Peakcare:",
+  "checkListTitle": "Подходът на PeakCare:",
       "issues": [
         "Мухъл/влага",
         "Възходяща влага",
@@ -510,18 +733,18 @@
       ]
     },
     "environmentalsolutions": {
-  "title": "Peakcare Екологични решения",
+  "title": "PeakCare Екологични решения",
   "subline": "Трайни решения за проблемни стени.",
-  "cta": "Безплатна оценка"
+  "cta": "Заявете консултация"
     },
    "why_peakcare": {
   "title": "Защо PeakCare?",
   "fadeHeading": "ЗАЩО НИЕ",
-  "subHeading": "ВСИЧКО, ОТ КОЕТО ИМАТЕ НУЖДА",
-  "content": "Постигаме трайни резултати, като отстраняваме основните причини и добавяме превенция. Всяка услуга включва измерване на влагата и ясен план за грижа/вентилация. Ако в рамките на 6 месеца в обработената зона се появи повторна влага или нов мухъл, ние осигуряваме безплатна последваща инспекция с конкретни препоръки.",
+  "subHeading": "",
+  "content": "Постигаме трайни резултати като отстраняваме коренните причини и добавяме превенция. Всеки обект включва замервания на влагата и ясен план за грижа/вентилация.",
   "bullets": [
     {
-      "title": "Постоянни решения – гарантирани",
+      "title": "Трайни резултати чрез отстраняване на причините",
       "content": "Професионално изпълнение по приети стандарти; внимателно детайлизиране."
     },
     {
@@ -572,6 +795,7 @@
           "text": "Проверка на резултата, протокол и указания за поддръжка/вентилация/режим на ползване."
         }
       ],
+      "img":"bg",
       "note": "Сроковете и цените зависят от конкретния проект; описват се в офертата."
     },
     "outcomes": {
@@ -585,37 +809,85 @@
       "disclaimer": "Ефектите зависят от конкретния случай; планирането и документацията са съобразени с мерките."
     },
     "realProject": {
-  "title": "Реални проекти, реални резултати"
+  "title": "Реални проекти, реални резултати",
+    "cardData":[
+        {
+          "title":"Ремедиация на плесен",
+          "subTitle":"услуги"
+        },
+        {
+          "title":"Водни щети",
+          "subTitle":"услуги"
+        },
+        {
+          "title":"Тестване за плесен",
+          "subTitle":"услуги"
+        },
+        {
+          "title":"Хидроизолация (интериор)",
+          "subTitle":"услуги"
+        }
+      ]
 },
 "testimonials": {
-  "title": "Прочетете какво казват нашите клиенти!"
+  "title": "Прочетете какво казват нашите клиенти!",
+  "cardData":[
+        {
+          "clientName":"Йорг М., Blagoevgrad",
+          "clientReview":"Работата беше изпълнена точно по график. PeakCare комбинира прецизно планиране по немски стандарт с надеждно изпълнение и ясна комуникация. Резултат: предаване навреме, без доработки — качество, на което можеш да разчиташ. Препоръчвам."
+        },
+        {
+          "clientName":"Жосеп С., Razlog",
+          "clientReview":"Чист обект и любезни екипи. PeakCare работиха структурирано и в срок — осезаема немска надеждност. Уговорките се спазваха, качеството беше високо. Ремонт без стрес. Силно препоръчвам."
+        },
+        {
+          "clientName":"Джеймс С., Bansko",
+          "clientReview":"При PeakCare качеството и цената съвпаднаха. Работата беше професионална, бърза и без изненади; консултацията — честна и ориентирана към решения. Немска инженерна прецизност на справедлива цена — точно това търсехме. Бихме наели отново."
+        },
+        {
+          "clientName":"Бернд Д., Dobrinishte",
+          "clientReview":"От покупката на жилището имахме мухъл в банята и спалнята. PeakCare диагностицираха методично по немски стандарт, отстраниха причината и възстановиха помещенията. Сега е сухо, въздухът е здравословен — и спокойствието се върна."
+        },
+        {
+          "clientName":"Марлис К., Bansko",
+          "clientReview":"Чувахме всяка стъпка от съседите. PeakCare изчислиха шумоизолацията и я монтираха прецизно — точно и надеждно. Резултат: значително по-малко шум, спокоен сън и осезаемо по-висок комфорт. Инвестицията си заслужаваше."
+        },
+        {
+          "clientName":"Брайън О., Bansko",
+          "clientReview":"Мазето миришеше на плесен, мазилката се ронеше — влага навсякъде. PeakCare подходиха с немска прецизност: анализ на причината, хидроизолация, изсушаване. Стените са сухи, миризмата изчезна, помещението е отново полезно — синът ни направи фитнес."
+        },
+        {
+          "clientName":"Благо Н., Razlog",
+          "clientReview":"Досаден ударен шум отгоре. PeakCare откриха причината и изпълниха професионална шумоизолация — спокойно, чисто, надеждно. Сега стъпките и гласовете почти не се чуват; ежедневието е осезаемо по-тихо. Точно както го искахме."
+        }
+      ]
 },
     "faq": {
       "title": "Често задавани въпроси",
       "fadeHeading": "ЧЗВ",
-      "subHeading": "ВСИЧКО, ОТ КОЕТО",
+      "subHeading": "",
       "items": [
         {
           "q": "За какво служат Чатботът и Гласовият асистент?",
-          "a": "За въпроси, първичен анализ и препоръки (DIY, видео консултация или изпълнение). Личен разговор се запазва само ако дигиталното решение не е достатъчно."
+          "a": "За първична диагностика, отговори на често задавани въпроси и персонални препоръки. Ако е нужна допълнителна яснота, Гласовият асистент насрочва разговор."
         },
         {
           "q": "Платена ли е консултацията?",
-          "a": "Видео консултация с оферта: безплатна. Оглед на място: платен консултантски пакет (измервания/доклад/препоръка); сумата се приспада при възлагане."
+          "a": "Видеоконсултацията и офертата по имейл са безплатни. Огледите на място са платени; таксата се приспада при възлагане."
         },
         {
           "q": "Налага ли се отваряне на конструкцията?",
-          "a": "Само при необходимост (спрямо причината/детайла). Намесите са целеви; повърхностите се възстановяват."
+          "a": "Само ако е технически необходимо. Решението се взема въз основа на измервания и документиране."
         },
         {
           "q": "Какви материали използвате?",
-          "a": "Подходящи за конкретния случай; описани по SDS/производител в плана."
+          "a": "Материали според SDS и указанията на производителя – съобразени с диагнозата и предназначението."
         }
       ]
     },
     "contact": {
   "title": "Контакт",
-  "subline": "Изпратете ни съобщение или ни се обадете за безплатна оферта на място.",
+  "subline": "Моля, изберете вид консултация и опишете случая накратко. Ще се свържем с предложения за часове.",
   "channels": [
     "Телефон",
     "Нашето местоположение",
@@ -639,7 +911,7 @@
       "Само оферта/въпрос"
     ],
     "noteTitle": "Бележка",
-  "submitbtn": "ИЗПРАТИ СЪОБЩЕНИЕ",
+  "submitbtn": "Заявете консултация",
     "consent_label": "Съгласен/на съм с обработката на данните според Политиката за поверителност.",
     "note": "Огледите на място са част от платен консултантски пакет; таксата се приспада при възлагане."
   }
@@ -648,7 +920,7 @@
   "firstLinkTitle": "Компания",
   "secondLinkTitle": "Решения",
   "thirdLinkTitle": "Други",
-  "btnText": "Заявете оферта",
+  "btnText": "Заявете консултация",
   "directionText": "Вземете упътвания",
   "quickContact": "Бърз контакт",
   "nav": [
@@ -731,8 +1003,184 @@
   "contact": {
   "hero": {
     "title": "СВЪРЖЕТЕ СЕ С НАС"
+  },
+   "form": {
+      "headline": "Заявете консултация",
+      "copy": "Изпратете ни съобщение или резервирайте видео консултация.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "Име*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Фамилия*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "Имейл*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Телефон",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "Град/Регион",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Съобщение (по избор)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "Съгласен/на съм с обработката на данните ми съгласно <a class='anchor-text'>Политиката за поверителност.</a>",
+          "type": "checkbox",
+          "required": true
+        },
+        {
+          "key": "tips",
+          "label": "Бих искал/а да получавам понякога съвети и оферти за „Направи си сам“. (Мога да се отпиша по всяко време.)",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Вид консултация",
+          "required": true,
+          "options": [
+            {
+              "value": "video_consulting",
+              "label": "Видеоконсултация (безплатно)"
+            },
+            {
+              "value": "onsite_inspection",
+              "label": " Оглед на място (платен пакет)"
+            },
+            {
+              "value": "offer_or_question",
+              "label": "Запитване/оферта по имейл"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": " Предпочитан канал*",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Видео"
+            },
+            {
+              "value": "email",
+              "label": "Имейл"
+            },
+            {
+              "value": "voiceagent",
+              "label": "Гласов асистент (запис на разговор)"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Език*",
+          "required": true,
+          "options": [
+            {
+              "value": "bg",
+              "label": "BG"
+            },
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "de",
+              "label": "DE"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Приложение по избор: JPG, PNG, PDF до 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Огледите на място са част от платен консултантски пакет; таксата се приспада при възлагане."
+      ],
+      "success_copy": "Благодарим! Ще се свържем с предложения за час.",
+      "error_copy": "Моля, попълнете маркираните полета."
+    }
+},
+"leadForm": {
+  "Title": "Безплатно ръководство за превенция на влага и мухъл (PDF) +",
+  "blueBgText": "ВАШИЯТ ПЪРВИ DIY КОМПЛЕКТ",
+  "Subtitle": "Получете незабавно PDF ръководство + код за отстъпка на вашия имейл.",
+  "RequiredFields": ["Име", "Фамилия", "Имейл"],
+  "ConsultationTypeHeading": "Тип консултация",
+  "ConsultationType": ["Видео", "Оглед на място", "Само оферта/въпрос"],
+  "PreferredChannelHeading": "Предпочитан канал",
+  "PreferredChannel": ["Видео", "Имейл", "Гласов асистент [запис на разговор]"],
+  "LanguageHeading": "Език",
+  "Language": ["BG", "EN", "DE"],
+  "PhoneHeading": "Телефон",
+  "Phone": "Необходимо само при Гласов асистент",
+  "Consent": "Съгласен/на съм с обработката на личните ми данни според Политиката за поверителност.",
+  "CTA": "Вземете ръководството",
+  "rejectionBtnText": "Не, благодаря",
+  "Success": "Благодарим! Ще се свържем с предложения за час.",
+  "offText": "ИЗКЛ."
+},
+"comming_soon":{
+  "title":"Очаквайте скоро"
+},
+"breadCrumbSlug": [
+  "начало",
+  "за нас",
+  "контакт"
+],
+"navigationTitle":{
+    "home":"Начало",
+    "about":"За нас",
+    "solution":"Решения",
+    "diy":"DIY магазин",
+    "insight":"Статии",
+    "contact":"Контакт",
+    "login":"Вход",
+    "signup":"регистрация"
   }
-}
+
   },
   "EN": {
     "home":{
@@ -847,10 +1295,10 @@
     },
     "Problem & Solution":"",
     "issues_approach": {
-      "title": "Issues & Approach",
-      "content":"Every home faces hidden challenges—whether it’s moisture creeping through walls, unwanted noise disrupting your peace, or insulation that just doesn’t hold up. At Peakcare, we don’t just patch problems; we provide smart, long-lasting solutions that restore comfort, protect your health, and save energy",
+      "title": "The PeakCare approach",
+      "content":"Every home faces hidden challenges—whether it’s moisture creeping through walls, unwanted noise disrupting your peace, or insulation that just doesn’t hold up. At PeakCare, we don’t just patch problems; we provide smart, long-lasting solutions that restore comfort, protect your health, and save energy",
       "crossListTitle":"Issues:",
-      "checkListTitle":"The Peakcare Approach:",
+      "checkListTitle":"The PeakCare Approach:",
       "issues": [
         "Mould/moisture",
         "Rising damp",
@@ -867,7 +1315,7 @@
       ]
     },
     "environmentalsolutions":{
-      "title":"Peakcare Environmental Solutions",
+      "title":"PeakCare Environmental Solutions",
       "subline":"Permanent Solutions for Problem Walls.",
       "cta":"Free Assessment"
     },
@@ -875,8 +1323,8 @@
     "why_peakcare": {
       "title": "Why PeakCare?",
       "fadeHeading":"WHY US",
-      "subHeading":"ALL OF YOUR",
-      "content":" We achieve lasting outcomes by fixing root causes and adding prevention. Every job includes moisture readings and a clear care/ventilation plan. If within 6 months a relevant moisture relapse or new mould appears in the treated area, we provide a free follow-up inspection with concrete",
+      "subHeading":"",
+      "content":" We achieve lasting outcomes by fixing root causes and adding prevention. Every job includes moisture readings and a clear care/ventilation plan.",
       "bullets": [
         {
           "title":"Permanent Solutions – Guaranteed",
@@ -930,6 +1378,7 @@
           "text": "Result check, report, guidance for care/ventilation/usage climate."
         }
       ],
+      "img":"en",
       "note": "Timelines and costs depend on the project and are detailed in the offer."
     },
     "outcomes": {
@@ -943,38 +1392,86 @@
       "disclaimer": "Effects depend on the individual case; planning and documentation are measure-specific."
     },
     "realProject":{
-      "title":"Real Projects, Real Results"
+      "title":"Real Projects, Real Results",
+      "cardData":[
+        {
+          "title":"Mould remediation",
+          "subTitle":"Services"
+        },
+        {
+          "title":"WATER DAMAGE",
+          "subTitle":"Services"
+        },
+        {
+          "title":"MOLD TESTING",
+          "subTitle":"Services"
+        },
+        {
+          "title":"Moisture proofing",
+          "subTitle":"Services"
+        }
+      ]
     },
     "testimonials":{
-      "title":"Read What Our Customers Have to Say!"
+      "title":"Read What Our Customers Have to Say!",
+      "cardData":[
+        {
+          "clientName":"Jörg M., Blagoevgrad",
+          "clientReview":"The job was completed exactly on schedule. PeakCare combined precise planning to German standards with reliable execution and clear communication. Result: on-time handover with no rework — quality you can trust. Strong recommendation."
+        },
+        {
+          "clientName":"Josep C., Razlog",
+          "clientReview":"Clean site and courteous teams. PeakCare worked in a structured, on-time manner — tangible German reliability. Agreements were kept and the quality was high. Renovation without stress. Highly recommended."
+        },
+        {
+          "clientName":"James C., Bansko",
+          "clientReview":"With PeakCare, quality and price matched. The work was professional, fast, and without surprises; advice was honest and solution-oriented. German engineering with fair pricing — exactly what we wanted. We would hire them again."
+        },
+        {
+          "clientName":"Bernd D., Dobrinishte",
+          "clientReview":"Since buying the apartment we struggled with mold in the bath and bedroom. PeakCare diagnosed methodically to German standards, fixed the root cause, and restored the rooms. Now everything is dry, the air is healthy — and the worry is gone."
+        },
+        {
+          "clientName":"Marlies K., Bansko",
+          "clientReview":"We used to hear every step from our neighbors. PeakCare calculated the sound insulation and installed it cleanly — precise and reliable. Result: far less noise, restful sleep, and noticeably higher comfort. The investment was worth it."
+        },
+        {
+          "clientName":"Brian O., Bansko",
+          "clientReview":"Our cellar smelled musty, the plaster crumbled — moisture everywhere. PeakCare tackled it with German thoroughness: cause analysis, sealing, drying. The walls are dry, the smell is gone, and the room is useful again — our son even set up a gym."
+        },
+        {
+          "clientName":"Blago N., Razlog",
+          "clientReview":"Annoying impact noise from above. PeakCare pinpointed the cause and installed professional soundproofing — calm, clean, reliable. Now footsteps and voices are barely audible; everyday life feels noticeably quieter. Exactly what we hoped for."
+        }
+      ]
     },
     "Faq":"",
     "faq": {
       "title": "FAQ",
       "fadeHeading":"FAQ",
-      "subHeading":"ALL OF YOUR",
+      "subHeading":"",
       "items": [
         {
           "q": "What are the chatbot and VoiceAgent for?",
-          "a": "Questions, initial analysis and recommendations (DIY, video consulting or execution). A call is booked only if a digital resolution isn’t feasible."
+          "a": "Our Chatbot helps you describe the problem, runs a quick triage, and offers first recommendations (DIY or next steps). If a personal call is truly needed, the VoiceAgent lets you book a time with our team. This keeps responses fast and focused—no sales pressure."
         },
         {
           "q": "Is consulting paid?",
-          "a": "Video consulting incl. offer: free. On-site inspection: paid consulting package (measurements/report/recommendations); the fee is credited upon commissioning."
+          "a": "Video consultations are free. On-site diagnosis is part of a paid consulting package. If you commission the remediation, the on-site fee is credited on your invoice."
         },
         {
           "q": "Will you open walls?",
-          "a": "Only if the cause/detail requires it. Interventions are targeted; finishes are restored."
+          "a": "We start with non-invasive diagnostics (moisture readings, thermal imaging). Openings are done only when required to confirm the root cause—and only with your approval."
         },
         {
           "q": "Which materials do you use?",
-          "a": "Fit-for-purpose materials; specified per SDS/manufacturer information in the plan."
+          "a": "Fit-for-purpose products per SDS/manufacturer guidance—low-odor and interior-safe where applicable. We’re brand-agnostic and follow accepted standards."
         }
       ]
     },
     "contact": {
       "title": "Contact",
-      "subline":"Send us a message or call us for a free in-home quote.",
+      "subline":"Request a consultation — video consulting is free (incl. offer). On-site inspection is a paid consulting package; the fee is credited upon commissioning.",
       "channels": [
         "PHONE NUMBER",
         "OUR LOCATION",
@@ -985,7 +1482,8 @@
         "headline": "Request a consultation",
         "copy": "Please choose the consulting type and briefly describe your case. We’ll get back with time options.",
         "fields": [
-          "Name",
+          "First Name",
+          "Last Name",
           "Email",
           "Phone",
           "City/Area",
@@ -999,7 +1497,7 @@
         ],
         "consent_label": "I consent to processing my data as described in the Privacy Policy.",
         "noteTitle":"Note",
-        "submitbtn":"SEND MESSAGE",
+        "submitbtn":"Request a consultation",
         "note": "On-site inspections are part of a paid consulting package; the fee is credited upon commissioning."
       }
     },
@@ -1007,7 +1505,7 @@
       "firstLinkTitle":"Company",
       "secondLinkTitle":"Solutions",
       "thirdLinkTitle":"Others",
-      "btnText":"Request An Estimate",
+      "btnText":"Request a consultation",
       "directionText":"Get Directions",
       "quickContact":"Quick Contact",
       "nav": [
@@ -1089,7 +1587,191 @@
   "contact":{
     "hero":{
       "title":"CONTACT US"
+    },
+    "form": {
+      "headline": "Request a consultation",
+      "copy": "Please choose the consulting type and briefly describe your case. We’ll get back to you with time options.",
+      "fields": [
+        {
+          "key": "first_name",
+          "label": "First name*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "last_name",
+          "label": "Last name*",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "Email*",
+          "type": "email",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false,
+          "conditional_required": {
+            "depends_on": "preferred_channel",
+            "values": [
+              "voiceagent"
+            ]
+          },
+          "validation": {
+            "format": "E.164"
+          }
+        },
+        {
+          "key": "city",
+          "label": "City/Area",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "message",
+          "label": "Message (optional)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "key": "consent",
+          "label": "I consent to processing my data as described in the <a class='anchor-text'>Privacy Policy.</a>",
+          "type": "checkbox",
+          "required": true
+        },
+        {
+          "key": "tips",
+          "label": "I’d like to receive occasional DIY tips and offers. (Unsubscribe anytime.)",
+          "type": "checkbox",
+          "required": true
+        }
+      ],
+      "selects": [
+        {
+          "key": "consulting_type",
+          "label": "Consulting type",
+          "required": true,
+          "options": [
+            {
+              "value": "diy_guidance",
+              "label": "DIY guidance (self-service)"
+            },
+            {
+              "value": "video_consultation",
+              "label": "Video consultation (free)"
+            },
+            {
+              "value": "Onsite_diagnosis",
+              "label": "On-site diagnosis (paid)"
+            },
+            {
+              "value": "quote_for_remediation",
+              "label": "Quote for remediation"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "key": "preferred_channel",
+          "label": "Preferred channel",
+          "required": true,
+          "options": [
+            {
+              "value": "video",
+              "label": "Video"
+            },
+            {
+              "value": "email",
+              "label": "Email"
+            },
+            {
+              "value": "voiceagent",
+              "label": "VoiceAgent (book a call)"
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "label": "Language",
+          "required": true,
+          "options": [
+            {
+              "value": "en",
+              "label": "EN"
+            },
+            {
+              "value": "bg",
+              "label": "BG"
+            },
+            {
+              "value": "de",
+              "label": "DE"
+            }
+          ]
+        }
+      ],
+      "upload": {
+        "enabled": true,
+        "hint": "Optional upload: JPG, PNG, PDF up to 10 MB.",
+        "max_mb": 10,
+        "types": [
+          "jpg",
+          "jpeg",
+          "png",
+          "pdf"
+        ]
+      },
+      "notes": [
+        "Phone is required only if a call is booked via VoiceAgent.",
+        "On-site inspections are part of a paid consulting package; the fee is credited upon commissioning."
+      ],
+      "success_copy": "Thanks! We’ll get back to you with time options.",
+      "error_copy": "Please complete the required fields."
     }
+  },
+  "leadForm":{
+    "Title": "Free Moisture & Mould Prevention Guide (PDF) +",
+    "blueBgText":"YOUR FIRST DIY KIT",
+    "Subtitle": "Get instant PDF guide + discount code delivered to your email.",
+    "RequiredFields": ["First Name","Last Name", "Email"],
+    "ConsultationTypeHeading":"ConsultationType",
+    "ConsultationType":["Video", "On-site inspection", "Quote/Question only"],
+    "PreferredChannelHeading":"PreferredChannel",
+    "PreferredChannel":["Video", "Email", "Voice Assistant [call recording]"],
+    "LanguageHeading":"Language",
+    "Language":["BG", "EN", "DE"],
+    "PhoneHeading":"Phone",
+    "Phone": "Required only for Voice Assistant",
+    "Consent": "I agree to the processing of my personal data in line with the Privacy Policy.",
+    "CTA": "Get the Guide",
+    "rejectionBtnText":"No Thanks",
+    "Success": "Thank you! We’ll get in touch with suggested time slots.",
+    "offText":"OFF"
+  },
+  "comming_soon":{
+  "title":"Coming Soon"
+  },
+  "breadCrumbSlug":[
+    "home",
+    "about",
+    "contact"
+  ],
+  "navigationTitle":{
+    "home":"HOME",
+    "about":"ABOUT",
+    "solution":"SOLUTIONS",
+    "diy":"DIY PRODUCTS",
+    "insight":"INSIGHTS",
+    "contact":"CONTACT US",
+    "login":"Login",
+    "signup":"Sign up"
   }
   }
 }
