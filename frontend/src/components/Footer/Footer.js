@@ -100,9 +100,8 @@ function Footer() {
 
             <div className="col-lg-3 text-lg-end text-center pt-lg-0 pt-3">
               <div className="d-flex align-items-center justify-content-center gap-2 social-icons mb-3">
-                <img src="/images/icons/footer-fb-icon.png" alt="facebook" />
-                <img src="/images/icons/footer-insta-icon.png" alt="facebook" />
-                <img src="/images/icons/footer-x-icon.png" alt="facebook" />
+                <a href="https://www.facebook.com/share/17MK5MYTZQ/" target="blank" ><img src="/images/icons/footer-fb-icon.png" alt="facebook" /></a>
+                <img src="/images/icons/footer-insta-icon.png" alt="instagram" />
               </div>
               <div className="w-100 d-flex align-items-center justify-content-center">
                 <button className="genral-btn mb-4 bg-green ">
@@ -130,9 +129,9 @@ function Footer() {
             <p className="mb-0 body-paragraph color-font-grey mt-lg-0 mt-3">
               © 2025 . all rights reserved.
             </p>
-            <div className="d-flex align-items-center gap-3">
+            <div className="d-flex align-items-center">
               <img
-                src="/images/icons/footer-payment-icons.png"
+                src="/images/icons/footer-payment-icons.svg"
                 alt="payment icon"
                 className="img-fluid"
               />

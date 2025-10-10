@@ -7,11 +7,11 @@ const languages = {
   DE: content?.DE,
 };
 
-const savedLang = localStorage.getItem("language") || "EN";
+const savedLang = localStorage.getItem("language") || "BG";
 
 const initialState = {
   currentLanguage: savedLang,
-  content: languages[savedLang] || languages["EN"],
+  content: languages[savedLang] || languages["BG"],
 };
 
 const languageSlice = createSlice({

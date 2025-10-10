@@ -68,7 +68,6 @@
 
 .ContactUsForm-container .send-form-btn
 {
-    text-transform: uppercase!important;
 }
 
 @media(max-width:996px) {

@@ -147,6 +147,13 @@
     color: black!important;
 }
 
+@media(max-width:996px)
+{        
+    .dropdown-menu {
+       z-index: 99!important;
+    }
+}
+
 @keyframes slide-in-cus {
     0% {
         max-height: 0px;

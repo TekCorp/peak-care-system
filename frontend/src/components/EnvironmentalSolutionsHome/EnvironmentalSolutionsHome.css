@@ -30,6 +30,11 @@
     position: relative;
 }
 
+.EnvironmentalSolutionsHome-container .under-cta-text
+{
+    max-width: 30%;
+}
+
 @media(max-width:993px) {
     .EnvironmentalSolutionsHome-container .van-img {
         max-width: 100%;
@@ -42,5 +47,8 @@
         background-size: 100% 80%;
         background-repeat: no-repeat;
     }
-
+    .EnvironmentalSolutionsHome-container .under-cta-text
+    {
+        max-width: 100%;
+    }
 }

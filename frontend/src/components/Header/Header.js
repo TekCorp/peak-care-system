@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -33,6 +33,13 @@ function Header() {
   const handleLanguageMobileChange = (e) => {
     dispatch(setLanguage(e.target.value));
   };
+
+  useEffect(() => {
+  languages.forEach(lang => {
+    const img = new Image();
+    img.src = lang.flag;
+  });
+}, []);
 
   return (
     <>
@@ -84,6 +91,7 @@ function Header() {
                         <img
                           src={lang.flag}
                           alt={lang.label}
+                           loading="eager"
                           className="w-5 h-5 lang-flag"
                         />
                         <span className={`ps-3 ${currentLang == lang?.code ? "active-language-text" : ""}`}>{lang.label}</span>
@@ -92,6 +100,7 @@ function Header() {
                   </div>
                 )}
               </div>
+             
               <p className="anchor-text d-lg-block d-none">{GetLanguageContent?.navigationTitle?.login}</p>
               <button className="genral-btn d-lg-block d-none">{GetLanguageContent?.navigationTitle?.signup}</button>
               <img
