@@ -4,8 +4,15 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import compression from "compression";
+import zohoRoutes from "./routes/zohoRoutes.js";
 
 dotenv.config();
+
+process.env.ZOHO_REDIRECT_URI =
+  process.env.NODE_ENV === "production"
+    ? process.env.ZOHO_REDIRECT_URI_PROD
+    : process.env.ZOHO_REDIRECT_URI_DEV;
+
 // connectDataBase();
 const app = express();
 
@@ -23,6 +30,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+app.use("/", zohoRoutes);
 app.use("/uploads", express.static(path.join(__dirname, "/uploads/")));
 
 if (process.env.NODE_ENV === "production") {
