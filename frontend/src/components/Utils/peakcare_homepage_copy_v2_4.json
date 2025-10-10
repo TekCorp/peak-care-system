@@ -81,7 +81,7 @@
     },
     {
       "title": "Wärmebrücken",
-      "text": "Detailanalyse und Maßnahmen zur Verbesserung des Oberflächentemperaturbildes.",
+      "text": "Detailanalyse und Maßnahmen für ein gleichmäßigeres Oberflächentemperaturbild.",
       "cta": "Mehr zu Wärmebrücken"
     }
   ]
@@ -163,7 +163,7 @@
   "title": "Warum PeakCare?",
   "fadeHeading": "WARUM WIR",
   "subHeading": "ALLES AUS EINER HAND",
-  "content": "Wir erreichen dauerhafte Ergebnisse, indem wir die Ursachen beheben und Prävention ergänzen. Jeder Auftrag umfasst Feuchtemessungen sowie einen klaren Pflege- /Lüftungsplan.",
+  "content": "Wir erreichen dauerhafte Ergebnisse, indem wir die Ursachen beheben und Prävention ergänzen. Jeder Auftrag umfasst Feuchtemessungen sowie einen klaren Pflege-/Lüftungsplan.",
   "bullets": [
     {
       "title": "Dauerhafte Lösungen – garantiert",
@@ -171,7 +171,7 @@
     },
     {
       "title": "Schnelle Abwicklung",
-      "content": "Mess- und Dokumentationsfokus: Befunde, Maßnahmenplan, Abschlussdossier."
+      "content": "Mess- und Dokumentationsfokus: Befunde, Maßnahmenplan, Abschlussdokumentation."
     },
     {
       "title": "Mehrsprachige Betreuung",
@@ -183,11 +183,11 @@
     },
     {
       "title": "Transparente Preisgestaltung",
-      "content": "Projektbasierte, transparente Organisation von Umfang und Konditionen."
+      "content": "Projektbasierte, transparente Organisation von Leistungsumfang und Konditionen."
     },
     {
-      "title": "Kompetenz, der Sie vertrauen können",
-      "content": "Inspiriert von bewährten europäischen Verfahren (wie VARIOSEAL und SchimmelPapst) stellt unser zertifiziertes Team in jedem Schritt Qualität nach Branchenstandard sicher."
+      "title": "Expertise, der Sie vertrauen können.",
+      "content": "Inspiriert von bewährten europäischen Verfahren (z. B. VARIOSEAL und SchimmelPapst) stellt unser zertifiziertes Team Qualität nach Industriestandard in jedem Schritt sicher."
     }
   ]
 },
@@ -309,7 +309,7 @@
     },
    "contact": {
   "title": "Kontakt",
-  "subline": "Schreiben Sie uns oder rufen Sie uns an für ein kostenloses Angebot vor Ort.",
+  "subline": "Schreiben Sie uns oder rufen Sie uns an – wir erstellen Ihnen gerne ein kostenloses Angebot. Vor-Ort-Sichtungen sind Teil eines kostenpflichtigen Beratungspakets; die Gebühr wird bei Auftragserteilung angerechnet.",
   "channels": [
     "Telefonnummer",
     "Unser Standort",
@@ -476,7 +476,7 @@
         },
         {
           "key": "consent",
-          "label": "Ich stimme der Verarbeitung meiner Daten gemäß der <a class='anchor-text'>Datenschutzerklärung</a> zu.",
+          "label": "Ich stimme der Verarbeitung meiner Daten gemäß der <a class='anchor-text' target='blank'>Datenschutzerklärung</a> zu.",
           "type": "checkbox",
           "required": true
         },
@@ -565,11 +565,11 @@
     }
 },
 "leadForm": {
-  "Title": "Kostenloser Leitfaden zur Feuchtigkeits- & Schimmelprävention (PDF) +",
+  "Title": "Kostenloser Feuchte- & Schimmel-Ratgeber (PDF) +",
   "blueBgText": "IHR ERSTES DIY-KIT",
-  "Subtitle": "Erhalten Sie sofort den PDF-Leitfaden + Rabattcode per E-Mail.",
+  "Subtitle": "PDF-Ratgeber & Rabattcode sofort per E-Mail erhalten.",
   "RequiredFields": ["Vorname", "Nachname", "E-Mail"],
-  "ConsultationTypeHeading": "Art der Beratung",
+  "ConsultationTypeHeading": "Beratungstyp",
   "ConsultationType": ["Video-Beratung", "Vor-Ort-Sichtung", "Nur Angebot/Frage"],
   "PreferredChannelHeading": "Bevorzugter Kanal",
   "PreferredChannel": ["Video", "E-Mail", "VoiceAgent [Anrufaufzeichnung]"],
@@ -577,19 +577,21 @@
   "Language": ["DE", "EN", "BG"],
   "PhoneHeading": "Telefoon",
   "Phone": "Nur erforderlich bei VoiceAgent",
-  "Consent": "Ich willige in die Verarbeitung meiner personenbezogenen Daten gemäß der Datenschutzerklärung ein.",
-  "CTA": "Leitfaden erhalten",
+  "Consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der <a class='anchor-text' target='blank'>Datenschutzerklärung</a> zu.",
+  "Tips":"Ich möchte gelegentlich DIY-Tipps und Angebote erhalten. (Abmeldung jederzeit.)",
+  "CTA": "Ratgeber erhalten",
   "rejectionBtnText": "Nein, danke",
   "Success": "Danke! Wir melden uns bald mit Terminvorschlägen.",
-  "offText": "AUS"
+  "offText": "Rabatt auf",
+  "disscountAvailText": "10 % Rabatt gelten für Ihren ersten DIY-Kauf. Bedingungen gelten."
 },
 "comming_soon":{
   "title":"Demnächst verfügbar"
   },
   "breadCrumbSlug": [
-  "startseite",
+  "Startseite",
   "über uns",
-  "kontakt"
+  "Kontakt"
 ],
 "navigationTitle":{
     "home":"Home",
@@ -614,8 +616,8 @@
       "fadeHeading": "БЕЗ МУХЪЛ.",
       "ctas": {
         "primary_button": "Заявете консултация",
-        "secondary_link": "Консултация и процес",
-        "tertiary_small": "Започнете чат – Стартирайте гласовия асистент"
+        "secondary_link": "Процес на консултиране",
+        "tertiary_small": "Започнете чат — бързиотговори"
       }
     },
     "pillars": {
@@ -812,7 +814,7 @@
   "title": "Реални проекти, реални резултати",
     "cardData":[
         {
-          "title":"Ремедиация на плесен",
+          "title":"Ремедиация на мухъл",
           "subTitle":"услуги"
         },
         {
@@ -820,11 +822,11 @@
           "subTitle":"услуги"
         },
         {
-          "title":"Тестване за плесен",
+          "title":"Тестове за мухъл",
           "subTitle":"услуги"
         },
         {
-          "title":"Хидроизолация (интериор)",
+          "title":"Вътрешна хидроизолация",
           "subTitle":"услуги"
         }
       ]
@@ -845,7 +847,7 @@
           "clientReview":"При PeakCare качеството и цената съвпаднаха. Работата беше професионална, бърза и без изненади; консултацията — честна и ориентирана към решения. Немска инженерна прецизност на справедлива цена — точно това търсехме. Бихме наели отново."
         },
         {
-          "clientName":"Бернд Д., Dobrinishte",
+          "clientName":"Бернд Д., Добринище",
           "clientReview":"От покупката на жилището имахме мухъл в банята и спалнята. PeakCare диагностицираха методично по немски стандарт, отстраниха причината и възстановиха помещенията. Сега е сухо, въздухът е здравословен — и спокойствието се върна."
         },
         {
@@ -854,7 +856,7 @@
         },
         {
           "clientName":"Брайън О., Bansko",
-          "clientReview":"Мазето миришеше на плесен, мазилката се ронеше — влага навсякъде. PeakCare подходиха с немска прецизност: анализ на причината, хидроизолация, изсушаване. Стените са сухи, миризмата изчезна, помещението е отново полезно — синът ни направи фитнес."
+          "clientReview":"Мазето миришеше на мухъл, мазилката се ронеше — влага навсякъде. PeakCare подходиха с немска прецизност: анализ на причината, хидроизолация, изсушаване. Стените са сухи, миризмата изчезна, помещението е отново полезно — синът ни направи фитнес."
         },
         {
           "clientName":"Благо Н., Razlog",
@@ -868,20 +870,20 @@
       "subHeading": "",
       "items": [
         {
-          "q": "За какво служат Чатботът и Гласовият асистент?",
-          "a": "За първична диагностика, отговори на често задавани въпроси и персонални препоръки. Ако е нужна допълнителна яснота, Гласовият асистент насрочва разговор."
+          "q": "За какво служат чатботът и гласовият асистент?",
+          "a": "За първична диагностика, бързи отговори и персонални препоръки. Ако е нужна допълнителна яснота, гласовият асистент насрочва разговор с екипа."
         },
         {
           "q": "Платена ли е консултацията?",
-          "a": "Видеоконсултацията и офертата по имейл са безплатни. Огледите на място са платени; таксата се приспада при възлагане."
+          "a": "Видеоконсултацията и офертата по имейл са безплатни. Огледът на място е част от платен консултантски пакет; таксата се приспада при възлагане."
         },
         {
           "q": "Налага ли се отваряне на конструкцията?",
-          "a": "Само ако е технически необходимо. Решението се взема въз основа на измервания и документиране."
+          "a": "Само ако е технически необходимо. Решението се взема въз основа на измервания и документация."
         },
         {
           "q": "Какви материали използвате?",
-          "a": "Материали според SDS и указанията на производителя – съобразени с диагнозата и предназначението."
+          "a": "Материали според SDS и указанията на производителя — съобразени с диагнозата и предназначението."
         }
       ]
     },
@@ -921,7 +923,7 @@
   "secondLinkTitle": "Решения",
   "thirdLinkTitle": "Други",
   "btnText": "Заявете консултация",
-  "directionText": "Вземете упътвания",
+  "directionText": "Вземете указания",
   "quickContact": "Бърз контакт",
   "nav": [
     {
@@ -1055,7 +1057,7 @@
         },
         {
           "key": "consent",
-          "label": "Съгласен/на съм с обработката на данните ми съгласно <a class='anchor-text'>Политиката за поверителност.</a>",
+          "label": "Съгласен/на съм с обработката на данните ми съгласно <a class='anchor-text' target='blank'>Политиката за поверителност.</a>",
           "type": "checkbox",
           "required": true
         },
@@ -1145,7 +1147,7 @@
 },
 "leadForm": {
   "Title": "Безплатно ръководство за превенция на влага и мухъл (PDF) +",
-  "blueBgText": "ВАШИЯТ ПЪРВИ DIY КОМПЛЕКТ",
+  "blueBgText": "от първия DIY комплект",
   "Subtitle": "Получете незабавно PDF ръководство + код за отстъпка на вашия имейл.",
   "RequiredFields": ["Име", "Фамилия", "Имейл"],
   "ConsultationTypeHeading": "Тип консултация",
@@ -1156,11 +1158,13 @@
   "Language": ["BG", "EN", "DE"],
   "PhoneHeading": "Телефон",
   "Phone": "Необходимо само при Гласов асистент",
-  "Consent": "Съгласен/на съм с обработката на личните ми данни според Политиката за поверителност.",
+  "Consent": "Съгласен/на съм с обработката на личните ми данни според <a class='anchor-text' target='blank'>Политиката за поверителност.</a>",
   "CTA": "Вземете ръководството",
   "rejectionBtnText": "Не, благодаря",
   "Success": "Благодарим! Ще се свържем с предложения за час.",
-  "offText": "ИЗКЛ."
+  "offText": "отстъпка",
+  "Tips":"Бих искал/а да получавам понякога съвети и оферти за „Направи си сам“. (Мога да се отпиша по всяко време.)",
+  "disscountAvailText": "10% отстъпка важи за първата ви поръчка на DIY комплект. Приложими условия."
 },
 "comming_soon":{
   "title":"Очаквайте скоро"
@@ -1239,8 +1243,8 @@
           "cta": "Learn about soundproofing"
         },
         {
-          "title": "Thermal bridges",
-          "text": "Detail analysis and measures for a more even surface temperature map.",
+          "title": "Thermal Bridges",
+          "text": "Detailed analysis and measures for a more even surface temperature map.",
           "cta": "Learn about thermal bridges"
         }
       ]
@@ -1295,7 +1299,7 @@
     },
     "Problem & Solution":"",
     "issues_approach": {
-      "title": "The PeakCare approach",
+      "title": "The PeakCare Approach",
       "content":"Every home faces hidden challenges—whether it’s moisture creeping through walls, unwanted noise disrupting your peace, or insulation that just doesn’t hold up. At PeakCare, we don’t just patch problems; we provide smart, long-lasting solutions that restore comfort, protect your health, and save energy",
       "crossListTitle":"Issues:",
       "checkListTitle":"The PeakCare Approach:",
@@ -1317,7 +1321,8 @@
     "environmentalsolutions":{
       "title":"PeakCare Environmental Solutions",
       "subline":"Permanent Solutions for Problem Walls.",
-      "cta":"Free Assessment"
+      "cta":"Free Video Assessment",
+      "underCtaBlurb":"Remote review at no cost. On-site inspections are part of a paid consulting package (credited on commissioning)."
     },
     "Why Choose us":"",
     "why_peakcare": {
@@ -1395,19 +1400,19 @@
       "title":"Real Projects, Real Results",
       "cardData":[
         {
-          "title":"Mould remediation",
+          "title":"Mould Remediation",
           "subTitle":"Services"
         },
         {
-          "title":"WATER DAMAGE",
+          "title":"Water Damage",
           "subTitle":"Services"
         },
         {
-          "title":"MOLD TESTING",
+          "title":"Mould Testing",
           "subTitle":"Services"
         },
         {
-          "title":"Moisture proofing",
+          "title":"Moisture Proofing",
           "subTitle":"Services"
         }
       ]
@@ -1479,7 +1484,7 @@
       ],
       "form": {
         "subHeading":"GET IN TOUCH",
-        "headline": "Request a consultation",
+        "headline": "Request a Consultation",
         "copy": "Please choose the consulting type and briefly describe your case. We’ll get back with time options.",
         "fields": [
           "First Name",
@@ -1497,7 +1502,7 @@
         ],
         "consent_label": "I consent to processing my data as described in the Privacy Policy.",
         "noteTitle":"Note",
-        "submitbtn":"Request a consultation",
+        "submitbtn":"Request a Consultation",
         "note": "On-site inspections are part of a paid consulting package; the fee is credited upon commissioning."
       }
     },
@@ -1505,7 +1510,7 @@
       "firstLinkTitle":"Company",
       "secondLinkTitle":"Solutions",
       "thirdLinkTitle":"Others",
-      "btnText":"Request a consultation",
+      "btnText":"Request a Consultation",
       "directionText":"Get Directions",
       "quickContact":"Quick Contact",
       "nav": [
@@ -1519,7 +1524,7 @@
         },
         {
           "ref":"/",
-          "text":"DIY Shop"
+          "text":"DIY Products"
         },
         {
           "ref":"/",
@@ -1589,18 +1594,18 @@
       "title":"CONTACT US"
     },
     "form": {
-      "headline": "Request a consultation",
+      "headline": "Request a Consultation",
       "copy": "Please choose the consulting type and briefly describe your case. We’ll get back to you with time options.",
       "fields": [
         {
           "key": "first_name",
-          "label": "First name*",
+          "label": "First Name*",
           "type": "text",
           "required": true
         },
         {
           "key": "last_name",
-          "label": "Last name*",
+          "label": "Last Name*",
           "type": "text",
           "required": true
         },
@@ -1639,7 +1644,7 @@
         },
         {
           "key": "consent",
-          "label": "I consent to processing my data as described in the <a class='anchor-text'>Privacy Policy.</a>",
+          "label": "I consent to processing my data as described in the <a class='anchor-text' target='blank'>Privacy Policy.</a>",
           "type": "checkbox",
           "required": true
         },
@@ -1653,7 +1658,7 @@
       "selects": [
         {
           "key": "consulting_type",
-          "label": "Consulting type",
+          "label": "Consultation type",
           "required": true,
           "options": [
             {
@@ -1680,7 +1685,7 @@
         },
         {
           "key": "preferred_channel",
-          "label": "Preferred channel",
+          "label": "Preferred Channel",
           "required": true,
           "options": [
             {
@@ -1743,25 +1748,27 @@
     "RequiredFields": ["First Name","Last Name", "Email"],
     "ConsultationTypeHeading":"ConsultationType",
     "ConsultationType":["Video", "On-site inspection", "Quote/Question only"],
-    "PreferredChannelHeading":"PreferredChannel",
+    "PreferredChannelHeading":"Preferred contact channel",
     "PreferredChannel":["Video", "Email", "Voice Assistant [call recording]"],
     "LanguageHeading":"Language",
     "Language":["BG", "EN", "DE"],
     "PhoneHeading":"Phone",
     "Phone": "Required only for Voice Assistant",
-    "Consent": "I agree to the processing of my personal data in line with the Privacy Policy.",
+    "Consent": "I agree to the processing of my personal data in line with the <a class='anchor-text' target='blank'>Privacy Policy.</a>",
+    "Tips":"I’d like to receive occasional DIY tips and offers. (Unsubscribe anytime.)",
     "CTA": "Get the Guide",
     "rejectionBtnText":"No Thanks",
     "Success": "Thank you! We’ll get in touch with suggested time slots.",
-    "offText":"OFF"
+    "offText":"OFF",
+    "disscountAvailText":"10% discount applies to your first DIY kit purchase. Terms apply"
   },
   "comming_soon":{
   "title":"Coming Soon"
   },
   "breadCrumbSlug":[
-    "home",
-    "about",
-    "contact"
+    "Home",
+    "About",
+    "Contact"
   ],
   "navigationTitle":{
     "home":"HOME",

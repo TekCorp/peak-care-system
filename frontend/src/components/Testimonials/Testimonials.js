@@ -36,8 +36,9 @@ function Testimonials() {
               }}
               pagination={{ clickable: true }}
               autoplay={{
-                delay: 2500,
+                delay: 7000,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
               }}
               loop={true}
               modules={[Autoplay]}
@@ -46,6 +47,7 @@ function Testimonials() {
               parallax={true}
               className="testimonials-list"
               id="articles-cards-slider-tes"
+              
             >
               {GetLanguageContent?.home?.testimonials?.cardData.map((clientData, ind) => {
                 return (

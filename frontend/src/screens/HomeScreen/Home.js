@@ -42,7 +42,7 @@ function Home() {
 
       <EnvironmentalSolutionsHome />
 
-      <div className="py-md-5 py-0"></div>
+      <div className="py-md-5 py-5"></div>
 
       <OurProcess />
 

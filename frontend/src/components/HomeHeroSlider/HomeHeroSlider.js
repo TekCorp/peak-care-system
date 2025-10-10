@@ -14,7 +14,7 @@ function HomeHeroSlider() {
         spaceBetween={0}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 2500, disableOnInteraction: true }}
+        autoplay={{ delay: 6000, disableOnInteraction: true }}
         loop={true}
         modules={[Autoplay, Pagination]}
         observer={true}

@@ -14,9 +14,10 @@ function LeadPopupForm() {
   const popupClosed = sessionStorage.getItem("leadPopupClosed");
 
   if (!formSubmitted && !popupClosed) {
+    const delay = window.innerWidth < 996 ? 10000 : 3000;
     const timer = setTimeout(() => {
       setShowLeadFormPopup(true);
-    }, 3000);
+    }, delay);
 
     return () => clearTimeout(timer);
   }
@@ -94,6 +95,14 @@ const handleClose = () => {
       <div className="lead-popup-form-container p-4 ps-0 pb-0">
         <div className="row">
           <div className="col-lg-6 py-2 ps-0">
+            <div className="w-100 d-flex d-lg-none">
+              <img
+                src="/images/icons/popup-cross-btn-icon.png"
+                className="img-fluid cross-btn ms-auto"
+                alt="side"
+                onClick={handleClose}
+              />
+            </div>
             <div className="">
               <h3 className="secondary-body-heading ps-5">
                 {GetLanguageContent?.leadForm?.Title}
@@ -219,26 +228,37 @@ const handleClose = () => {
                     value={formData?.agreePrivacyPolicy || false}
                     onChange={(e)=>{setFormData((prev)=>{return {...prev,agreePrivacyPolicy: e.target.checked}})}}
                   />
-                  <p className="body-paragraph agree-checkbox-text mb-0">
-                    {GetLanguageContent?.leadForm?.Consent}
-                  </p>
+                  <p className="body-paragraph agree-checkbox-text mb-0" dangerouslySetInnerHTML={{__html:GetLanguageContent?.leadForm?.Consent}}></p>
+                </div>
+                <div className="d-flex gap-2 align-items-center py-2 pt-2 ps-5">
+                  <input
+                    type="checkbox"
+                    className="agree-policy-checkbox"
+                    name="tips"
+                    value={formData?.tips || false}
+                    onChange={(e)=>{setFormData((prev)=>{return {...prev,tips: e.target.checked}})}}
+                  />
+                  <p className="body-paragraph agree-checkbox-text mb-0" dangerouslySetInnerHTML={{__html:GetLanguageContent?.leadForm?.Tips}}></p>
                 </div>
 
                 <div className="d-flex flex-row align-items-center gap-3 py-3 ps-5">
                   <button className="genral-btn bg-green" type="submit">
                     {GetLanguageContent?.leadForm?.CTA}
                   </button>
-                  <p className="anchor-text">
+                  <p className="nothanks-anchor-text">
                     {GetLanguageContent?.leadForm?.rejectionBtnText}
                   </p>
                 </div>
+                 <p className="body-paragraph agree-checkbox-text mb-0 ps-5" >
+                    {GetLanguageContent?.leadForm?.disscountAvailText}
+                </p>
               </form>
             </div>
           </div>
           <div className="col-lg-6 d-flex flex-column justify-content-between align-items-end">
             <img
               src="/images/icons/popup-cross-btn-icon.png"
-              className="img-fluid cross-btn"
+              className="img-fluid cross-btn d-lg-block d-none"
               alt="side"
               onClick={handleClose}
             />
