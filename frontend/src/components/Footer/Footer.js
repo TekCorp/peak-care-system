@@ -129,9 +129,9 @@ function Footer() {
             <p className="mb-0 body-paragraph color-font-grey mt-lg-0 mt-3">
               © 2025 . all rights reserved.
             </p>
-            <div className="d-flex align-items-center gap-3">
+            <div className="d-flex align-items-center">
               <img
-                src="/images/icons/footer-payment-icons.png"
+                src="/images/icons/footer-payment-icons.svg"
                 alt="payment icon"
                 className="img-fluid"
               />

@@ -586,7 +586,8 @@
   "disscountAvailText": "10 % Rabatt gelten für Ihren ersten DIY-Kauf. Bedingungen gelten."
 },
 "comming_soon":{
-  "title":"Demnächst verfügbar"
+  "title":"Demnächst verfügbar",
+  "mobileTitle":"Demnächst <br> verfügbar"
   },
   "breadCrumbSlug": [
   "Startseite",
@@ -1167,7 +1168,8 @@
   "disscountAvailText": "10% отстъпка важи за първата ви поръчка на DIY комплект. Приложими условия."
 },
 "comming_soon":{
-  "title":"Очаквайте скоро"
+  "title":"Очаквайте скоро",
+  "mobileTitle":"Очаквайте <br> скоро"
 },
 "breadCrumbSlug": [
   "начало",
@@ -1763,7 +1765,8 @@
     "disscountAvailText":"10% discount applies to your first DIY kit purchase. Terms apply"
   },
   "comming_soon":{
-  "title":"Coming Soon"
+  "title":"Coming Soon",
+  "mobileTitle":"Comming <br> Soon"
   },
   "breadCrumbSlug":[
     "Home",

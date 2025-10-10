@@ -14,10 +14,9 @@ function LeadPopupForm() {
   const popupClosed = sessionStorage.getItem("leadPopupClosed");
 
   if (!formSubmitted && !popupClosed) {
-    const delay = window.innerWidth < 996 ? 10000 : 3000;
     const timer = setTimeout(() => {
       setShowLeadFormPopup(true);
-    }, delay);
+    }, 10000);
 
     return () => clearTimeout(timer);
   }
